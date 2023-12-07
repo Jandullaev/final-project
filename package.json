@@ -170,12 +170,23 @@
     "yargs-parser": "^20.2.9"
   },
   "scripts": {
-    "sass": "node-sass -w scss/ -o css/ --recursive"
+    "sass": "node-sass -w scss/ -o css/ --recursive",
+    "lint": "eslint 'src/assets/scripts/main.js' && stylelint 'src/assets/styles/main.scss'",
+    "test": "jest"
   },
   "repository": {
     "type": "git",
     "url": "https://autocode.git.epam.com/allayar_jandullaev/final-project.git"
   },
   "author": "Allayar",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "@testing-library/jest-dom": "^6.1.5",
+    "@testing-library/react": "^14.1.2",
+    "eslint": "^8.55.0",
+    "eslint-plugin-react": "^7.33.2",
+    "jest": "^29.7.0",
+    "stylelint": "^15.11.0",
+    "stylelint-scss": "^5.3.1"
+  }
 }
