@@ -1,0 +1,70 @@
+.about {
+  background-color: $white_color;
+  .about_inner {
+    padding: 80px 0px;
+    .section_title {
+      h2 {
+        @include h2;
+      }
+
+      p {
+        @include p;
+      }
+    }
+
+    .about_info {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+
+
+      &_left {
+        padding: 0 10px;
+        p {
+          margin-bottom: 10px;
+        }
+        ul {
+          list-style: none;
+          padding: 0;
+
+          li {
+            padding-left: 28px;
+            position: relative;
+            margin-bottom: 10px;
+
+            li + li {
+              margin-top: 10px;
+            }
+
+            i {
+              position: absolute;
+              left: 0;
+              top: 2px;
+              font-size: 20px;
+              color: $royalblue_color;
+              line-height: 1;
+            }
+          }
+        }
+      }
+
+      &_right {
+        padding: 0 10px;
+        p {
+          margin-bottom: 20px;
+        }
+
+        .btn {
+          @include btn;
+          background-color: $white_color;
+          border: 2px solid $royalblue_color;
+          color: $royalblue_color;
+
+          &:hover {
+               background-color: $royalblue_color;
+               color: $white_color;
+          }
+        }
+      }
+    }
+  }
+}

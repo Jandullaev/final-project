@@ -1,0 +1,27 @@
+.gallery {
+     background-color: $white_color;
+  &_inner {
+     padding: 80px 0;
+    .section_title {
+      h2 {
+        @include h2;
+      }
+
+      p {
+        @include p;
+      }
+    }
+
+    .gallery_pictures {
+     display: grid;
+     row-gap: 10px;
+     column-gap: 10px;
+     grid-template-columns: 1fr 1fr 1fr 1fr;
+
+     .picture img {
+       width: 300px;
+       border-radius: 10px;
+     }
+    }
+  }
+}

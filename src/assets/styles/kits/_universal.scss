@@ -6,6 +6,8 @@
 
 body {
      background-color: #333;
+     color: #333;
+     font-family: "Open Sans", sans-serif;
 }
 
 .container {
@@ -23,3 +25,7 @@ ul {
      margin: 0;
      list-style: none;
 }
+.section_title {
+     text-align: center;
+     padding-bottom: 30px;
+   }

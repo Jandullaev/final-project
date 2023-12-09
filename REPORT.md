@@ -38,3 +38,12 @@ Not Started
 - Created initial HTML markup.
 - Added 'lint' and 'test' scripts for code validation and testing.
 - Created `REPORT.md`
+
+### 3. Created header page, and scss
+- Scss was created
+- Header, navbar added.
+
+### 4. Developing 1
+- Book.html added
+- Gallery, About us created
+- first js file created (slideShow.js)

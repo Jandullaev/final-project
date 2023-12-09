@@ -41,10 +41,6 @@ header {
 
       .btn {
         @include btn;
-        text-decoration: none;
-        font-family: $open_font;
-        font-size: 15px;
-        font-weight: 400;
       }
     }
 

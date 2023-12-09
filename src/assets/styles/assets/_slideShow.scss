@@ -1,0 +1,63 @@
+.top_block {
+     background-color: $white_color;
+     .top_block_inner {
+      padding: 80px 0px;
+     .section_title {
+      h2 {
+        @include h2;
+      }
+ 
+      p {
+        @include p;
+      }
+     }
+  .slide_show {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+
+    .my_slide{
+     display: none;
+    
+     img {
+      width: 100%;
+     }
+   }
+
+   .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 4px 4px 0;
+    user-select: none;
+  }
+
+  .next {
+    right: 0;
+    border-radius: 4px 0 0 4px;
+  }
+  
+  .prev:hover, .next:hover {
+    background-color: $royalblue_hover_color;
+  }
+
+  .fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  @keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+  }
+  
+  }
+}
+}
