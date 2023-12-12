@@ -23,5 +23,50 @@
        border-radius: 10px;
      }
     }
+
+    .slide_show {
+      margin: 0;
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      .my_slide {
+        position: absolute;
+        inset: 0;
+        overflow: hidden;
+        transition-duration: 0.4s;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        z-index: -1;
+
+        &::before {
+          content: "";
+          background-color: rgba(0, 0, 0, 0.6);
+          position: absolute;
+          inset: 0;
+        }
+
+      }
+
+      .fade {
+        animation-name: fade;
+        animation-duration: 1.5s;
+      }
+
+      @keyframes fade {
+        from {
+          display: none;
+        }
+        to {
+          display: flex;
+        }
+      }
+    }
   }
 }

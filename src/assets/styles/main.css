@@ -125,6 +125,9 @@ header .header_inner_nav ul li a {
   font-weight: 400;
   padding: 10px 15px 10px 15px;
 }
+header .header_inner_nav ul li a:hover {
+  color: #3498db;
+}
 header .header_inner_nav ul li .submenu {
   display: none;
   position: absolute;
@@ -147,12 +150,6 @@ header .header_inner_nav ul li:hover .submenu {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  height: 100vh;
-  width: 100%;
-}
-.hero .cover {
-  background-color: rgba(0, 0, 0, 0.5);
-  height: 100%;
 }
 .hero_inner {
   display: flex;
@@ -160,6 +157,7 @@ header .header_inner_nav ul li:hover .submenu {
   justify-content: center;
   flex-direction: column;
   height: 100vh;
+  z-index: 999;
 }
 .hero_inner h1 {
   font-size: 40px;
@@ -194,69 +192,6 @@ header .header_inner_nav ul li:hover .submenu {
 }
 .hero_inner .btn:active {
   transform: scale(0.9);
-}
-.hero_inner .slide_show {
-  min-height: 100vh;
-  padding: 80px 0;
-  margin: 0;
-  top: 0;
-  left: 0;
-  right: 0;
-  position: relative;
-}
-.hero_inner .slide_show .my_slide {
-  position: absolute;
-  inset: 0;
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  overflow: hidden;
-  z-index: 1;
-  min-height: 100vh;
-  transition-duration: 0.4s;
-}
-.hero_inner .slide_show .my_slide::before {
-  content: "";
-  background-color: rgba(0, 0, 0, 0.7);
-  position: absolute;
-  inset: 0;
-}
-.hero_inner .slide_show .prev,
-.hero_inner .slide_show .next {
-  cursor: pointer;
-  position: absolute;
-  top: 50%;
-  width: auto;
-  margin-top: -22px;
-  padding: 16px;
-  color: white;
-  font-weight: bold;
-  font-size: 18px;
-  transition: 0.6s ease;
-  border-radius: 0 4px 4px 0;
-  -webkit-user-select: none;
-     -moz-user-select: none;
-          user-select: none;
-}
-.hero_inner .slide_show .next {
-  right: 0;
-  border-radius: 4px 0 0 4px;
-}
-.hero_inner .slide_show .prev:hover,
-.hero_inner .slide_show .next:hover {
-  background-color: rgba(52, 152, 219, 0.8);
-}
-.hero_inner .slide_show .fade {
-  animation-name: fade;
-  animation-duration: 1.5s;
-}
-@keyframes fade {
-  from {
-    opacity: 0.4;
-  }
-  to {
-    opacity: 1;
-  }
 }
 
 .book {
@@ -612,4 +547,43 @@ header .header_inner_nav ul li:hover .submenu {
 .gallery_inner .gallery_pictures .picture img {
   width: 300px;
   border-radius: 10px;
+}
+.gallery_inner .slide_show {
+  margin: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.gallery_inner .slide_show .my_slide {
+  position: absolute;
+  inset: 0;
+  overflow: hidden;
+  transition-duration: 0.4s;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  z-index: -1;
+}
+.gallery_inner .slide_show .my_slide::before {
+  content: "";
+  background-color: rgba(0, 0, 0, 0.6);
+  position: absolute;
+  inset: 0;
+}
+.gallery_inner .slide_show .fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+@keyframes fade {
+  from {
+    display: none;
+  }
+  to {
+    display: flex;
+  }
 }/*# sourceMappingURL=main.css.map */

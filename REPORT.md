@@ -47,3 +47,9 @@ Not Started
 - Book.html added
 - Gallery, About us created
 - first js file created (slideShow.js)
+
+
+### 5. Developing 2
+- Slide Show added to the hero page
+- Worked with links
+- created Contact

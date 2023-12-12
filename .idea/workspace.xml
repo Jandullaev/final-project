@@ -4,7 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a4ef0c2a-c2f2-4e3d-abc6-dfc323c99996" name="Changes" comment="" />
+    <list default="true" id="a4ef0c2a-c2f2-4e3d-abc6-dfc323c99996" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/scripts/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scripts/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/scripts/slideShow.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scripts/slideShow.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/styles/assets/_gallery.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/styles/assets/_gallery.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/styles/assets/_header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/styles/assets/_header.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/styles/assets/_hero.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/styles/assets/_hero.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/styles/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/styles/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/styles/main.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/styles/main.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/book.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/book.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -16,31 +27,31 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 2
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
   <component name="ProjectId" id="2ZCf7djrH1zMp1aU2k1y8Ye3pl9" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "/Users/allayar/Desktop/final-project",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.stylelint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.stylelint": "/Users/allayar/Desktop/final-project/node_modules/stylelint",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/allayar/Desktop/final-project&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.stylelint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.stylelint&quot;: &quot;/Users/allayar/Desktop/final-project/node_modules/stylelint&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -50,6 +61,7 @@
       <option name="presentableId" value="Default" />
       <updated>1701930815941</updated>
       <workItem from="1701930817289" duration="1092000" />
+      <workItem from="1702398690042" duration="649000" />
     </task>
     <servers />
   </component>
