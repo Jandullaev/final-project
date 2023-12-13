@@ -53,3 +53,8 @@ Not Started
 - Slide Show added to the hero page
 - Worked with links
 - created Contact
+
+### 6. Developing 3
+- Worked Contact page and Footer
+- Working with book.html
+- Learning node.js

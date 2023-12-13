@@ -6,13 +6,10 @@
   <component name="ChangeListManager">
     <list default="true" id="a4ef0c2a-c2f2-4e3d-abc6-dfc323c99996" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scripts/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scripts/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scripts/slideShow.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scripts/slideShow.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/styles/assets/_gallery.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/styles/assets/_gallery.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/assets/styles/assets/_header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/styles/assets/_header.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/styles/assets/_hero.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/styles/assets/_hero.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/assets/styles/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/styles/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/assets/styles/main.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/styles/main.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/styles/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/styles/main.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/book.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/book.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
     </list>

@@ -1,0 +1,135 @@
+.contact {
+  background-color: $white_color;
+
+  .contact_inner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 80px 0;
+
+    &_email {
+     width: 100%
+    }
+
+    .section_title {
+      h2 {
+        @include h2;
+      }
+
+      p {
+        @include p;
+      }
+    }
+
+    &_bottom {
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+      width: 100%;
+      padding: 20px 0;
+
+      &_map {
+        border: 2px solid $royalblue_color;
+        margin: 0 20px;
+      }
+
+      .info {
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        flex-direction: column;
+        padding: 0 20px;
+
+        &_link {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          padding: 10px 0;
+
+          i {
+            font-size: 34px;
+            padding: 5px;
+            color: $royalblue_color;
+          }
+
+          p {
+            font-size: 15px;
+          }
+        }
+      }
+    
+      .email_form {
+        padding: 0 20px;
+        &_input {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          flex-direction: column;
+          input,
+          textarea {
+            width: 100%;
+            outline: none;
+            border: 1px solid #ddd;
+            padding: 10px 15px;
+            font-size: 15px;
+            margin: 10px 0;
+
+            &:focus {
+              border-color: $royalblue_color;
+            }
+          }
+
+          .btn {
+            @include btn;
+          }
+
+          .sent_message {
+            display: none;
+            color: #01af53;
+            text-align: center;
+            padding: 5px;
+            font-weight: 600;
+            margin: 10px 0;
+          }
+
+          .error_message {
+               display: none;
+               color: #ed3c0d;
+               text-align: left;
+               padding: 15px;
+               font-weight: 600;
+             }
+
+          .loading {
+            display: none;
+            text-align: center;
+            padding: 15px;
+
+            &::before {
+              content: "";
+              display: inline-block;
+              border-radius: 50%;
+              width: 24px;
+              height: 24px;
+              margin: 0 10px -6px 0;
+              border: 3px solid $royalblue_color;
+              border-top-color: #eee;
+              animation: animate-loading 1s linear infinite;
+
+              @keyframes animate-loading {
+                0% {
+                  transform: rotate(0deg);
+                }
+
+                100% {
+                  transform: rotate(360deg);
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

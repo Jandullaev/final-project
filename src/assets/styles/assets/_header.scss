@@ -12,9 +12,13 @@ header {
     justify-content: space-between;
     padding: 20px 0;
 
-    &_logo {
+    &_logo { 
+      a{
       font-size: 32px;
       font-family: $open_font;
+      color: $royalblue_color;
+      font-weight: bold;
+      }
     }
 
     .search {
