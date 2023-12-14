@@ -16,8 +16,7 @@
         @include p;
       }
     }
-
-    .filter {
+    .filters {
       #book_filters {
         padding: 0;
         margin: 0 auto 20px auto;
@@ -37,8 +36,11 @@
           transition: all 0.2s ease-in-out;
           border-radius: 3px;
 
+          
+          
           &:hover,
-          &.filter_avtice {
+          &:active,
+          &:focus {
             color: $white_color;
             background-color: $royalblue_color;
           }
@@ -50,7 +52,9 @@
      display: grid;
      column-gap: 40px;
      row-gap: 40px;
-     grid-template-columns: repeat(4, 1fr);
+     grid-template-columns: 1fr;
+     height: 150vh;
+     overflow:auto;
 
      .book_item {
           box-shadow: 2px 2px 20px #ddd;
@@ -60,10 +64,11 @@
      
      .book_wrap {
       display: flex;
-      align-items: flex-start;
-      justify-content: center;
+      align-items: stretch;
+      justify-content: stretch;
       flex-direction: column;
-      padding: 20px;
+      padding: 30px;
+      height: 100%;
 
        img {
          width: 100%;
@@ -96,7 +101,7 @@
   margin-top: 70px;
   &_inner  ul {
      display: flex;
-     align-items: center;
+     align-items: flex-start;
      justify-content: flex-start;
      font-size: 14px;
      font-weight: 500;

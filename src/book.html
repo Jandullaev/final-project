@@ -10,6 +10,7 @@
     href="./assets/icons/boxicons/css/boxicons.min.css"
     rel="stylesheet"
   />
+
   </head>
   <body>
     <header>
@@ -65,63 +66,35 @@
               <h2>Books</h2>
               <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem</p>
             </div>
-            <div class="filter">
+            <div class="filters">
               <ul id="book_filters">
                 <li data-filter="*" class="filter-active">All</li>
-                <li data-filter=".filter">Romance</li>
-                <li data-filter=".filter">Action & Adventure</li>
-                <li data-filter=".filter">Mistery & Thriller</li>
-                <li data-filter=".filter">Biographics & History</li>
-                <li data-filter=".filter">Children's</li>
-                <li data-filter=".filter">Fantasy</li>
-                <li data-filter=".filter">Horror</li>
-                <li data-filter=".filter">Litarary Fiction</li>
-                <li data-filter=".filter">Non Fiction</li>
-                <li data-filter=".filter">Science Fiction</li>
+                <li data-filter=".filter-romance">Romance</li>
+                <li data-filter=".filter-action">Action & Adventure</li>
+                <li data-filter=".filter-mistery">Mistery & Thriller</li>
+                <li data-filter=".filter-history">Biographics & History</li>
+                <li data-filter=".filter-children">Children's</li>
+                <li data-filter=".filter-fantasy">Fantasy</li>
+                <li data-filter=".filter-horror">Horror</li>
+                <li data-filter=".filter-literary">Literary Fiction</li>
+                <li data-filter=".filter-non">Non Fiction</li>
+                <li data-filter=".filter-science">Science Fiction</li>
               </ul>
             </div>
 
             <div class="book_container">
-               <div class="book_item filter">
-                    <div class="book_wrap">
-                         <img src="https://manybooks.net/sites/default/files/styles/220x330sc/public/webform/ebook_feature_application/7221/81fainpozl._sl1500_.jpg?itok=dKmFDyPT" alt="Book">
-                         <div class="book_info">
-                              <h3 class="book_info_title">Title</h3>
-                              <p class="book_info_date">From 9-12-2023 to 9-01-2024</p>
-                              <button class="book_info_btn">Book Now</button>
-                         </div>
-                    </div>
+               <div class="book_item" style="display: grid; grid-template-columns: repeat(4, 1fr); gap: 20px; width: 100%;">
                </div>
-               <div class="book_item filter">
-                    <div class="book_wrap">
-                         <img src="./assets/images/book.png" alt="Book">
-                         <div class="book_info">
-                              <h3 class="book_info_title">Title</h3>
-                              <p class="book_info_date">From 9-12-2023 to 9-01-2024</p>
-                              <button class="book_info_btn">Book Now</button>
-                         </div>
+               <script id="book-template" type="text/template">
+                <div class="book_wrap {{subject}}">
+                    <img src="{{imageBook}}" alt="{{title}}">
+                    <div class="book_info">
+                        <h3 class="book_info_title">{{title}}</h3>
+                        <p class="book_info_date">Due Date: {{dueDate}}</p>
+                        <button class="book_info_btn">Book Now</button>
                     </div>
-               </div>
-               <div class="book_item filter">
-                    <div class="book_wrap">
-                         <img src="./assets/images/book.png" alt="Book">
-                         <div class="book_info">
-                              <h3 class="book_info_title">Title</h3>
-                              <p class="book_info_date">From 9-12-2023 to 9-01-2024</p>
-                              <button class="book_info_btn">Book Now</button>
-                         </div>
-                    </div>
-               </div>
-               <div class="book_item filter">
-                    <div class="book_wrap">
-                         <img src="./assets/images/book.png" alt="Book">
-                         <div class="book_info">
-                              <h3 class="book_info_title">Title</h3>
-                              <p class="book_info_date">From 9-12-2023 to 9-01-2024</p>
-                              <button class="book_info_btn">Book Now</button>
-                         </div>
-                    </div>
-               </div>
+                </div>
+            </script>
             </div>
           </div>
         </div>
@@ -177,5 +150,8 @@
         </div>
       </div>
     </footer>
+
+    <script src="./assets/scripts/app.js"></script>
+
   </body>
 </html>

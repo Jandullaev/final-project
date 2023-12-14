@@ -58,3 +58,10 @@ Not Started
 - Worked Contact page and Footer
 - Working with book.html
 - Learning node.js
+
+### 7. Developing 4
+- 'index.html' and 'book.html' are designed
+- 'library.json' file added
+- added materials, such us images, book name
+- 'app.js' created, used fetch
+- displayed lists of books

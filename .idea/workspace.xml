@@ -6,12 +6,22 @@
   <component name="ChangeListManager">
     <list default="true" id="a4ef0c2a-c2f2-4e3d-abc6-dfc323c99996" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/styles/assets/_header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/styles/assets/_header.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/Books/Billionaire boss.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/Books/Lily.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/Books/War of the animals.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/Books/Whiskey.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/Books/enigmatic-duke.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/Books/gable.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/Books/gcp-final-cover-hi-res.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/Books/making a matchmaker.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/Books/united the past.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/Books/wolf-called.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/styles/assets/_books.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/styles/assets/_books.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/assets/styles/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/styles/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/assets/styles/main.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/styles/main.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/styles/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/styles/main.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/book.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/book.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

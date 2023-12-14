@@ -232,13 +232,13 @@ header .header_inner_nav ul li:hover .submenu {
   font-family: "Open Sans", sans-serif;
   color: #333;
 }
-.book_inner .filter #book_filters {
+.book_inner .filters #book_filters {
   padding: 0;
   margin: 0 auto 20px auto;
   list-style: none;
   text-align: center;
 }
-.book_inner .filter #book_filters li {
+.book_inner .filters #book_filters li {
   cursor: pointer;
   display: inline-block;
   padding: 8px 15px 10px 15px;
@@ -251,7 +251,7 @@ header .header_inner_nav ul li:hover .submenu {
   transition: all 0.2s ease-in-out;
   border-radius: 3px;
 }
-.book_inner .filter #book_filters li:hover, .book_inner .filter #book_filters li.filter_avtice {
+.book_inner .filters #book_filters li:hover, .book_inner .filters #book_filters li:active, .book_inner .filters #book_filters li:focus {
   color: #fff;
   background-color: #3498db;
 }
@@ -260,7 +260,9 @@ header .header_inner_nav ul li:hover .submenu {
   -moz-column-gap: 40px;
        column-gap: 40px;
   row-gap: 40px;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: 1fr;
+  height: 150vh;
+  overflow: auto;
 }
 .book_inner .book_container .book_item {
   box-shadow: 2px 2px 20px #ddd;
@@ -268,10 +270,11 @@ header .header_inner_nav ul li:hover .submenu {
 }
 .book_inner .book_container .book_wrap {
   display: flex;
-  align-items: flex-start;
-  justify-content: center;
+  align-items: stretch;
+  justify-content: stretch;
   flex-direction: column;
-  padding: 20px;
+  padding: 30px;
+  height: 100%;
 }
 .book_inner .book_container .book_wrap img {
   width: 100%;
@@ -314,7 +317,7 @@ header .header_inner_nav ul li:hover .submenu {
 }
 .breadcrumbs_inner ul {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   justify-content: flex-start;
   font-size: 14px;
   font-weight: 500;
