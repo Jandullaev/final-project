@@ -49,26 +49,34 @@
     }
 
     .book_container {
-     display: grid;
-     column-gap: 40px;
-     row-gap: 40px;
-     grid-template-columns: 1fr;
-     height: 150vh;
-     overflow:auto;
+     padding: 20px;
+     overflow: scroll;
+
+     #no-results-message {
+      text-align: center;
+      font-size: 48px;
+      color: $gray_color;
+      border: 1px solid #333;
+      padding: 20px 60px;
+      border-radius: 4px;
+    }
 
      .book_item {
-          box-shadow: 2px 2px 20px #ddd;
+          //box-shadow: 2px 2px 20px #ddd;
           border-radius: 4px;
-          
+
+        
      }
      
      .book_wrap {
       display: flex;
       align-items: stretch;
-      justify-content: stretch;
+      justify-content: space-between;
       flex-direction: column;
       padding: 30px;
       height: 100%;
+      border: 1px solid #ddd;
+      
 
        img {
          width: 100%;

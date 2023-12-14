@@ -65,3 +65,7 @@ Not Started
 - added materials, such us images, book name
 - 'app.js' created, used fetch
 - displayed lists of books
+
+### 8. Developing 5
+- Worked with Searching book, but there are some problems
+- Changed some items

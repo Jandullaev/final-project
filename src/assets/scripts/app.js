@@ -49,3 +49,37 @@ function createBookElement(html) {
 
     return newBookDiv;
 }
+
+
+//----- Searching -----//
+const search = () => {
+    const searchBox = document.getElementById("search").value.toUpperCase();
+    const product = document.querySelectorAll(".book_item .book_wrap");
+
+    for (var i = 0; i < product.length; i++) {
+        let match = product[i].getElementsByClassName('book_info_title')[0];
+
+        if (match) {
+            let textValue = match.textContent || match.innerText;
+
+            if (textValue.toUpperCase().indexOf(searchBox) > -1) {
+                product[i].style.display = "grid";
+            } else {
+                product[i].style.display = "none";
+            }
+        } 
+    }
+    const noResultsMessage = document.getElementById("no-results-message");
+    const foundItems = document.querySelector(".book_item .book_wrap[style='display: grid;']");
+
+    if (!foundItems) {
+        if (noResultsMessage) {
+            noResultsMessage.style.display = "block";
+        }
+    } else {
+        // Hide the no results message if there are found items
+        if (noResultsMessage) {
+            noResultsMessage.style.display = "none";
+        }
+    }
+}

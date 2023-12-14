@@ -23,9 +23,9 @@
               type="search"
               name="search"
               id="search"
-              placeholder="Search by title or author"
+              placeholder="Search by title"
             />
-            <button class="btn" id="search_button">Search</button>
+            <button class="btn" onclick="search()" id="search_button">Search</button>
           </div>
           <nav class="header_inner_nav">
             <ul>
@@ -83,16 +83,18 @@
             </div>
 
             <div class="book_container">
-               <div class="book_item" style="display: grid; grid-template-columns: repeat(4, 1fr); gap: 20px; width: 100%;">
+              <div id="no-results-message" style="display: none;">No results found:(</div>
+               <div class="book_item" id="book_item" style="display: grid; grid-template-columns: repeat(5, 1fr); gap: 20px; width: 100%;">
                </div>
                <script id="book-template" type="text/template">
                 <div class="book_wrap {{subject}}">
                     <img src="{{imageBook}}" alt="{{title}}">
                     <div class="book_info">
+                        <p class="book_id" style="display: none;">{{id}}</p>
                         <h3 class="book_info_title">{{title}}</h3>
                         <p class="book_info_date">Due Date: {{dueDate}}</p>
-                        <button class="book_info_btn">Book Now</button>
                     </div>
+                    <button class="book_info_btn">Book Now</button>
                 </div>
             </script>
             </div>
