@@ -5,7 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a4ef0c2a-c2f2-4e3d-abc6-dfc323c99996" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/library/library.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/library/library.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/scripts/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scripts/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/styles/assets/_books.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/styles/assets/_books.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/styles/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/styles/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/styles/main.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/styles/main.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/book.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/book.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,10 +59,23 @@
       <updated>1701930815941</updated>
       <workItem from="1701930817289" duration="1092000" />
       <workItem from="1702398690042" duration="649000" />
+      <workItem from="1702677736558" duration="389000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/assets/scripts/app.js</url>
+          <line>77</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

@@ -450,7 +450,7 @@
         {
            "id": 57,
            "title": "The Grammar Of English Grammars",
-           "subject": "Non Fiction",
+           "subject": "NonFiction",
            "dueDate": "2023-12-20",
            "imageBook": "/src/assets/images/Books/NonFiction_1.jpeg",
            "isAvailable": true
@@ -458,7 +458,7 @@
         {
            "id": 58,
            "title": "The Communist Manifesto",
-           "subject": "Non Fiction",
+           "subject": "NonFiction",
            "dueDate": "2023-12-20",
            "imageBook": "/src/assets/images/Books/NonFiction_2.jpeg",
            "isAvailable": true
@@ -466,7 +466,7 @@
         {
            "id": 59,
            "title": "The Age Of Reason",
-           "subject": "Non Fiction",
+           "subject": "NonFiction",
            "dueDate": "2023-12-20",
            "imageBook": "/src/assets/images/Books/NonFiction_3.jpeg",
            "isAvailable": true
@@ -474,7 +474,7 @@
         {
            "id": 60,
            "title": "How To Use Your Mind",
-           "subject": "Non Fiction",
+           "subject": "NonFiction",
            "dueDate": "2023-12-20",
            "imageBook": "/src/assets/images/Books/NonFiction_4.jpeg",
            "isAvailable": true
@@ -482,7 +482,7 @@
         {
            "id": 61,
            "title": "On The Origins Of Species",
-           "subject": "Non Fiction",
+           "subject": "NonFiction",
            "dueDate": "2023-12-20",
            "imageBook": "/src/assets/images/Books/NonFiction_5.jpeg",
            "isAvailable": true
@@ -490,7 +490,7 @@
         {
            "id": 62,
            "title": "Oliver Twist",
-           "subject": "Non Fiction",
+           "subject": "NonFiction",
            "dueDate": "2023-12-20",
            "imageBook": "/src/assets/images/Books/NonFiction_6.jpeg",
            "isAvailable": true
@@ -498,7 +498,7 @@
         {
            "id": 63,
            "title": "Ten Thousand Dreams Interested",
-           "subject": "Non Fiction",
+           "subject": "NonFiction",
            "dueDate": "2023-12-20",
            "imageBook": "/src/assets/images/Books/NonFiction_7.jpeg",
            "isAvailable": true
@@ -506,7 +506,7 @@
         {
            "id": 64,
            "title": "An Inquiry Into The Nature And Causes",
-           "subject": "Non Fiction",
+           "subject": "NonFiction",
            "dueDate": "2023-12-20",
            "imageBook": "/src/assets/images/Books/NonFiction_8.jpeg",
            "isAvailable": true

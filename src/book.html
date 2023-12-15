@@ -24,8 +24,8 @@
               name="search"
               id="search"
               placeholder="Search by title"
+              onkeyup="search()"
             />
-            <button class="btn" onclick="search()" id="search_button">Search</button>
           </div>
           <nav class="header_inner_nav">
             <ul>
@@ -68,29 +68,25 @@
             </div>
             <div class="filters">
               <ul id="book_filters">
-                <li data-filter="*" class="filter-active">All</li>
-                <li data-filter=".filter-romance">Romance</li>
-                <li data-filter=".filter-action">Action & Adventure</li>
-                <li data-filter=".filter-mistery">Mistery & Thriller</li>
-                <li data-filter=".filter-history">Biographics & History</li>
-                <li data-filter=".filter-children">Children's</li>
-                <li data-filter=".filter-fantasy">Fantasy</li>
-                <li data-filter=".filter-horror">Horror</li>
-                <li data-filter=".filter-literary">Literary Fiction</li>
-                <li data-filter=".filter-non">Non Fiction</li>
-                <li data-filter=".filter-science">Science Fiction</li>
+                <li tabindex="0" data-filter="*" class="filter-active">All</li>
+                <li tabindex="0" data-filter=".filterRomance">Romance</li>
+                <li tabindex="0" data-filter=".filterAdventure">Action & Adventure</li>
+                <li tabindex="0" data-filter=".filterMistery">Mistery & Thriller</li>
+                <li tabindex="0" data-filter=".filterHistory">Biographics & History</li>
+                <li tabindex="0" data-filter=".filterChildren">Children's</li>
+                <li tabindex="0" data-filter=".filterFantasy">Fantasy</li>
+                <li tabindex="0" data-filter=".filterHorror">Horror</li>
+                <li tabindex="0" data-filter=".filterLiterary">Literary Fiction</li>
+                <li tabindex="0" data-filter=".filterNonFiction">Non Fiction</li>
+                <li tabindex="0" data-filter=".filterScience">Science Fiction</li>
               </ul>
             </div>
 
             <div class="book_container">
-              <div id="no-results-message" style="display: none;">No results found:(</div>
-               <div class="book_item" id="book_item" style="display: grid; grid-template-columns: repeat(5, 1fr); gap: 20px; width: 100%;">
-               </div>
                <script id="book-template" type="text/template">
-                <div class="book_wrap {{subject}}">
+                <div class="book_wrap  filter{{subject}}">
                     <img src="{{imageBook}}" alt="{{title}}">
                     <div class="book_info">
-                        <p class="book_id" style="display: none;">{{id}}</p>
                         <h3 class="book_info_title">{{title}}</h3>
                         <p class="book_info_date">Due Date: {{dueDate}}</p>
                     </div>
@@ -98,6 +94,7 @@
                 </div>
             </script>
             </div>
+            <div id="no-results-message" style="display: none;">No results found:(</div>
           </div>
         </div>
       </section>

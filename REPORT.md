@@ -67,5 +67,11 @@ Not Started
 - displayed lists of books
 
 ### 8. Developing 5
-- Worked with Searching book, but there are some problems
+- Worked with Searching book, but there are some   problems
 - Changed some items
+
+### 9. Developing 6
+- Searching is working
+- To Do Filter
+- some changes with html
+- removed searching in html
