@@ -1,9 +1,11 @@
 "use strict";
+
 document.addEventListener('DOMContentLoaded', function () {
     fetch('assets/library/library.json')
         .then(response => response.json())
         .then(data => {
             displayBooks(data);
+            setupFilters();
         })
         .catch(error => console.error('Error fetching data:', error));
 });
@@ -29,15 +31,41 @@ function fillTemplate(template, data) {
 
 function createBookElement(html) {
     const newBookDiv = document.createElement('div');
-    newBookDiv.className = 'book_item';
+    newBookDiv.className = 'book_item filter';
 
     newBookDiv.innerHTML = html;
 
     return newBookDiv;
 }
 
+function setupFilters() {
+    const filterButtons = document.querySelectorAll('#book_filters li');
+
+    filterButtons.forEach(button => {
+        button.addEventListener('click', function () {
+            const filterValue = this.getAttribute('data-filter');
+            filterBooks(filterValue);
+        });
+    });
+}
+
+function filterBooks(subject) {
+    const bookItems = document.querySelectorAll('.book_wrap');
+
+    bookItems.forEach(item => {
+        const subjectClass = item.classList.item(1); // Assuming the subject class is the second class
+        if (subject === '*' || subjectClass === 'filter' + subject) {
+            item.style.display = 'block';
+        } else {
+            item.style.display = 'none';
+        }
+    });
+}
+
+
 
 //----- Searching -----//
+// eslint-disable-next-line no-unused-vars
 const search = () => {
     const searchBox = document.getElementById("search").value.toUpperCase();
     const product = document.querySelectorAll(".book_container .book_wrap");
@@ -75,4 +103,3 @@ const search = () => {
 //----- End Searching -----//
 
 //----- Filter -----//
-

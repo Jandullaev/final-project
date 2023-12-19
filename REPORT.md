@@ -75,3 +75,6 @@ Not Started
 - To Do Filter
 - some changes with html
 - removed searching in html
+
+### 10. Developing 7
+- working with filter
