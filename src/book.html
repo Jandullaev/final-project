@@ -16,7 +16,7 @@
     <header>
       <div class="container">
         <div class="header_inner">
-          <div class="header_inner_logo">E-Library</div>
+          <div class="header_inner_logo"><a href="./index.html">E-Library</a></div>
 
           <div class="search">
             <input
@@ -31,15 +31,7 @@
             <ul>
               <li><a href="./index.html">Home</a></li>
               <li><a href="#book" style="color: #3498db">Books</a></li>
-              <li><a href="#about">About</a></li>
-              <li class="has-submenu">
-                <a href="#">Dropdown</a>
-                <ul class="submenu">
-                  <li><a href="#">Dropdown</a></li>
-                  <li><a href="#">Dropdown</a></li>
-                </ul>
-              </li>
-              
+              <li><a href="index.html#about">About</a></li>
               <li><a href="index.html#gallery">Gallery</a></li>
               <li><a class="btn" href="index.html#contact">Contact</a></li>
             </ul>
@@ -69,19 +61,32 @@
             <div class="filters">
               <ul id="book_filters">
                 <li tabindex="0" data-filter="*" class="filter-active">All</li>
-                <li tabindex="0" data-filter=".filterRomance">Romance</li>
-                <li tabindex="0" data-filter=".filterAdventure">Action & Adventure</li>
-                <li tabindex="0" data-filter=".filterMistery">Mistery & Thriller</li>
-                <li tabindex="0" data-filter=".filterHistory">Biographics & History</li>
-                <li tabindex="0" data-filter=".filterChildren">Children's</li>
-                <li tabindex="0" data-filter=".filterFantasy">Fantasy</li>
-                <li tabindex="0" data-filter=".filterHorror">Horror</li>
-                <li tabindex="0" data-filter=".filterLiterary">Literary Fiction</li>
-                <li tabindex="0" data-filter=".filterNonFiction">Non Fiction</li>
-                <li tabindex="0" data-filter=".filterScience">Science Fiction</li>
+                <li tabindex="0" data-filter="filterRomance">Romance</li>
+                <li tabindex="0" data-filter="filterAdventure">Action & Adventure</li>
+                <li tabindex="0" data-filter="filterMistery">Mistery & Thriller</li>
+                <li tabindex="0" data-filter="filterHistory">Biographics & History</li>
+                <li tabindex="0" data-filter="filterChildren">Children's</li>
+                <li tabindex="0" data-filter="filterFantasy">Fantasy</li>
+                <li tabindex="0" data-filter="filterHorror">Horror</li>
+                <li tabindex="0" data-filter="filterLiterary">Literary Fiction</li>
+                <li tabindex="0" data-filter="filterNonFiction">Non Fiction</li>
+                <li tabindex="0" data-filter="filterScience">Science Fiction</li>
               </ul>
             </div>
 
+            <script>
+              document.addEventListener('DOMContentLoaded', function () {
+                const urlParams = new URLSearchParams(window.location.search);
+                const category = urlParams.get('subject');
+
+                if (category) {
+                  // Call your filterBooks function or adjust it to filter based on the category
+                  filterBooks(category);
+                }
+              });
+
+              // Your filterBooks function and other JavaScript code...
+            </script>
             <div class="book_container">
                <script id="book-template" type="text/template">
                 <div class="book_wrap  filter{{subject}}">

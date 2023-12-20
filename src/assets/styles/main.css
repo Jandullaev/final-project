@@ -131,21 +131,34 @@ header .header_inner_nav ul li a:hover {
   color: #3498db;
 }
 header .header_inner_nav ul li .submenu {
-  display: none;
+  opacity: 0;
+  pointer-events: none;
+  visibility: hidden;
   position: absolute;
-  top: 100%;
-  left: 0;
-  align-items: center;
+  top: 120%;
+  left: -20px;
+  align-items: flex-start;
   justify-content: center;
   flex-direction: column;
-  background-color: #555;
-  padding: 10px;
+  background-color: #fff;
+  border-radius: 4px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  width: 200px;
+  transform: translateY(20px);
+  transition: 0.3s;
 }
 header .header_inner_nav ul li .submenu li {
-  margin-top: 10px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+header .header_inner_nav ul li .submenu li a {
+  padding: 10px 20px;
 }
 header .header_inner_nav ul li:hover .submenu {
-  display: block;
+  opacity: 1;
+  pointer-events: visible;
+  visibility: visible;
+  transform: translateY(0);
 }
 
 .hero {

@@ -12,12 +12,12 @@ header {
     justify-content: space-between;
     padding: 20px 0;
 
-    &_logo { 
-      a{
-      font-size: 32px;
-      font-family: $open_font;
-      color: $royalblue_color;
-      font-weight: bold;
+    &_logo {
+      a {
+        font-size: 32px;
+        font-family: $open_font;
+        color: $royalblue_color;
+        font-weight: bold;
       }
     }
 
@@ -37,11 +37,10 @@ header {
         border-radius: 4px;
         margin: 0 10px;
 
-      &:focus {
-          border-color: $royalblue_color
+        &:focus {
+          border-color: $royalblue_color;
+        }
       }
-      }
-
 
       .btn {
         @include btn;
@@ -75,24 +74,40 @@ header {
           }
 
           .submenu {
-            display: none;
+            opacity: 0;
+            pointer-events: none;
+            visibility: hidden;
             position: absolute;
-            top: 100%;
-            left: 0;
-            align-items: center;
+            top: 120%;
+            left: -20px;
+            align-items: flex-start;
             justify-content: center;
             flex-direction: column;
-            background-color: #555;
-            padding: 10px;
+            background-color: $white_color;
+            border-radius: 4px;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            width: 200px;
+            transform: translateY(20px);
+            transition: 0.3s;
+            
 
             li {
-              margin-top: 10px;
+              margin-top: 5px;
+              margin-bottom: 5px;
+              a {
+                padding: 10px 20px;
+              }
             }
           }
 
+
           &:hover {
             .submenu {
-              display: block;
+              opacity: 1;
+            pointer-events:visible;
+            visibility: visible;
+             transform: translateY(0);
+
             }
           }
         }

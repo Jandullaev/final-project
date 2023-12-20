@@ -78,3 +78,9 @@ Not Started
 
 ### 10. Developing 7
 - working with filter
+
+### 11. Developing 8
+- Filter is working correctly!
+- changed submenu
+- created firebase database and 'contact.js'
+- installed firebase

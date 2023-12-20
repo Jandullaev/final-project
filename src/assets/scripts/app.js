@@ -1,105 +1,115 @@
 "use strict";
 
-document.addEventListener('DOMContentLoaded', function () {
-    fetch('assets/library/library.json')
-        .then(response => response.json())
-        .then(data => {
-            displayBooks(data);
-            setupFilters();
-        })
-        .catch(error => console.error('Error fetching data:', error));
+document.addEventListener("DOMContentLoaded", function () {
+  fetch("assets/library/library.json")
+    .then((response) => response.json())
+    .then((data) => {
+      displayBooks(data);
+      setupFilters();
+    })
+    .catch((error) => console.error("Error fetching data:", error));
+
+
+
 });
 
 function displayBooks(books) {
-    const bookContainer = document.querySelector('.book_container');
+  const bookContainer = document.querySelector(".book_container");
 
-    const templateElement = document.getElementById('book-template');
-    const bookTemplate = templateElement.innerHTML;
+  const templateElement = document.getElementById("book-template");
+  const bookTemplate = templateElement.innerHTML;
 
-    books.forEach(book => {
-        const filledTemplate = fillTemplate(bookTemplate, book);
-        const newBookElement = createBookElement(filledTemplate);
-        bookContainer.appendChild(newBookElement);
-    });
+  books.forEach((book) => {
+    const filledTemplate = fillTemplate(bookTemplate, book);
+    const newBookElement = createBookElement(filledTemplate);
+    bookContainer.appendChild(newBookElement);
+  });
 }
 
 function fillTemplate(template, data) {
-    return template.replace(/{{\s*(\w+)\s*}}/g, (match, key) => {
-        return data[key] || match;
-    });
+  return template.replace(/{{\s*(\w+)\s*}}/g, (match, key) => {
+    return data[key] || match;
+  });
 }
 
 function createBookElement(html) {
-    const newBookDiv = document.createElement('div');
-    newBookDiv.className = 'book_item filter';
+  const newBookDiv = document.createElement("div");
+  newBookDiv.className = "book_item";
 
-    newBookDiv.innerHTML = html;
+  newBookDiv.innerHTML = html;
 
-    return newBookDiv;
+  return newBookDiv;
 }
 
 function setupFilters() {
-    const filterButtons = document.querySelectorAll('#book_filters li');
+  const filterButtons = document.querySelectorAll("#book_filters li");
 
-    filterButtons.forEach(button => {
-        button.addEventListener('click', function () {
-            const filterValue = this.getAttribute('data-filter');
-            filterBooks(filterValue);
-        });
+  filterButtons.forEach((button) => {
+    button.addEventListener("click", function () {
+      const filterValue = this.getAttribute("data-filter");
+      filterBooks(filterValue);
     });
+  });
 }
 
 function filterBooks(subject) {
-    const bookItems = document.querySelectorAll('.book_wrap');
+  const bookWrap = document.querySelectorAll(".book_wrap");
+  const bookItems = document.querySelectorAll(".book_item");
 
-    bookItems.forEach(item => {
-        const subjectClass = item.classList.item(1); // Assuming the subject class is the second class
-        if (subject === '*' || subjectClass === 'filter' + subject) {
-            item.style.display = 'block';
-        } else {
-            item.style.display = 'none';
-        }
-    });
+  bookWrap.forEach((item, index) => {
+    const subjectClass = item.classList.item(1);
+
+    if (subject === "*" || subjectClass === subject) {
+      item.style.display = "grid";
+      if (bookItems[index]) {
+        bookItems[index].style.display = "block";
+      }
+    } else {
+      item.style.display = "none";
+      if (bookItems[index]) {
+        bookItems[index].style.display = "none";
+      }
+    }
+  });
 }
-
-
 
 //----- Searching -----//
 // eslint-disable-next-line no-unused-vars
 const search = () => {
-    const searchBox = document.getElementById("search").value.toUpperCase();
-    const product = document.querySelectorAll(".book_container .book_wrap");
-    const item = document.querySelectorAll(".book_item")
+  const searchBox = document.getElementById("search").value.toUpperCase();
+  const product = document.querySelectorAll(".book_container .book_wrap");
+  const item = document.querySelectorAll(".book_item");
 
+  for (var i = 0; i < product.length; i++) {
+    let match = product[i].getElementsByClassName("book_info_title")[0];
 
-    for (var i = 0; i < product.length; i++) {
-        let match = product[i].getElementsByClassName('book_info_title')[0];
+    if (match) {
+      let textValue = match.textContent || match.innerText;
 
-        if (match) {
-            let textValue = match.textContent || match.innerText;
-
-            if (textValue.toUpperCase().indexOf(searchBox) > -1) {
-                product[i].style.display = "grid";
-                item[i].style.display = "grid";
-            } else {
-                product[i].style.display = "none";
-                item[i].style.display = "none";
-            }
-        } 
+      if (textValue.toUpperCase().indexOf(searchBox) > -1) {
+        product[i].style.display = "grid";
+        item[i].style.display = "grid";
+      } else {
+        product[i].style.display = "none";
+        item[i].style.display = "none";
+      }
     }
-    const noResultsMessage = document.getElementById("no-results-message");
-    const foundItems = document.querySelector(".book_container .book_wrap[style='display: grid;']");
+  }
+  const noResultsMessage = document.getElementById("no-results-message");
+  const foundItems = document.querySelector(
+    ".book_container .book_wrap[style='display: grid;']"
+  );
 
-    if (!foundItems) {
-        if (noResultsMessage) {
-            noResultsMessage.style.display = "block";
-        }
-    } else {
-        if (noResultsMessage) {
-            noResultsMessage.style.display = "none";
-        }
+  if (!foundItems) {
+    if (noResultsMessage) {
+      noResultsMessage.style.display = "block";
     }
-}
+  } else {
+    if (noResultsMessage) {
+      noResultsMessage.style.display = "none";
+    }
+  }
+};
 //----- End Searching -----//
 
 //----- Filter -----//

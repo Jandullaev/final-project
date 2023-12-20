@@ -322,7 +322,7 @@
         {
            "id": 41,
            "title": "Best Ghost Stories",
-           "subject": "Literay",
+           "subject": "Literary",
            "dueDate": "2023-12-20",
            "imageBook": "/src/assets/images/Books/Litarary_1.jpeg",
            "isAvailable": true
@@ -330,7 +330,7 @@
         {
            "id": 42,
            "title": "Dracula",
-           "subject": "Literay",
+           "subject": "Literary",
            "dueDate": "2023-12-20",
            "imageBook": "/src/assets/images/Books/Litarary_2.jpeg",
            "isAvailable": true
@@ -338,7 +338,7 @@
         {
            "id": 43,
            "title": "Macbeth",
-           "subject": "Literay",
+           "subject": "Literary",
            "dueDate": "2023-12-20",
            "imageBook": "/src/assets/images/Books/Litarary_3.jpeg",
            "isAvailable": true
@@ -346,7 +346,7 @@
         {
            "id": 44,
            "title": "Persuasion",
-           "subject": "Literay",
+           "subject": "Literary",
            "dueDate": "2023-12-20",
            "imageBook": "/src/assets/images/Books/Litarary_4.jpeg",
            "isAvailable": true
@@ -354,7 +354,7 @@
         {
            "id": 45,
            "title": "Crime & Punishment",
-           "subject": "Literay",
+           "subject": "Literary",
            "dueDate": "2023-12-20",
            "imageBook": "/src/assets/images/Books/Litarary_5.jpeg",
            "isAvailable": true
@@ -362,7 +362,7 @@
         {
            "id": 46,
            "title": "Time Machine",
-           "subject": "Literay",
+           "subject": "Literary",
            "dueDate": "2023-12-20",
            "imageBook": "/src/assets/images/Books/Litarary_6.jpeg",
            "isAvailable": true
@@ -370,7 +370,7 @@
         {
            "id": 47,
            "title": "Siddhartha",
-           "subject": "Literay",
+           "subject": "Literary",
            "dueDate": "2023-12-20",
            "imageBook": "/src/assets/images/Books/Litarary_7.jpeg",
            "isAvailable": true
@@ -378,7 +378,7 @@
         {
            "id": 48,
            "title": "Invisible Man",
-           "subject": "Literay",
+           "subject": "Literary",
            "dueDate": "2023-12-20",
            "imageBook": "/src/assets/images/Books/Litarary_8.jpeg",
            "isAvailable": true
