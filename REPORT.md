@@ -84,3 +84,8 @@ Not Started
 - changed submenu
 - created firebase database and 'contact.js'
 - installed firebase
+
+### 12. Developing 9
+- Created 'bookInner.html' which shows more info of book
+- Woking with firebase but not done
+- Some changes of 'library.json', actually date

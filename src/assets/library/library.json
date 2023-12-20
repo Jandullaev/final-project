@@ -3,7 +3,7 @@
            "id": 1,
            "title": "20,000 Leagues under the seas",
            "subject": "Adventure",
-           "dueDate": "2023-12-15",
+           "dueDate": "From Today to 30.01.2024",
            "imageBook": "/src/assets/images/Books/Adventure_1.jpeg",
            "isAvailable": true
         },
@@ -11,7 +11,7 @@
            "id": 2,
            "title": "The Count Of Monte Cristo",
            "subject": "Adventure",
-           "dueDate": "2023-12-20",
+           "dueDate": "From Today to 30.01.2024",
            "imageBook": "/src/assets/images/Books/Adventure_2.jpeg",
            "isAvailable": true
         },
@@ -19,7 +19,7 @@
            "id": 3,
            "title": "Hucklebebby Fin",
            "subject": "Adventure",
-           "dueDate": "2023-12-20",
+           "dueDate": "From Today to 30.01.2024",
            "imageBook": "/src/assets/images/Books/Adventure_3.jpeg",
            "isAvailable": true
         },
@@ -27,7 +27,7 @@
            "id": 4,
            "title": "The Call of The Wild",
            "subject": "Adventure",
-           "dueDate": "2023-12-20",
+           "dueDate": "From Today to 30.01.2024",
            "imageBook": "/src/assets/images/Books/Adventure_4.jpeg",
            "isAvailable": true
         },
@@ -35,7 +35,7 @@
            "id": 5,
            "title": "Tween Snow An Fire",
            "subject": "Adventure",
-           "dueDate": "2023-12-20",
+           "dueDate": "From Today to 30.01.2024",
            "imageBook": "/src/assets/images/Books/Adventure_5.jpeg",
            "isAvailable": true
         },
@@ -43,7 +43,7 @@
            "id": 6,
            "title": "Dropped From The Clouds",
            "subject": "Adventure",
-           "dueDate": "2023-12-20",
+           "dueDate": "From Today to 30.01.2024",
            "imageBook": "/src/assets/images/Books/Adventure_6.jpeg",
            "isAvailable": true
         },
@@ -51,7 +51,7 @@
            "id": 7,
            "title": "Fast As The Wind",
            "subject": "Adventure",
-           "dueDate": "2023-12-20",
+           "dueDate": "From Today to 30.01.2024",
            "imageBook": "/src/assets/images/Books/Adventure_7.jpeg",
            "isAvailable": true
         },
@@ -59,7 +59,7 @@
            "id": 8,
            "title": "Around The World",
            "subject": "Adventure",
-           "dueDate": "2023-12-20",
+           "dueDate": "From 01.01.2024 to 01.05.2024",
            "imageBook": "/src/assets/images/Books/Adventure_8.jpeg",
            "isAvailable": true
         },
@@ -67,7 +67,7 @@
            "id": 9,
            "title": "Sun Tzu on The Art Of War",
            "subject": "History",
-           "dueDate": "2023-12-20",
+           "dueDate": "From 01.01.2024 to 01.05.2024",
            "imageBook": "/src/assets/images/Books/Biography_1.jpeg",
            "isAvailable": true
         },
@@ -75,7 +75,7 @@
            "id": 10,
            "title": "The Count Of Monte Cristo",
            "subject": "History",
-           "dueDate": "2023-12-20",
+           "dueDate": "From 01.01.2024 to 01.05.2024",
            "imageBook": "/src/assets/images/Books/Biography_2.jpeg",
            "isAvailable": true
         },
@@ -83,7 +83,7 @@
            "id": 11,
            "title": "Tween Snow An Fire",
            "subject": "History",
-           "dueDate": "2023-12-20",
+           "dueDate": "Borrowed,  until 01.02.2024",
            "imageBook": "/src/assets/images/Books/Biography_3.jpeg",
            "isAvailable": true
         },
@@ -91,7 +91,7 @@
            "id": 12,
            "title": "Tale Of Two Cities",
            "subject": "History",
-           "dueDate": "2023-12-20",
+           "dueDate": "From 01.01.2024 to 01.03.2024",
            "imageBook": "/src/assets/images/Books/Biography_4.jpeg",
            "isAvailable": true
         },
@@ -99,7 +99,7 @@
            "id": 13,
            "title": "Walden",
            "subject": "History",
-           "dueDate": "2023-12-20",
+           "dueDate": "From 01.01.2024 to 01.05.2024",
            "imageBook": "/src/assets/images/Books/Biography_5.jpeg",
            "isAvailable": true
         },
@@ -107,7 +107,7 @@
            "id": 14,
            "title": "Noli Me Ta'ngere",
            "subject": "History",
-           "dueDate": "2023-12-20",
+           "dueDate": "From 01.01.2024 to 01.03.2024",
            "imageBook": "/src/assets/images/Books/Biography_6.jpeg",
            "isAvailable": true
         },
@@ -115,7 +115,7 @@
            "id": 15,
            "title": "Scarlet Letter",
            "subject": "History",
-           "dueDate": "2023-12-20",
+           "dueDate": "From 01.01.2024 to 01.05.2024",
            "imageBook": "/src/assets/images/Books/Biography_7.jpeg",
            "isAvailable": true
         },
@@ -123,7 +123,7 @@
            "id": 16,
            "title": "The Origin Of The Family Priviate",
            "subject": "History",
-           "dueDate": "2023-12-20",
+           "dueDate": "Borrowed,  until 01.02.2024",
            "imageBook": "/src/assets/images/Books/Biography_8.jpeg",
            "isAvailable": true
         },
@@ -131,7 +131,7 @@
            "id": 17,
            "title": "Hucklebebby Fin",
            "subject": "Children",
-           "dueDate": "2023-12-20",
+           "dueDate": "From 01.01.2024 to 01.05.2024",
            "imageBook": "/src/assets/images/Books/Children_1.jpeg",
            "isAvailable": true
         },
@@ -139,7 +139,7 @@
            "id": 18,
            "title": "A Pair Of School",
            "subject": "Children",
-           "dueDate": "2023-12-20",
+           "dueDate": "Borrowed,  until 01.02.2024",
            "imageBook": "/src/assets/images/Books/Children_2.jpeg",
            "isAvailable": true
         },
@@ -147,7 +147,7 @@
            "id": 19,
            "title": "ABC's Of Science",
            "subject": "Children",
-           "dueDate": "2023-12-20",
+           "dueDate": "From Today to 30.01.2024",
            "imageBook": "/src/assets/images/Books/Children_3.jpeg",
            "isAvailable": true
         },
@@ -155,7 +155,7 @@
            "id": 20,
            "title": "Oliver Twist",
            "subject": "Children",
-           "dueDate": "2023-12-20",
+           "dueDate": "Borrowed,  until 01.02.2024",
            "imageBook": "/src/assets/images/Books/Children_4.jpeg",
            "isAvailable": true
         },
@@ -163,7 +163,7 @@
            "id": 21,
            "title": "Aesop's Fables",
            "subject": "Children",
-           "dueDate": "2023-12-20",
+           "dueDate": "From 01.01.2024 to 01.05.2024",
            "imageBook": "/src/assets/images/Books/Children_5.jpeg",
            "isAvailable": true
         },
@@ -171,7 +171,7 @@
            "id": 22,
            "title": "Rimms' Fairy Tales",
            "subject": "Children",
-           "dueDate": "2023-12-20",
+           "dueDate": "Borrowed,  until 01.02.2024",
            "imageBook": "/src/assets/images/Books/Children_6.jpeg",
            "isAvailable": true
         },
@@ -179,7 +179,7 @@
            "id": 23,
            "title": "Alice's in Wonderland",
            "subject": "Children",
-           "dueDate": "2023-12-20",
+           "dueDate": "From 01.01.2024 to 01.03.2024",
            "imageBook": "/src/assets/images/Books/Children_7.jpeg",
            "isAvailable": true
         },
@@ -187,7 +187,7 @@
            "id": 24,
            "title": "Laughing Last",
            "subject": "Children",
-           "dueDate": "2023-12-20",
+           "dueDate": "Borrowed,  until 01.02.2024",
            "imageBook": "/src/assets/images/Books/Children_8.jpeg",
            "isAvailable": true
         },
@@ -195,7 +195,7 @@
            "id": 25,
            "title": "The Arabian Nights",
            "subject": "Fantasy",
-           "dueDate": "2023-12-20",
+           "dueDate": "From 01.01.2024 to 01.05.2024",
            "imageBook": "/src/assets/images/Books/Fantasy_1.jpeg",
            "isAvailable": true
         },
@@ -203,7 +203,7 @@
            "id": 26,
            "title": "Time Machine",
            "subject": "Fantasy",
-           "dueDate": "2023-12-20",
+           "dueDate": "From 01.01.2024 to 01.05.2024",
            "imageBook": "/src/assets/images/Books/Fantasy_2.jpeg",
            "isAvailable": true
         },
@@ -211,7 +211,7 @@
            "id": 27,
            "title": "The Demon Girl",
            "subject": "Fantasy",
-           "dueDate": "2023-12-20",
+           "dueDate": "From 01.01.2024 to 01.03.2024",
            "imageBook": "/src/assets/images/Books/Fantasy_3.jpeg",
            "isAvailable": true
         },
@@ -219,7 +219,7 @@
            "id": 28,
            "title": "The Phantom Of The Opera",
            "subject": "Fantasy",
-           "dueDate": "2023-12-20",
+           "dueDate": "From 01.01.2024 to 01.05.2024",
            "imageBook": "/src/assets/images/Books/Fantasy_4.jpeg",
            "isAvailable": true
         },
@@ -227,7 +227,7 @@
            "id": 29,
            "title": "Aladdin Or The Wonderful Lamp",
            "subject": "Fantasy",
-           "dueDate": "2023-12-20",
+           "dueDate": "From 01.01.2024 to 01.03.2024",
            "imageBook": "/src/assets/images/Books/Fantasy_5.jpeg",
            "isAvailable": true
         },
@@ -235,7 +235,7 @@
            "id": 30,
            "title": "Clarimonde",
            "subject": "Fantasy",
-           "dueDate": "2023-12-20",
+           "dueDate": "From 01.01.2024 to 01.05.2024",
            "imageBook": "/src/assets/images/Books/Fantasy_6.jpeg",
            "isAvailable": true
         },
@@ -243,7 +243,7 @@
            "id": 31,
            "title": "Gulliver's Travels",
            "subject": "Fantasy",
-           "dueDate": "2023-12-20",
+           "dueDate": "Borrowed,  until 01.02.2024",
            "imageBook": "/src/assets/images/Books/Fantasy_7.jpeg",
            "isAvailable": true
         },
@@ -251,7 +251,7 @@
            "id": 32,
            "title": "The Arabian Nights Entertaiments",
            "subject": "Fantasy",
-           "dueDate": "2023-12-20",
+           "dueDate": "From 01.01.2024 to 01.05.2024",
            "imageBook": "/src/assets/images/Books/Fantasy_8.jpeg",
            "isAvailable": true
         },
@@ -259,7 +259,7 @@
            "id": 33,
            "title": "Astounding Stories",
            "subject": "Horror",
-           "dueDate": "2023-12-20",
+           "dueDate": "From 01.01.2024 to 01.03.2024",
            "imageBook": "/src/assets/images/Books/Horror_1.jpeg",
            "isAvailable": true
         },
@@ -267,7 +267,7 @@
            "id": 34,
            "title": "Best Ghost Stories",
            "subject": "Horror",
-           "dueDate": "2023-12-20",
+           "dueDate": "From 01.01.2024 to 01.05.2024",
            "imageBook": "/src/assets/images/Books/Horror_2.jpeg",
            "isAvailable": true
         },
@@ -275,7 +275,7 @@
            "id": 35,
            "title": "Dracula",
            "subject": "Horror",
-           "dueDate": "2023-12-20",
+           "dueDate": "From 01.01.2024 to 01.05.2024",
            "imageBook": "/src/assets/images/Books/Horror_3.jpeg",
            "isAvailable": true
         },
@@ -283,7 +283,7 @@
            "id": 36,
            "title": "Invisible Man",
            "subject": "Horror",
-           "dueDate": "2023-12-20",
+           "dueDate": "Borrowed,  until 01.02.2024",
            "imageBook": "/src/assets/images/Books/Horror_4.jpeg",
            "isAvailable": true
         },
@@ -291,7 +291,7 @@
            "id": 37,
            "title": "Metamorphosis",
            "subject": "Horror",
-           "dueDate": "2023-12-20",
+           "dueDate": "From Today to 30.01.2024",
            "imageBook": "/src/assets/images/Books/Horror_5.jpeg",
            "isAvailable": true
         },
@@ -299,7 +299,7 @@
            "id": 38,
            "title": "The Yellow WallPaper",
            "subject": "Horror",
-           "dueDate": "2023-12-20",
+           "dueDate": "From 01.01.2024 to 01.03.2024",
            "imageBook": "/src/assets/images/Books/Horror_6.jpeg",
            "isAvailable": true
         },
@@ -307,7 +307,7 @@
            "id": 39,
            "title": "Dunwich Horror",
            "subject": "Horror",
-           "dueDate": "2023-12-20",
+           "dueDate": "From 01.01.2024 to 01.03.2024",
            "imageBook": "/src/assets/images/Books/Horror_7.jpeg",
            "isAvailable": true
         },
@@ -315,7 +315,7 @@
            "id": 40,
            "title": "The Island Of DR.Moreau",
            "subject": "Horror",
-           "dueDate": "2023-12-20",
+           "dueDate": "From 01.01.2024 to 01.05.2024",
            "imageBook": "/src/assets/images/Books/Horror_8.jpeg",
            "isAvailable": true
         },
@@ -323,7 +323,7 @@
            "id": 41,
            "title": "Best Ghost Stories",
            "subject": "Literary",
-           "dueDate": "2023-12-20",
+           "dueDate": "From 01.01.2024 to 01.03.2024",
            "imageBook": "/src/assets/images/Books/Litarary_1.jpeg",
            "isAvailable": true
         },
@@ -331,7 +331,7 @@
            "id": 42,
            "title": "Dracula",
            "subject": "Literary",
-           "dueDate": "2023-12-20",
+           "dueDate": "Borrowed,  until 01.02.2024",
            "imageBook": "/src/assets/images/Books/Litarary_2.jpeg",
            "isAvailable": true
         },
@@ -339,7 +339,7 @@
            "id": 43,
            "title": "Macbeth",
            "subject": "Literary",
-           "dueDate": "2023-12-20",
+           "dueDate": "From 01.01.2024 to 01.05.2024",
            "imageBook": "/src/assets/images/Books/Litarary_3.jpeg",
            "isAvailable": true
         },
@@ -347,7 +347,7 @@
            "id": 44,
            "title": "Persuasion",
            "subject": "Literary",
-           "dueDate": "2023-12-20",
+           "dueDate": "Borrowed,  until 01.02.2024",
            "imageBook": "/src/assets/images/Books/Litarary_4.jpeg",
            "isAvailable": true
         },
@@ -355,7 +355,7 @@
            "id": 45,
            "title": "Crime & Punishment",
            "subject": "Literary",
-           "dueDate": "2023-12-20",
+           "dueDate": "From 01.01.2024 to 01.05.2024",
            "imageBook": "/src/assets/images/Books/Litarary_5.jpeg",
            "isAvailable": true
         },
@@ -363,7 +363,7 @@
            "id": 46,
            "title": "Time Machine",
            "subject": "Literary",
-           "dueDate": "2023-12-20",
+           "dueDate": "From 01.01.2024 to 01.03.2024",
            "imageBook": "/src/assets/images/Books/Litarary_6.jpeg",
            "isAvailable": true
         },
@@ -371,7 +371,7 @@
            "id": 47,
            "title": "Siddhartha",
            "subject": "Literary",
-           "dueDate": "2023-12-20",
+           "dueDate": "From 01.01.2024 to 01.03.2024",
            "imageBook": "/src/assets/images/Books/Litarary_7.jpeg",
            "isAvailable": true
         },
@@ -379,7 +379,7 @@
            "id": 48,
            "title": "Invisible Man",
            "subject": "Literary",
-           "dueDate": "2023-12-20",
+           "dueDate": "Borrowed,  until 01.02.2024",
            "imageBook": "/src/assets/images/Books/Litarary_8.jpeg",
            "isAvailable": true
         },
@@ -387,7 +387,7 @@
            "id": 49,
            "title": "Crime & Punishment",
            "subject": "Mistery",
-           "dueDate": "2023-12-20",
+           "dueDate": "From 01.01.2024 to 01.03.2024",
            "imageBook": "/src/assets/images/Books/Mystery_1.jpeg",
            "isAvailable": true
         },
@@ -395,7 +395,7 @@
            "id": 50,
            "title": "The Works Of Allan Poe",
            "subject": "Mistery",
-           "dueDate": "2023-12-20",
+           "dueDate": "Borrowed,  until 01.02.2024",
            "imageBook": "/src/assets/images/Books/Mystery_2.jpeg",
            "isAvailable": true
         },
@@ -403,7 +403,7 @@
            "id": 51,
            "title": "The Mysterious Affair At Styles",
            "subject": "Mistery",
-           "dueDate": "2023-12-20",
+           "dueDate": "From 01.01.2024 to 01.03.2024",
            "imageBook": "/src/assets/images/Books/Mystery_3.jpeg",
            "isAvailable": true
         },
@@ -411,7 +411,7 @@
            "id": 52,
            "title": "Woman In The White",
            "subject": "Mistery",
-           "dueDate": "2023-12-20",
+           "dueDate": "From 01.01.2024 to 01.05.2024",
            "imageBook": "/src/assets/images/Books/Mystery_4.jpeg",
            "isAvailable": true
         },
@@ -419,7 +419,7 @@
            "id": 53,
            "title": "The Hound Of The Baskervilles",
            "subject": "Mistery",
-           "dueDate": "2023-12-20",
+           "dueDate": "From Today to 30.01.2024",
            "imageBook": "/src/assets/images/Books/Mystery_5.jpeg",
            "isAvailable": true
         },
@@ -427,7 +427,7 @@
            "id": 54,
            "title": "The Phantom Of The Opera",
            "subject": "Mistery",
-           "dueDate": "2023-12-20",
+           "dueDate": "Borrowed,  until 01.02.2024",
            "imageBook": "/src/assets/images/Books/Mystery_6.jpeg",
            "isAvailable": true
         },
@@ -435,7 +435,7 @@
            "id": 55,
            "title": "The Abandoned Room",
            "subject": "Mistery",
-           "dueDate": "2023-12-20",
+           "dueDate": "From 01.01.2024 to 01.05.2024",
            "imageBook": "/src/assets/images/Books/Mystery_7.jpeg",
            "isAvailable": true
         },
@@ -443,7 +443,7 @@
            "id": 56,
            "title": "The Accused",
            "subject": "Mistery",
-           "dueDate": "2023-12-20",
+           "dueDate": "From 01.01.2024 to 01.03.2024",
            "imageBook": "/src/assets/images/Books/Mystery_8.jpeg",
            "isAvailable": true
         },
@@ -451,7 +451,7 @@
            "id": 57,
            "title": "The Grammar Of English Grammars",
            "subject": "NonFiction",
-           "dueDate": "2023-12-20",
+           "dueDate": "Borrowed,  until 01.02.2024",
            "imageBook": "/src/assets/images/Books/NonFiction_1.jpeg",
            "isAvailable": true
         },
@@ -459,7 +459,7 @@
            "id": 58,
            "title": "The Communist Manifesto",
            "subject": "NonFiction",
-           "dueDate": "2023-12-20",
+           "dueDate": "From 01.01.2024 to 01.05.2024",
            "imageBook": "/src/assets/images/Books/NonFiction_2.jpeg",
            "isAvailable": true
         },
@@ -467,7 +467,7 @@
            "id": 59,
            "title": "The Age Of Reason",
            "subject": "NonFiction",
-           "dueDate": "2023-12-20",
+           "dueDate": "Borrowed,  until 01.02.2024",
            "imageBook": "/src/assets/images/Books/NonFiction_3.jpeg",
            "isAvailable": true
         },
@@ -475,7 +475,7 @@
            "id": 60,
            "title": "How To Use Your Mind",
            "subject": "NonFiction",
-           "dueDate": "2023-12-20",
+           "dueDate": "From 01.01.2024 to 01.05.2024",
            "imageBook": "/src/assets/images/Books/NonFiction_4.jpeg",
            "isAvailable": true
         },
@@ -483,7 +483,7 @@
            "id": 61,
            "title": "On The Origins Of Species",
            "subject": "NonFiction",
-           "dueDate": "2023-12-20",
+           "dueDate": "Borrowed,  until 01.02.2024",
            "imageBook": "/src/assets/images/Books/NonFiction_5.jpeg",
            "isAvailable": true
         },
@@ -491,7 +491,7 @@
            "id": 62,
            "title": "Oliver Twist",
            "subject": "NonFiction",
-           "dueDate": "2023-12-20",
+           "dueDate": "From 01.01.2024 to 01.03.2024",
            "imageBook": "/src/assets/images/Books/NonFiction_6.jpeg",
            "isAvailable": true
         },
@@ -499,7 +499,7 @@
            "id": 63,
            "title": "Ten Thousand Dreams Interested",
            "subject": "NonFiction",
-           "dueDate": "2023-12-20",
+           "dueDate": "From 01.01.2024 to 01.05.2024",
            "imageBook": "/src/assets/images/Books/NonFiction_7.jpeg",
            "isAvailable": true
         },
@@ -507,7 +507,7 @@
            "id": 64,
            "title": "An Inquiry Into The Nature And Causes",
            "subject": "NonFiction",
-           "dueDate": "2023-12-20",
+           "dueDate": "Borrowed,  until 01.02.2024",
            "imageBook": "/src/assets/images/Books/NonFiction_8.jpeg",
            "isAvailable": true
         },
@@ -515,7 +515,7 @@
            "id": 65,
            "title": "Emma",
            "subject": "Romance",
-           "dueDate": "2023-12-20",
+           "dueDate": "From 01.01.2024 to 01.05.2024",
            "imageBook": "/src/assets/images/Books/Romance_1.jpeg",
            "isAvailable": true
         },
@@ -523,7 +523,7 @@
            "id": 66,
            "title": "Healing Her Heart",
            "subject": "Romance",
-           "dueDate": "2023-12-20",
+           "dueDate": "From 01.01.2024 to 01.03.2024",
            "imageBook": "/src/assets/images/Books/Romance_2.jpeg",
            "isAvailable": true
         },
@@ -531,7 +531,7 @@
            "id": 67,
            "title": "The Unveiling",
            "subject": "Romance",
-           "dueDate": "2023-12-20",
+           "dueDate": "From 01.01.2024 to 01.05.2024",
            "imageBook": "/src/assets/images/Books/Romance_3.jpeg",
            "isAvailable": true
         },
@@ -539,7 +539,7 @@
            "id": 68,
            "title": "The Book",
            "subject": "Romance",
-           "dueDate": "2023-12-20",
+           "dueDate": "Borrowed,  until 01.02.2024",
            "imageBook": "/src/assets/images/Books/Romance_4.jpeg",
            "isAvailable": true
         },
@@ -547,7 +547,7 @@
            "id": 69,
            "title": "Persuasion",
            "subject": "Romance",
-           "dueDate": "2023-12-20",
+           "dueDate": "Borrowed,  until 01.02.2024",
            "imageBook": "/src/assets/images/Books/Romance_5.jpeg",
            "isAvailable": true
         },
@@ -555,7 +555,7 @@
            "id": 70,
            "title": "Don Quixote",
            "subject": "Romance",
-           "dueDate": "2023-12-20",
+           "dueDate": "From 01.01.2024 to 01.05.2024",
            "imageBook": "/src/assets/images/Books/Romance_6.jpeg",
            "isAvailable": true
         },
@@ -563,7 +563,7 @@
            "id": 71,
            "title": "Taking Changes",
            "subject": "Romance",
-           "dueDate": "2023-12-20",
+           "dueDate": "Borrowed,  until 01.02.2024",
            "imageBook": "/src/assets/images/Books/Romance_7.jpeg",
            "isAvailable": true
         },
@@ -571,7 +571,7 @@
            "id": 72,
            "title": "Jane Eyre",
            "subject": "Romance",
-           "dueDate": "2023-12-20",
+           "dueDate": "From 01.01.2024 to 01.05.2024",
            "imageBook": "/src/assets/images/Books/Romance_8.jpeg",
            "isAvailable": true
         },
@@ -579,7 +579,7 @@
            "id": 73,
            "title": "Anthem",
            "subject": "Science",
-           "dueDate": "2023-12-20",
+           "dueDate": "From 01.01.2024 to 01.05.2024",
            "imageBook": "/src/assets/images/Books/Science_1.jpeg",
            "isAvailable": true
         },
@@ -587,7 +587,7 @@
            "id": 74,
            "title": "A Journey To The Entire Of The Earth",
            "subject": "Science",
-           "dueDate": "2023-12-20",
+           "dueDate": "Borrowed,  until 01.02.2024",
            "imageBook": "/src/assets/images/Books/Science_2.jpeg",
            "isAvailable": true
         },
@@ -595,7 +595,7 @@
            "id": 75,
            "title": "A Princess of Mars",
            "subject": "Science",
-           "dueDate": "2023-12-20",
+           "dueDate": "From 01.01.2024 to 01.05.2024",
            "imageBook": "/src/assets/images/Books/Science_3.jpeg",
            "isAvailable": true
         },
@@ -603,7 +603,7 @@
            "id": 76,
            "title": "The Machine Stops",
            "subject": "Science",
-           "dueDate": "2023-12-20",
+           "dueDate": "From Today to 30.01.2024",
            "imageBook": "/src/assets/images/Books/Science_4.jpeg",
            "isAvailable": true
         },
@@ -611,7 +611,7 @@
            "id": 77,
            "title": "After The Cure",
            "subject": "Science",
-           "dueDate": "2023-12-20",
+           "dueDate": "From 01.01.2024 to 01.05.2024",
            "imageBook": "/src/assets/images/Books/Science_5.jpeg",
            "isAvailable": true
         },
@@ -619,7 +619,7 @@
            "id": 78,
            "title": "Accelerando",
            "subject": "Science",
-           "dueDate": "2023-12-20",
+           "dueDate": "Borrowed,  until 01.02.2024",
            "imageBook": "/src/assets/images/Books/Science_6.jpeg",
            "isAvailable": true
         },
@@ -627,7 +627,7 @@
            "id": 79,
            "title": "Agent To The Stars",
            "subject": "Science",
-           "dueDate": "2023-12-20",
+           "dueDate": "From 01.01.2024 to 01.05.2024",
            "imageBook": "/src/assets/images/Books/Science_7.jpeg",
            "isAvailable": true
         },
@@ -635,7 +635,7 @@
            "id": 80,
            "title": "The Island Of DR.Moreau",
            "subject": "Science",
-           "dueDate": "2023-12-20",
+           "dueDate": "From Today to 30.01.2024",
            "imageBook": "/src/assets/images/Books/Science_8.jpeg",
            "isAvailable": true
         }

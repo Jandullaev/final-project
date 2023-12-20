@@ -247,7 +247,7 @@ header .header_inner_nav ul li:hover .submenu {
 }
 .book_inner .filters {
   position: sticky;
-  top: 9vh;
+  top: 10.1vh;
   background-color: #fff;
 }
 .book_inner .filters #book_filters {
@@ -326,6 +326,12 @@ header .header_inner_nav ul li:hover .submenu {
 .book_inner .book_container .book_wrap .book_info_btn:active {
   transform: scale(0.9);
 }
+.book_inner .book_container .book_wrap .book_info_btn a {
+  font-family: "Open Sans", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  color: #fff;
+}
 .book_inner #no-results-message {
   text-align: center;
   font-size: 48px;
@@ -348,7 +354,7 @@ header .header_inner_nav ul li:hover .submenu {
   font-size: 14px;
   font-weight: 500;
 }
-.breadcrumbs_inner ul li:first-child {
+.breadcrumbs_inner ul li a:first-child {
   color: #333;
 }
 .breadcrumbs_inner ul li + li {
@@ -832,4 +838,72 @@ header .header_inner_nav ul li:hover .submenu {
 .footer_inner_bottom p {
   font-weight: bold;
   padding: 10px;
+}
+
+.info_book {
+  background-color: #fff;
+  padding: 30px;
+}
+.info_book_inner {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  box-shadow: 2px 2px 20px #ddd;
+  padding: 30px;
+  border-radius: 5px;
+}
+.info_book_inner_image {
+  padding: 20px;
+}
+.info_book_inner_image img {
+  width: 300px;
+}
+.info_book_inner_description #bookTitle {
+  font-size: 48px;
+  padding: 10px 0;
+  color: #3498db;
+}
+.info_book_inner_description #bookSubject {
+  font-size: 24px;
+  display: flex;
+  font-weight: 600;
+  padding-bottom: 20px;
+}
+.info_book_inner_description #bookSubject:before {
+  content: "Genre:";
+  padding-right: 10px;
+}
+.info_book_inner_description .desc {
+  padding: 0 0 20px 0;
+  font-weight: 600;
+  width: 90%;
+  line-height: 1.5rem;
+}
+.info_book_inner_description .desc ~ p {
+  font-size: 24px;
+  font-weight: 500;
+}
+.info_book_inner_description #bookDate {
+  color: #3498db;
+  font-size: 16px;
+  padding: 10px 0 20px 0;
+}
+.info_book_inner_description .btn {
+  padding: 8px 20px;
+  background-color: #3498db;
+  color: #fff;
+  border-radius: 4px;
+  transition: 0.3s;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  text-decoration: none;
+  font-family: "Open Sans", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+}
+.info_book_inner_description .btn:hover {
+  background-color: #298bcc;
+}
+.info_book_inner_description .btn:active {
+  transform: scale(0.9);
 }/*# sourceMappingURL=main.css.map */

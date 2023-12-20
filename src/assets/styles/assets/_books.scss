@@ -18,7 +18,7 @@
     }
     .filters {
       position: sticky;
-      top: 9vh;
+      top: 10.1vh;
       background-color: $white_color;
       #book_filters {
         padding: 0;
@@ -90,6 +90,12 @@
 
           &_btn {
             @include btn;
+             a {
+              font-family: $open_font;
+              font-size: 15px;
+              font-weight: 400;
+              color: $white_color;
+            }
           }
         }
       }
@@ -118,7 +124,7 @@
     font-size: 14px;
     font-weight: 500;
 
-    & li:first-child {
+    & li a:first-child {
       color: $gray_color;
     }
 

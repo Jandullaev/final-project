@@ -1,0 +1,62 @@
+.info_book {
+     background-color: $white_color;
+     padding: 30px;
+
+     &_inner {
+       display: grid;
+       grid-template-columns: 1fr 2fr;
+     //   align-items: flex-start;
+      // justify-content: space-evenly;
+       box-shadow: 2px 2px 20px #ddd;
+       padding: 30px;
+       border-radius: 5px;
+
+       &_image {
+          padding: 20px;
+
+          img {
+               width: 300px;
+          }
+       }
+
+       &_description {
+          #bookTitle {
+               font-size: 48px;
+               padding: 10px 0;
+               color: $royalblue_color;
+          }
+          #bookSubject {
+               font-size: 24px;
+               display: flex;
+               font-weight: 600;
+               padding-bottom: 20px;
+
+               &:before {
+                    content: "Genre:";
+                    padding-right: 10px;
+               }
+          }
+
+          .desc {
+               padding: 0 0 20px 0;
+               font-weight: 600;
+               width: 90%;
+               line-height: 1.5rem;
+          }
+
+          .desc ~ p {
+               font-size: 24px;
+               font-weight: 500;
+          }
+          #bookDate {
+               color: $royalblue_color;
+               font-size: 16px;
+               padding: 10px 0 20px 0;
+          }
+
+          .btn {
+               @include btn;
+          }
+       }
+     }
+}

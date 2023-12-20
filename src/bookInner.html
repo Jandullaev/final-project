@@ -18,19 +18,10 @@
         <div class="header_inner">
           <div class="header_inner_logo"><a href="./index.html">E-Library</a></div>
 
-          <div class="search">
-            <input
-              type="search"
-              name="search"
-              id="search"
-              placeholder="Search by title"
-              onkeyup="search()"
-            />
-          </div>
           <nav class="header_inner_nav">
             <ul>
               <li><a href="./index.html">Home</a></li>
-              <li><a href="#book" style="color: #3498db">Books</a></li>
+              <li><a href="book.html" style="color: #3498db">Books</a></li>
               <li><a href="index.html#about">About</a></li>
               <li><a href="index.html#gallery">Gallery</a></li>
               <li><a class="btn" href="index.html#contact">Contact</a></li>
@@ -46,50 +37,32 @@
           <div class="breadcrumbs_inner">
             <ul>
               <li><a href="index.html">Home</a></li>
-              <li>Books</li>
+              <li><a href="book.html">Books</a></li>
+              <li>About Book</li>
             </ul>
           </div>
         </div>
       </section>
-      <section class="book" id="book">
-        <div class="container">
-          <div class="book_inner">
-            <div class="section_title">
-              <h2>Books</h2>
-              <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem</p>
-            </div>
-            <div class="filters">
-              <ul id="book_filters">
-                <li tabindex="0" data-filter="*" class="filter-active">All</li>
-                <li tabindex="0" data-filter="filterRomance">Romance</li>
-                <li tabindex="0" data-filter="filterAdventure">Action & Adventure</li>
-                <li tabindex="0" data-filter="filterMistery">Mistery & Thriller</li>
-                <li tabindex="0" data-filter="filterHistory">Biographics & History</li>
-                <li tabindex="0" data-filter="filterChildren">Children's</li>
-                <li tabindex="0" data-filter="filterFantasy">Fantasy</li>
-                <li tabindex="0" data-filter="filterHorror">Horror</li>
-                <li tabindex="0" data-filter="filterLiterary">Literary Fiction</li>
-                <li tabindex="0" data-filter="filterNonFiction">Non Fiction</li>
-                <li tabindex="0" data-filter="filterScience">Science Fiction</li>
-              </ul>
-            </div>
-           
-            <div class="book_container">
-               <script id="book-template" type="text/template">
-                <div class="book_wrap  filter{{subject}}" data-id="{{id}}" data-title="{{title}}" data-subject="{{subject}}" data-due-date="{{dueDate}}" data-image="{{imageBook}}">
-                    <img src="{{imageBook}}" alt="{{title}}">
-                    <div class="book_info">
-                        <h3 class="book_info_title">{{title}}</h3>
-                        <p class="book_info_date">Rental Date: {{dueDate}}</p>
+
+      <section class="info_book">
+          <div class="container">
+               <div class="info_book_inner">
+                    <div class="info_book_inner_image" id="bookImage">
+                         
                     </div>
-                    <button class="book_info_btn" ><a href="bookInner.html?id={{id}}">Learn More</a></button>
-                </div>
-            </script>
-            </div>
-            <div id="no-results-message" style="display: none;">No results found:(</div>
+                    <div class="info_book_inner_description">
+                        <h2 id="bookTitle"></h2>
+                        <p id="bookSubject"></p>
+                        <p class="desc">This book invites you to explore the magic of storytelling, providing an immersive experience that takes you to distant realms and introduces you to intriguing characters. Whether you seek relaxation, knowledge, or simply a delightful escape, this book is your companion on the path to discovery.  Join us on this literary adventure where every chapter is a step closer to understanding, inspiration, and the sheer joy of a good book. Get ready to unwind, learn, and lose yourself in the art of storytelling.</p>
+                        <p>Validity Period: </p>
+                        <p id="bookDate"></p>
+                        <br>
+                        <a class="btn" href="book.html">Go Back</a>
+                    </div>
+               </div>
           </div>
-        </div>
       </section>
+     
     </article>
     <footer class="footer">
       <div class="container">
