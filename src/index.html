@@ -20,9 +20,10 @@
           </div>
 
           <nav class="header_inner_nav">
-            <ul>
+            <ul class="ul">
               <li><a href="#hero" style="color: #3498db" ;>Home</a></li>
-              <li><a href="./book.html" class="has-submenu">Books</a>
+              <li>
+                <a href="./book.html" class="has-submenu">Books</a>
                 <ul class="submenu">
                   <li><a href="./book.html">Romance</a></li>
                   <li><a href="./book.html">Action & Adventure</a></li>
@@ -40,13 +41,16 @@
               <li><a href="#gallery">Gallery</a></li>
               <li><a class="btn" href="#contact">Contact</a></li>
             </ul>
+            <div class="toggle">
+              <span class="bar"></span>
+              <span class="bar"></span>
+              <span class="bar"></span>
+            </div>
           </nav>
         </div>
       </div>
     </header>
-    <script>
-
-    </script>
+    
     <article>
       <section class="hero" id="hero">
         <div class="cover">
@@ -58,7 +62,7 @@
                   Lorem, ipsum dolor sit amet consectetur <br />
                   adipisicing elit. Animi, placeat!
                 </p>
-                <a href="./book.html"  class="btn">Read Books</a>
+                <a href="./book.html" class="btn">Read Books</a>
               </div>
             </div>
           </div>
@@ -331,10 +335,10 @@
                 </div>
               </div>
               <div class="contact_inner_email">
-                <form method="post" class="contactForm">
+                <form class="contactForm" method="post">
                   <div class="email_form_input">
                     <input
-                    id="name"
+                      id="name"
                       type="text"
                       name="name"
                       class="form-control"
@@ -345,7 +349,7 @@
 
                   <div class="email_form_input">
                     <input
-                    id="email"
+                      id="email"
                       type="email"
                       class="form-control"
                       name="email"
@@ -356,7 +360,7 @@
 
                   <div class="email_form_input">
                     <input
-                    id="phone"
+                      id="phone"
                       type="text"
                       class="form-control"
                       name="phone"
@@ -367,7 +371,7 @@
 
                   <div class="email_form_input">
                     <textarea
-                    id="message"
+                      id="message"
                       class="form-control"
                       name="message"
                       rows="6"
@@ -383,7 +387,13 @@
                       Your quote request has been sent successfully. Thank you!
                     </div>
 
-                    <button class="btn" id="submit" onclick="addClient()" type="submit">Submit</button>
+                    <button
+                      class="btn"
+                      id="submit"
+                      type="submit"
+                    >
+                      Submit
+                    </button>
                   </div>
                 </form>
               </div>
@@ -403,23 +413,23 @@
               <ul>
                 <li class="social_media_link">
                   <a href="#">
-                  <i class="bx bxl-linkedin-square"></i>
-                </a>
+                    <i class="bx bxl-linkedin-square"></i>
+                  </a>
                 </li>
                 <li class="social_media_link">
                   <a href="#">
-                  <i class="bx bxl-telegram"></i>
-                </a>
+                    <i class="bx bxl-telegram"></i>
+                  </a>
                 </li>
                 <li class="social_media_link">
                   <a href="#">
-                  <i class="bx bxl-instagram"></i>
-                </a>
+                    <i class="bx bxl-instagram"></i>
+                  </a>
                 </li>
                 <li class="social_media_link">
                   <a href="#">
-                  <i class="bx bxl-facebook-square"></i>
-                </a>
+                    <i class="bx bxl-facebook-square"></i>
+                  </a>
                 </li>
               </ul>
             </div>
@@ -444,7 +454,10 @@
     </footer>
 
     <script src="./assets/scripts/slideShow.js"></script>
-    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/firebase/10.7.1/firebase.js"></script> -->
-    <script src="./assets/scripts/contact.js"></script>
+    <script src="assets/backend%20JS/contact.js"></script>
+    <script src="assets/scripts/main.js"></script>
+    <script src="assets/backend%20JS/config.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.0.2/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.0.2/firebase-firestore.js"></script>
   </body>
 </html>

@@ -89,3 +89,7 @@ Not Started
 - Created 'bookInner.html' which shows more info of book
 - Woking with firebase but not done
 - Some changes of 'library.json', actually date
+
+### 13. Developing 10
+- Working with Responsive
+- Connected to Firestore

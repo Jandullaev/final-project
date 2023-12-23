@@ -160,7 +160,63 @@ header .header_inner_nav ul li:hover .submenu {
   visibility: visible;
   transform: translateY(0);
 }
+header .header_inner_nav .toggle {
+  display: none;
+  width: 30px;
+  height: 20px;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  transition: 0.3s;
+  cursor: pointer;
+}
+header .header_inner_nav .toggle .bar {
+  width: 100%;
+  height: 3px;
+  border-radius: 3px;
+  background-color: #333;
+  transition: 0.3s;
+}
+header .header_inner_nav .toggle.active .bar:first-child {
+  transform: rotate(43deg) translateY(12px);
+}
+header .header_inner_nav .toggle.active .bar:nth-child(2) {
+  transform: translateX(10px);
+  opacity: 0;
+}
+header .header_inner_nav .toggle.active .bar:nth-child(3) {
+  transform: rotate(-45deg) translateY(-11px);
+}
 
+@media screen and (max-width: 940px) {
+  header .header_inner_nav .toggle {
+    display: flex;
+  }
+  header .header_inner_nav ul {
+    display: none;
+  }
+  header .header_inner_nav ul.active {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    top: 10vh;
+    padding: 20px;
+    background-color: #fff;
+    width: 50%;
+  }
+  header .header_inner_nav ul.ul.active li a {
+    text-align: center;
+    width: 100%;
+    line-height: 3rem;
+  }
+  header .header_inner_nav ul.ul.active li a:hover {
+    background-color: #ddd;
+  }
+}
 .hero {
   background-position: center;
   background-size: cover;
@@ -625,6 +681,42 @@ header .header_inner_nav ul li:hover .submenu {
   }
 }
 
+@media screen and (max-width: 1275px) {
+  .gallery_inner .gallery_pictures {
+    display: grid;
+    row-gap: 30px;
+    -moz-column-gap: 30px;
+         column-gap: 30px;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  .gallery_inner .gallery_pictures .picture {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .gallery_inner .gallery_pictures .picture img {
+    width: 300px;
+    border-radius: 10px;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .gallery_inner .gallery_pictures {
+    display: grid;
+    row-gap: 30px;
+    -moz-column-gap: 30px;
+         column-gap: 30px;
+    grid-template-columns: 1fr 1fr;
+  }
+  .gallery_inner .gallery_pictures .picture {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .gallery_inner .gallery_pictures .picture img {
+    width: 100%;
+    border-radius: 10px;
+  }
+}
 .contact {
   background-color: #fff;
 }

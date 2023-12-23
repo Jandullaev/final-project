@@ -85,11 +85,10 @@ header {
             flex-direction: column;
             background-color: $white_color;
             border-radius: 4px;
-            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
             width: 200px;
             transform: translateY(20px);
             transition: 0.3s;
-            
 
             li {
               margin-top: 5px;
@@ -100,17 +99,90 @@ header {
             }
           }
 
-
           &:hover {
             .submenu {
               opacity: 1;
-            pointer-events:visible;
-            visibility: visible;
-             transform: translateY(0);
-
+              pointer-events: visible;
+              visibility: visible;
+              transform: translateY(0);
             }
           }
         }
+      }
+
+      .toggle {
+        display: none;
+        width: 30px;
+        height: 20px;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: column;
+        transition: 0.3s;
+        cursor: pointer;
+        .bar {
+          width: 100%;
+          height: 3px;
+          border-radius: 3px;
+          background-color: $gray_color;
+          transition: 0.3s;
+        }
+      }
+  
+      .toggle.active .bar:first-child {
+        transform: rotate(43deg) translateY(12px);
+      }
+  
+      .toggle.active .bar:nth-child(2) {
+        transform: translateX(10px);
+        opacity: 0;
+      }
+  
+      .toggle.active .bar:nth-child(3) {
+        transform: rotate(-45deg) translateY(-11px);
+      }
+      
+    }
+  }
+}
+
+@media screen and (max-width: 940px) {
+  header {
+    .header_inner {
+      &_nav {
+    .toggle {
+      display: flex;
+    }
+   
+        ul
+         {
+          display: none;
+        }
+
+        ul.active {
+          display: flex;
+          flex-direction: column;
+          justify-content: flex-start;
+          align-items: flex-start;
+          position: fixed;
+          right: 0;
+          bottom: 0;
+          top: 10vh;
+          padding: 20px;
+          background-color: $white-color;
+          width: 50%;
+        }
+
+      
+     ul.ul.active li a {
+          text-align: center;
+          width: 100%;
+          line-height: 3rem;
+     }
+
+     ul.ul.active li a:hover {
+          background-color: #ddd;
+     }
+
       }
     }
   }

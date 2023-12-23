@@ -25,7 +25,6 @@ async function initMap() {
 
 initMap();
 
-
 document.addEventListener("DOMContentLoaded", function () {
   // Get book ID from the URL
   const urlParams = new URLSearchParams(window.location.search);
@@ -39,12 +38,12 @@ function fetchBookDetails(bookId) {
   // Fetch book details from your data source (e.g., another JSON file or API)
   // Replace this with your actual data fetching logic
   fetch("assets/library/library.json")
-      .then((response) => response.json())
-      .then((data) => {
-          const book = data.find((item) => item.id == bookId);
-          displayBookDetails(book);
-      })
-      .catch((error) => console.error("Error fetching book details:", error));
+    .then((response) => response.json())
+    .then((data) => {
+      const book = data.find((item) => item.id == bookId);
+      displayBookDetails(book);
+    })
+    .catch((error) => console.error("Error fetching book details:", error));
 }
 
 function displayBookDetails(book) {
@@ -54,11 +53,20 @@ function displayBookDetails(book) {
   const bookSubject = document.getElementById("bookSubject");
   const bookDate = document.getElementById("bookDate");
 
-  // Update the content with the actual book details
   if (book) {
-      bookImageElement.innerHTML = `<img src="${book.imageBook}" alt="${book.title}">`;
-      bookTitle.innerHTML = `<p>${book.title}</p>`; // Add the book description property if available
-      bookSubject.innerHTML = `<p>${book.subject}</p>`; // Add the book description property if available
-      bookDate.innerHTML = `<p>${book.dueDate}</p>`; // Add the book description property if available
+    bookImageElement.innerHTML = `<img src="${book.imageBook}" alt="${book.title}">`;
+    bookTitle.innerHTML = `<p>${book.title}</p>`; // Add the book description property if available
+    bookSubject.innerHTML = `<p>${book.subject}</p>`; // Add the book description property if available
+    bookDate.innerHTML = `<p>${book.dueDate}</p>`; // Add the book description property if available
   }
 }
+
+const toggle = document.getElementsByClassName("toggle")[0];
+const ul = document.getElementsByClassName("ul")[0];
+const navItems = document.getElementsByClassName("header_inner_nav")[0];
+
+toggle.addEventListener("click", () => {
+  toggle.classList.toggle("active");
+  ul.classList.toggle("active");
+  navItems.classList.toggle("active");
+});
