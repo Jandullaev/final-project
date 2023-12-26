@@ -312,9 +312,8 @@
               <div class="contact_inner_bottom_map">
                 <iframe
                   src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13768.195791195674!2d69.24085902878655!3d41.32022791038241!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38ae8b40d847941d%3A0x5765a18b352df71e!2sTashkent%20City%20Park!5e0!3m2!1sru!2s!4v1702414282224!5m2!1sru!2s"
-                  width="500"
-                  height="350"
-                  style="border: 0"
+                 
+                  style="border: 0; width: calc(34vw + 60px); height: calc(12vw + 200px);;"
                   allowfullscreen=""
                   loading="lazy"
                   referrerpolicy="no-referrer-when-downgrade"
@@ -335,7 +334,7 @@
                 </div>
               </div>
               <div class="contact_inner_email">
-                <form class="contactForm" method="post">
+                <form class="contactForm" method="post" action="http://localhost:5500/create">
                   <div class="email_form_input">
                     <input
                       id="name"
@@ -365,6 +364,7 @@
                       class="form-control"
                       name="phone"
                       placeholder="Phone"
+                      value="(+998) "
                       required
                     />
                   </div>
@@ -382,7 +382,7 @@
 
                   <div class="email_form_input text-center">
                     <div class="loading">Loading</div>
-                    <div class="error_message"></div>
+                    <div class="error_message">Error Submitting</div>
                     <div class="sent_message">
                       Your quote request has been sent successfully. Thank you!
                     </div>
@@ -454,9 +454,10 @@
     </footer>
 
     <script src="./assets/scripts/slideShow.js"></script>
-    <script src="assets/backend%20JS/contact.js"></script>
+    <script src="assets/backendJS/contact.js"></script>
     <script src="assets/scripts/main.js"></script>
-    <script src="assets/backend%20JS/config.js"></script>
+    <script src="assets/backendJS/config.js"></script>
+    <script src="assets/backendJS/User.js"></script>
     <script src="https://www.gstatic.com/firebasejs/9.0.2/firebase-app.js"></script>
     <script src="https://www.gstatic.com/firebasejs/9.0.2/firebase-firestore.js"></script>
   </body>

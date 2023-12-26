@@ -93,3 +93,9 @@ Not Started
 ### 13. Developing 10
 - Working with Responsive
 - Connected to Firestore
+
+### 13. Developing 11
+- Contact is working successfully! 
+- The web application page is displayed correctly for all screen resolutions.
+- Server is working 
+- All data on the website loads via API calls.

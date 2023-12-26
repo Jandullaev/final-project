@@ -15,13 +15,13 @@
           padding: 20px;
 
           img {
-               width: 300px;
+               width: calc(10vw + 169px);
           }
        }
 
        &_description {
           #bookTitle {
-               font-size: 48px;
+               font-size: calc(2.2vw + 20px);
                padding: 10px 0;
                color: $royalblue_color;
           }
@@ -58,5 +58,14 @@
                @include btn;
           }
        }
+     }
+}
+
+@media screen and (max-width: 1000px) {
+     .info_book {
+          padding: 10px;
+          &_inner {
+               grid-template-columns: 1fr;
+          }
      }
 }

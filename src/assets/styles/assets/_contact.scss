@@ -32,6 +32,10 @@
       &_map {
         border: 2px solid $royalblue_color;
         margin: 0 20px;
+
+        iframe {
+          width: calc(0.37vw + 50px);
+        }
       }
 
       .info {
@@ -129,6 +133,17 @@
             }
           }
         }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 940px) {
+  .contact {
+    .contact_inner {
+      &_bottom {
+        flex-direction: column;
+        align-items: center;
       }
     }
   }

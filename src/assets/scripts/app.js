@@ -2,13 +2,12 @@
 
 document.addEventListener("DOMContentLoaded", function () {
   fetch("assets/library/library.json")
-    .then((response) => response.json())
-    .then((data) => {
-      displayBooks(data);
-      setupFilters();
-    })
-    .catch((error) => console.error("Error fetching data:", error));
-
+      .then((response) => response.json())
+      .then((data) => {
+          displayBooks(data);
+          setupFilters();
+      })
+      .catch((error) => console.error("Error fetching data:", error));
 });
 
 function displayBooks(books) {
@@ -18,15 +17,15 @@ function displayBooks(books) {
   const bookTemplate = templateElement.innerHTML;
 
   books.forEach((book) => {
-    const filledTemplate = fillTemplate(bookTemplate, book);
-    const newBookElement = createBookElement(filledTemplate);
-    bookContainer.appendChild(newBookElement);
+      const filledTemplate = fillTemplate(bookTemplate, book);
+      const newBookElement = createBookElement(filledTemplate);
+      bookContainer.appendChild(newBookElement);
   });
 }
 
 function fillTemplate(template, data) {
   return template.replace(/{{\s*(\w+)\s*}}/g, (match, key) => {
-    return data[key] || match;
+      return data[key] || match;
   });
 }
 
@@ -40,13 +39,11 @@ function createBookElement(html) {
 }
 
 function setupFilters() {
-  const filterButtons = document.querySelectorAll("#book_filters li");
+  const filterDropdown = document.getElementById("filterDropdown");
 
-  filterButtons.forEach((button) => {
-    button.addEventListener("click", function () {
-      const filterValue = this.getAttribute("data-filter");
+  filterDropdown.addEventListener("change", function () {
+      const filterValue = this.value;
       filterBooks(filterValue);
-    });
   });
 }
 
@@ -55,19 +52,20 @@ function filterBooks(subject) {
   const bookItems = document.querySelectorAll(".book_item");
 
   bookWrap.forEach((item, index) => {
-    const subjectClass = item.classList.item(1);
+      const subjectClass = item.classList.item(1);
 
-    if (subject === "*" || subjectClass === subject) {
-      item.style.display = "grid";
-      if (bookItems[index]) {
-        bookItems[index].style.display = "block";
+      if (subject === "*" || subjectClass === subject) {
+          item.style.display = "grid";
+          if (bookItems[index]) {
+              bookItems[index].style.display = "block";
+              bookWrap[index].style.justifyContent = "normal";
+          }
+      } else {
+          item.style.display = "none";
+          if (bookItems[index]) {
+              bookItems[index].style.display = "none";
+          }
       }
-    } else {
-      item.style.display = "none";
-      if (bookItems[index]) {
-        bookItems[index].style.display = "none";
-      }
-    }
   });
 }
 
@@ -83,13 +81,17 @@ const search = () => {
 
     if (match) {
       let textValue = match.textContent || match.innerText;
-
+      
       if (textValue.toUpperCase().indexOf(searchBox) > -1) {
         product[i].style.display = "grid";
         item[i].style.display = "grid";
+      
+      
       } else {
         product[i].style.display = "none";
         item[i].style.display = "none";
+       
+        
       }
     }
   }

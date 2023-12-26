@@ -21,31 +21,7 @@ header {
       }
     }
 
-    .search {
-      display: flex;
-      align-items: center;
-      justify-content: center;
 
-      input {
-        padding: 7px 20px;
-        outline: none;
-        border: none;
-        color: $gray_color;
-        font-size: 15px;
-        font-weight: 400;
-        border: 1px solid #ddd;
-        border-radius: 4px;
-        margin: 0 10px;
-
-        &:focus {
-          border-color: $royalblue_color;
-        }
-      }
-
-      .btn {
-        @include btn;
-      }
-    }
 
     &_nav {
       ul {
@@ -166,10 +142,12 @@ header {
           position: fixed;
           right: 0;
           bottom: 0;
-          top: 10vh;
+          top: 0;
+          padding-top: 10vh;
           padding: 20px;
           background-color: $white-color;
           width: 50%;
+          box-shadow: 2px 2px 20px #ddd;
         }
 
       

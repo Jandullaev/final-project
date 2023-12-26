@@ -1,3 +1,4 @@
+// eslint-disable-next-line no-undef
 const{initializeApp} = require("firebase/compat/app")
 const {getFirestore, collection, addDoc} = require("firebase/firestore");
 const firebaseConfig = {

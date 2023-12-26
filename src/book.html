@@ -18,15 +18,7 @@
         <div class="header_inner">
           <div class="header_inner_logo"><a href="./index.html">E-Library</a></div>
 
-          <div class="search">
-            <input
-              type="search"
-              name="search"
-              id="search"
-              placeholder="Search by title"
-              onkeyup="search()"
-            />
-          </div>
+        
           <nav class="header_inner_nav">
             <ul class="ul">
               <li><a href="./index.html">Home</a></li>
@@ -64,33 +56,42 @@
               <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem</p>
             </div>
             <div class="filters">
-              <ul id="book_filters">
-                <li tabindex="0" data-filter="*" class="filter-active">All</li>
-                <li tabindex="0" data-filter="filterRomance">Romance</li>
-                <li tabindex="0" data-filter="filterAdventure">Action & Adventure</li>
-                <li tabindex="0" data-filter="filterMistery">Mistery & Thriller</li>
-                <li tabindex="0" data-filter="filterHistory">Biographics & History</li>
-                <li tabindex="0" data-filter="filterChildren">Children's</li>
-                <li tabindex="0" data-filter="filterFantasy">Fantasy</li>
-                <li tabindex="0" data-filter="filterHorror">Horror</li>
-                <li tabindex="0" data-filter="filterLiterary">Literary Fiction</li>
-                <li tabindex="0" data-filter="filterNonFiction">Non Fiction</li>
-                <li tabindex="0" data-filter="filterScience">Science Fiction</li>
-              </ul>
+              <select id="filterDropdown">
+                  <option value="*">Sorting</option>
+                  <option value="filterRomance">Romance</option>
+                  <option value="filterAdventure">Action & Adventure</option>
+                  <option value="filterMistery">Mistery & Thriller</option>
+                  <option value="filterHistory">Biographics & History</option>
+                  <option value="filterChildren">Children's</option>
+                  <option value="filterFantasy">Fantasy</option>
+                  <option value="filterHorror">Horror</option>
+                  <option value="filterLiterary">Literary Fiction</option>
+                  <option value="filterNonFiction">Non Fiction</option>
+                  <option value="filterScience">Science Fiction</option>
+              </select>
+              <div class="search">
+                <input
+                  type="search"
+                  name="search"
+                  id="search"
+                  placeholder="Search by title"
+                  onkeyup="search()"
+                />
+              </div>
             </div>
            
             <div class="book_container">
-               <script id="book-template" type="text/template">
-                <div class="book_wrap  filter{{subject}}" data-id="{{id}}" data-title="{{title}}" data-subject="{{subject}}" data-due-date="{{dueDate}}" data-image="{{imageBook}}">
-                    <img src="{{imageBook}}" alt="{{title}}">
-                    <div class="book_info">
-                        <h3 class="book_info_title">{{title}}</h3>
-                        <p class="book_info_date">Rental Date: {{dueDate}}</p>
-                    </div>
-                    <button class="book_info_btn" ><a href="bookInner.html?id={{id}}">Learn More</a></button>
-                </div>
-            </script>
-            </div>
+              <script id="book-template" type="text/template">
+                  <div class="book_wrap filter{{subject}}" data-id="{{id}}" data-title="{{title}}" data-subject="{{subject}}" data-due-date="{{dueDate}}" data-image="{{imageBook}}">
+                      <img src="{{imageBook}}" alt="{{title}}">
+                      <div class="book_info">
+                          <h3 class="book_info_title">{{title}}</h3>
+                          <p class="book_info_date">Rental Date: {{dueDate}}</p>
+                      </div>
+                      <button class="book_info_btn"><a href="bookInner.html?id={{id}}">Learn More</a></button>
+                  </div>
+              </script>
+          </div>
             <div id="no-results-message" style="display: none;">No results found:(</div>
           </div>
         </div>

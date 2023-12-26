@@ -52,45 +52,6 @@ header .header_inner_logo a {
   color: #3498db;
   font-weight: bold;
 }
-header .header_inner .search {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-header .header_inner .search input {
-  padding: 7px 20px;
-  outline: none;
-  border: none;
-  color: #333;
-  font-size: 15px;
-  font-weight: 400;
-  border: 1px solid #ddd;
-  border-radius: 4px;
-  margin: 0 10px;
-}
-header .header_inner .search input:focus {
-  border-color: #3498db;
-}
-header .header_inner .search .btn {
-  padding: 8px 20px;
-  background-color: #3498db;
-  color: #fff;
-  border-radius: 4px;
-  transition: 0.3s;
-  border: none;
-  outline: none;
-  cursor: pointer;
-  text-decoration: none;
-  font-family: "Open Sans", sans-serif;
-  font-size: 15px;
-  font-weight: 400;
-}
-header .header_inner .search .btn:hover {
-  background-color: #298bcc;
-}
-header .header_inner .search .btn:active {
-  transform: scale(0.9);
-}
 header .header_inner_nav ul {
   display: flex;
   align-items: center;
@@ -203,10 +164,12 @@ header .header_inner_nav .toggle.active .bar:nth-child(3) {
     position: fixed;
     right: 0;
     bottom: 0;
-    top: 10vh;
+    top: 0;
+    padding-top: 10vh;
     padding: 20px;
     background-color: #fff;
     width: 50%;
+    box-shadow: 2px 2px 20px #ddd;
   }
   header .header_inner_nav ul.ul.active li a {
     text-align: center;
@@ -302,32 +265,60 @@ header .header_inner_nav .toggle.active .bar:nth-child(3) {
   color: #333;
 }
 .book_inner .filters {
-  position: sticky;
-  top: 10.1vh;
   background-color: #fff;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 20px;
 }
-.book_inner .filters #book_filters {
-  padding: 0;
-  margin: 0 auto 20px auto;
-  list-style: none;
-  text-align: center;
+.book_inner .filters #filterDropdown {
+  outline: none;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 7px 20px;
+  color: gray;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  font-size: 15px;
 }
-.book_inner .filters #book_filters li {
-  cursor: pointer;
-  display: inline-block;
-  padding: 8px 15px 10px 15px;
-  font-size: 14px;
-  font-weight: 600;
-  line-height: 1;
-  text-transform: uppercase;
+.book_inner .filters #filterDropdown:focus {
+  border: 1px solid #3498db;
+}
+.book_inner .filters .search input {
+  padding: 7px 20px;
+  outline: none;
+  border: none;
   color: #333;
-  margin-bottom: 5px;
-  transition: all 0.2s ease-in-out;
-  border-radius: 3px;
+  font-size: 15px;
+  font-weight: 400;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  margin: 0 10px;
 }
-.book_inner .filters #book_filters li:hover, .book_inner .filters #book_filters li:active, .book_inner .filters #book_filters li:focus {
-  color: #fff;
+.book_inner .filters .search input:focus {
+  border-color: #3498db;
+}
+.book_inner .filters .search .btn {
+  padding: 8px 20px;
   background-color: #3498db;
+  color: #fff;
+  border-radius: 4px;
+  transition: 0.3s;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  text-decoration: none;
+  font-family: "Open Sans", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+}
+.book_inner .filters .search .btn:hover {
+  background-color: #298bcc;
+}
+.book_inner .filters .search .btn:active {
+  transform: scale(0.9);
 }
 .book_inner .book_container {
   padding: 20px;
@@ -423,6 +414,35 @@ header .header_inner_nav .toggle.active .bar:nth-child(3) {
   content: "/";
 }
 
+@media screen and (max-width: 1100px) {
+  .book_inner .book_container {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+@media screen and (max-width: 970px) {
+  .book_inner .book_container {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+@media screen and (max-width: 750px) {
+  .book_inner .book_container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media screen and (max-width: 530px) {
+  .book_inner .book_container {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+@media screen and (max-width: 450px) {
+  .book_inner .filters {
+    flex-direction: column;
+  }
+  .book_inner .filters #filterDropdown {
+    padding: 7px 28px;
+    margin-bottom: 10px;
+  }
+}
 .top_block {
   background-color: #fff;
 }
@@ -598,6 +618,11 @@ header .header_inner_nav .toggle.active .bar:nth-child(3) {
   color: #fff;
 }
 
+@media screen and (max-width: 940px) {
+  .about .about_inner .about_info {
+    grid-template-columns: 1fr;
+  }
+}
 .gallery {
   background-color: #fff;
 }
@@ -767,6 +792,9 @@ header .header_inner_nav .toggle.active .bar:nth-child(3) {
   border: 2px solid #3498db;
   margin: 0 20px;
 }
+.contact .contact_inner_bottom_map iframe {
+  width: calc(0.37vw + 50px);
+}
 .contact .contact_inner_bottom .info {
   display: flex;
   align-items: flex-start;
@@ -870,6 +898,12 @@ header .header_inner_nav .toggle.active .bar:nth-child(3) {
   }
 }
 
+@media screen and (max-width: 940px) {
+  .contact .contact_inner_bottom {
+    flex-direction: column;
+    align-items: center;
+  }
+}
 .footer {
   background-color: #fff;
   box-shadow: 0px 0px 50px #ddd;
@@ -932,6 +966,16 @@ header .header_inner_nav .toggle.active .bar:nth-child(3) {
   padding: 10px;
 }
 
+@media screen and (max-width: 360px) {
+  .footer_inner_top .footer_nav ul {
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 940px) {
+  .footer_inner_top {
+    flex-direction: column;
+  }
+}
 .info_book {
   background-color: #fff;
   padding: 30px;
@@ -947,10 +991,10 @@ header .header_inner_nav .toggle.active .bar:nth-child(3) {
   padding: 20px;
 }
 .info_book_inner_image img {
-  width: 300px;
+  width: calc(10vw + 169px);
 }
 .info_book_inner_description #bookTitle {
-  font-size: 48px;
+  font-size: calc(2.2vw + 20px);
   padding: 10px 0;
   color: #3498db;
 }
@@ -998,4 +1042,13 @@ header .header_inner_nav .toggle.active .bar:nth-child(3) {
 }
 .info_book_inner_description .btn:active {
   transform: scale(0.9);
+}
+
+@media screen and (max-width: 1000px) {
+  .info_book {
+    padding: 10px;
+  }
+  .info_book_inner {
+    grid-template-columns: 1fr;
+  }
 }/*# sourceMappingURL=main.css.map */
