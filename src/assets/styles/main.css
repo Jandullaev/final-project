@@ -276,7 +276,7 @@ header .header_inner_nav .toggle.active .bar:nth-child(3) {
   outline: none;
   border: 1px solid #ddd;
   border-radius: 4px;
-  padding: 7px 20px;
+  padding: 9px 22px;
   color: gray;
   -webkit-appearance: none;
      -moz-appearance: none;
@@ -1008,6 +1008,17 @@ header .header_inner_nav .toggle.active .bar:nth-child(3) {
   content: "Genre:";
   padding-right: 10px;
 }
+.info_book_inner_description #bookAuthor {
+  font-size: 15px;
+  display: flex;
+  font-weight: 600;
+  padding-bottom: 20px;
+  color: #3498db;
+}
+.info_book_inner_description #bookAuthor:before {
+  content: "Author:";
+  padding-right: 10px;
+}
 .info_book_inner_description .desc {
   padding: 0 0 20px 0;
   font-weight: 600;
@@ -1036,6 +1047,7 @@ header .header_inner_nav .toggle.active .bar:nth-child(3) {
   font-family: "Open Sans", sans-serif;
   font-size: 15px;
   font-weight: 400;
+  margin-right: 10px;
 }
 .info_book_inner_description .btn:hover {
   background-color: #298bcc;

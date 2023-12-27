@@ -83,6 +83,7 @@
     "js-base64": "^2.6.4",
     "js-tokens": "^4.0.0",
     "json-parse-even-better-errors": "^2.3.1",
+    "json-server": "^0.17.4",
     "kind-of": "^6.0.3",
     "lines-and-columns": "^1.2.4",
     "locate-path": "^5.0.0",
@@ -178,7 +179,8 @@
   "scripts": {
     "sass": "node-sass -w src/assets/styles/main.scss -o css/ --recursive",
     "lint": "eslint 'src/assets/scripts/main.js' && stylelint 'src/assets/styles/main.scss'",
-    "test": "jest"
+    "test": "jest",
+    "start": "json-server --watch ./src/assets/library/library.json"
   },
   "repository": {
     "type": "git",

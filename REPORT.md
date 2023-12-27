@@ -99,3 +99,6 @@ Not Started
 - The web application page is displayed correctly for all screen resolutions.
 - Server is working 
 - All data on the website loads via API calls.
+- Booking is working!
+- Created express.json
+- some changes in main.js and app.js
