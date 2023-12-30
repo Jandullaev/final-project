@@ -42,14 +42,14 @@ function fetchBookDetails(bookId) {
   // Fetch book details from your data source (e.g., another JSON file or API)
   // Replace this with your actual data fetching logic
   fetch("assets/library/library.json")
-      .then((response) => response.json())
-      .then((data) => {
-        // Access the "books" property in the JSON data
-        const books = data.books || [];
-        const book = books.find((item) => item.id == bookId);
-        displayBookDetails(book);
-      })
-      .catch((error) => console.error("Error fetching book details:", error));
+    .then((response) => response.json())
+    .then((data) => {
+      // Access the "books" property in the JSON data
+      const books = data.books || [];
+      const book = books.find((item) => item.id == bookId);
+      displayBookDetails(book);
+    })
+    .catch((error) => console.error("Error fetching book details:", error));
 }
 
 function displayBookDetails(book) {
@@ -60,17 +60,27 @@ function displayBookDetails(book) {
   const bookAuthor = document.getElementById("bookAuthor");
   const bookDate = document.getElementById("bookDate");
   const bookButton = document.getElementById("bookButton");
+  const bookBooked = document.getElementById('bookBooked');
+
 
   if (book) {
     bookImageElement.innerHTML = `<img src="${book.imageBook}" alt="${book.title}">`;
-    bookTitle.innerHTML = `<p>${book.title}</p>`; // Add the book description property if available
+    bookTitle.innerHTML = `<p>${book.title}</p>`; 
     bookSubject.innerHTML = `<p>${book.subject}</p>`;
     bookAuthor.innerHTML = `<p>${book.author}</p>`;
-    bookDate.innerHTML = `<p>${book.dueDate}</p>`; // Add the book description property if available
-
-    if (!book.isAvailable) {
-      bookButton.disabled = true;
-    }
+    bookDate.innerHTML = `<p>${book.dueDate}</p>`;
+    bookButton.innerHTML = `<p>${book.bookBtn}</p>`;
+  }
+  
+  if (book.bookBtn === "Booked") {
+    bookButton.disabled = true;
+    bookButton.style.backgroundColor = "#ddd";
+    bookButton.style.transform = "scale(1)";
+    bookBooked.innerHTML = `<p>${book.bookBtn}</p>`;
+  }
+   else {
+    bookButton.disabled = false;
+    bookBooked.innerHTML = "";
   }
 }
 
@@ -78,10 +88,16 @@ const serverEndpoint = "http://localhost:3000/books";
 function handleBookButtonClick() {
   const bookDateElement = document.getElementById("bookDate");
   const bookButton = document.getElementById("bookButton");
+  const startDateInput = document.getElementById("startDate");
+  const endDateInput = document.getElementById("endDate");
+  
+
+  if (startDateInput && endDateInput && bookDateElement && bookButton) {
+    const selectedStartDate = startDateInput.value;
+    const selectedEndDate = endDateInput.value;
 
 
-  if (bookDateElement && bookButton) {
-    // Update the dueDate in the JSON data
+    // Fetch data and update book
     fetch(serverEndpoint)
       .then((response) => response.json())
       .then((data) => {
@@ -89,11 +105,27 @@ function handleBookButtonClick() {
         const bookId = urlParams.get("id");
         const book = data.find((item) => item.id == bookId);
 
+
         if (book) {
-          // Update dueDate to 1 month later
-          const currentDate = new Date();
-          const newDate = addOneMonth(currentDate);
-          book.dueDate = newDate.toISOString().split("T")[0];
+          book.dueDate = `From ${selectedStartDate} to ${selectedEndDate}`;
+
+          if (!selectedStartDate.trim() || !selectedEndDate.trim()) {
+            book.dueDate = "You must to select date!";
+            bookDateElement.style.color = "crimson"
+            bookButton.disabled = false;
+          } else {
+            book.dueDate = `From ${selectedStartDate} to ${selectedEndDate}`;
+            bookButton.innerHTML = "Booked";
+            book.bookBtn = "Booked";
+            bookButton.disabled = true;
+            startDateInput.style.display = "none";
+            endDateInput.style.display = "none";
+          }
+          if (selectedEndDate - selectedStartDate === 0) {
+            bookButton.innerHTML = "Book";
+            book.bookBtn = "Book";
+            bookButton.disabled = false;
+          }
 
           // Save the updated JSON data back to the server
           fetch(`${serverEndpoint}/${bookId}`, {
@@ -104,24 +136,16 @@ function handleBookButtonClick() {
             body: JSON.stringify(book),
           })
             .then(() => {
-              // Display the updated book date
-              bookDateElement.innerHTML = `<p>Booked Successfully. Validity Period: ${book.dueDate}</p>`;
+              bookDateElement.innerHTML = `<p>Validity Period: ${book.dueDate}</p>`;
 
-              // Disable the "Book" button
-              bookButton.disabled = true;
             })
-            .catch((error) => console.error("Error saving updated data:", error));
+            .catch((error) =>
+              console.error("Error saving updated data:", error)
+            );
         }
       })
       .catch((error) => console.error("Error updating dueDate:", error));
   }
-}
-
-function addOneMonth(date) {
-  const newDate = new Date(date);
-  newDate.setMonth(newDate.getMonth() + 1);
-
-  return newDate;
 }
 
 // ---------- Navbar Click ---------- //

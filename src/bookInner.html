@@ -5,18 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Books</title>
     <link rel="stylesheet" href="./assets/styles/main.css" />
-    <link rel="icon" href="./assets/images/book.png">
+    <link rel="icon" href="./assets/images/book.png" />
     <link
-    href="./assets/icons/boxicons/css/boxicons.min.css"
-    rel="stylesheet"
-  />
-
+      href="./assets/icons/boxicons/css/boxicons.min.css"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <header>
       <div class="container">
         <div class="header_inner">
-          <div class="header_inner_logo"><a href="./index.html">E-Library</a></div>
+          <div class="header_inner_logo">
+            <a href="./index.html">E-Library</a>
+          </div>
 
           <nav class="header_inner_nav">
             <ul>
@@ -50,26 +51,37 @@
       </section>
 
       <section class="info_book">
-          <div class="container">
-               <div class="info_book_inner">
-                    <div class="info_book_inner_image" id="bookImage">
-                         
-                    </div>
-                    <div class="info_book_inner_description">
-                        <h2 id="bookTitle"></h2>
-                        <p id="bookSubject"></p>
-                        <p id="bookAuthor"></p>
-                        <p class="desc">This book invites you to explore the magic of storytelling, providing an immersive experience that takes you to distant realms and introduces you to intriguing characters. Whether you seek relaxation, knowledge, or simply a delightful escape, this book is your companion on the path to discovery.  Join us on this literary adventure where every chapter is a step closer to understanding, inspiration, and the sheer joy of a good book. Get ready to unwind, learn, and lose yourself in the art of storytelling.</p>
-                        <p>Validity Period: </p>
-                        <p id="bookDate"></p>
-                        <br>
-                        <a class="btn" href="book.html">Go Back</a>
-                        <button class="btn" id="bookButton">Book</button>
-                    </div>
-               </div>
+        <div class="container">
+          <div class="info_book_inner">
+            <div class="info_book_inner_image" id="bookImage"></div>
+            <div class="info_book_inner_description">
+              <h2 id="bookTitle"></h2>
+              <p id="bookSubject"></p>
+              <p id="bookAuthor"></p>
+              <p class="desc">
+                This book invites you to explore the magic of storytelling,
+                providing an immersive experience that takes you to distant
+                realms and introduces you to intriguing characters. Whether you
+                seek relaxation, knowledge, or simply a delightful escape, this
+                book is your companion on the path to discovery. Join us on this
+                literary adventure where every chapter is a step closer to
+                understanding, inspiration, and the sheer joy of a good book.
+                Get ready to unwind, learn, and lose yourself in the art of
+                storytelling.
+              </p>
+              <label for="startDate">Start Date:</label>
+              <input type="date" id="startDate" name="startDate" required />
+
+              <label for="endDate">End Date:</label>
+              <input type="date" id="endDate" name="endDate" required />
+              <p id="bookDate"></p>
+              <br />
+              <a class="btn" href="book.html">Go Back</a>
+              <button class="btn" disabled id="bookButton"></button>
+            </div>
           </div>
+        </div>
       </section>
-     
     </article>
     <footer class="footer">
       <div class="container">
@@ -82,23 +94,23 @@
               <ul>
                 <li class="social_media_link">
                   <a href="#">
-                  <i class="bx bxl-linkedin-square"></i>
-                </a>
+                    <i class="bx bxl-linkedin-square"></i>
+                  </a>
                 </li>
                 <li class="social_media_link">
                   <a href="#">
-                  <i class="bx bxl-telegram"></i>
-                </a>
+                    <i class="bx bxl-telegram"></i>
+                  </a>
                 </li>
                 <li class="social_media_link">
                   <a href="#">
-                  <i class="bx bxl-instagram"></i>
-                </a>
+                    <i class="bx bxl-instagram"></i>
+                  </a>
                 </li>
                 <li class="social_media_link">
                   <a href="#">
-                  <i class="bx bxl-facebook-square"></i>
-                </a>
+                    <i class="bx bxl-facebook-square"></i>
+                  </a>
                 </li>
               </ul>
             </div>
@@ -124,6 +136,5 @@
 
     <script src="./assets/scripts/app.js"></script>
     <script src="./assets/scripts/main.js"></script>
-
   </body>
 </html>

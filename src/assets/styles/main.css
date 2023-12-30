@@ -70,6 +70,7 @@ header .header_inner_nav ul .btn {
   font-family: "Open Sans", sans-serif;
   font-size: 15px;
   font-weight: 400;
+  text-align: center;
 }
 header .header_inner_nav ul .btn:hover {
   background-color: #298bcc;
@@ -220,6 +221,7 @@ header .header_inner_nav .toggle.active .bar:nth-child(3) {
   font-family: "Open Sans", sans-serif;
   font-size: 15px;
   font-weight: 400;
+  text-align: center;
 }
 .hero_inner .btn:hover {
   background-color: #298bcc;
@@ -300,26 +302,6 @@ header .header_inner_nav .toggle.active .bar:nth-child(3) {
 .book_inner .filters .search input:focus {
   border-color: #3498db;
 }
-.book_inner .filters .search .btn {
-  padding: 8px 20px;
-  background-color: #3498db;
-  color: #fff;
-  border-radius: 4px;
-  transition: 0.3s;
-  border: none;
-  outline: none;
-  cursor: pointer;
-  text-decoration: none;
-  font-family: "Open Sans", sans-serif;
-  font-size: 15px;
-  font-weight: 400;
-}
-.book_inner .filters .search .btn:hover {
-  background-color: #298bcc;
-}
-.book_inner .filters .search .btn:active {
-  transform: scale(0.9);
-}
 .book_inner .book_container {
   padding: 20px;
   overflow: scroll;
@@ -366,18 +348,17 @@ header .header_inner_nav .toggle.active .bar:nth-child(3) {
   font-family: "Open Sans", sans-serif;
   font-size: 15px;
   font-weight: 400;
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  color: #fff;
 }
 .book_inner .book_container .book_wrap .book_info_btn:hover {
   background-color: #298bcc;
 }
 .book_inner .book_container .book_wrap .book_info_btn:active {
   transform: scale(0.9);
-}
-.book_inner .book_container .book_wrap .book_info_btn a {
-  font-family: "Open Sans", sans-serif;
-  font-size: 15px;
-  font-weight: 400;
-  color: #fff;
 }
 .book_inner #no-results-message {
   text-align: center;
@@ -603,6 +584,7 @@ header .header_inner_nav .toggle.active .bar:nth-child(3) {
   font-family: "Open Sans", sans-serif;
   font-size: 15px;
   font-weight: 400;
+  text-align: center;
   background-color: #fff;
   border: 2px solid #3498db;
   color: #3498db;
@@ -851,6 +833,7 @@ header .header_inner_nav .toggle.active .bar:nth-child(3) {
   font-family: "Open Sans", sans-serif;
   font-size: 15px;
   font-weight: 400;
+  text-align: center;
 }
 .contact .contact_inner_bottom .email_form_input .btn:hover {
   background-color: #298bcc;
@@ -1047,6 +1030,7 @@ header .header_inner_nav .toggle.active .bar:nth-child(3) {
   font-family: "Open Sans", sans-serif;
   font-size: 15px;
   font-weight: 400;
+  text-align: center;
   margin-right: 10px;
 }
 .info_book_inner_description .btn:hover {

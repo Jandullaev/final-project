@@ -5,17 +5,19 @@
       "title": "20,000 Leagues under the seas",
       "subject": "Adventure",
       "author": "Allayar Jandullaev",
-      "dueDate": "2024-01-27",
+      "dueDate": "From 2023-12-28 to 2024-01-28",
       "imageBook": "/src/assets/images/Books/Adventure_1.jpeg",
+      "bookBtn": "Booked",
       "isAvailable": true
     },
     {
       "id": 2,
       "title": "The Count Of Monte Cristo",
       "subject": "Adventure",
-      "dueDate": "From Today to 30.01.2024",
+      "dueDate": "From 2023-12-30 to 2023-12-31",
       "author": "Allayar Jandullaev",
       "imageBook": "/src/assets/images/Books/Adventure_2.jpeg",
+      "bookBtn": "Booked",
       "isAvailable": true
     },
     {
@@ -23,8 +25,9 @@
       "title": "Hucklebebby Fin",
       "subject": "Adventure",
       "author": "Allayar Jandullaev",
-      "dueDate": "From Today to 30.01.2024",
+      "dueDate": "From 2023-12-30 to 2023-12-31",
       "imageBook": "/src/assets/images/Books/Adventure_3.jpeg",
+      "bookBtn": "Booked",
       "isAvailable": true
     },
     {
@@ -32,8 +35,9 @@
       "title": "The Call of The Wild",
       "subject": "Adventure",
       "author": "Allayar Jandullaev",
-      "dueDate": "From Today to 30.01.2024",
+      "dueDate": "Not Booked",
       "imageBook": "/src/assets/images/Books/Adventure_4.jpeg",
+      "bookBtn": "Booked",
       "isAvailable": true
     },
     {
@@ -41,8 +45,9 @@
       "title": "Tween Snow An Fire",
       "subject": "Adventure",
       "author": "Allayar Jandullaev",
-      "dueDate": "From Today to 30.01.2024",
+      "dueDate": "From 2023-12-30 to 2023-12-31",
       "imageBook": "/src/assets/images/Books/Adventure_5.jpeg",
+      "bookBtn": "Booked",
       "isAvailable": true
     },
     {
@@ -50,8 +55,9 @@
       "title": "Dropped From The Clouds",
       "subject": "Adventure",
       "author": "Allayar Jandullaev",
-      "dueDate": "From Today to 30.01.2024",
+      "dueDate": "Not Booked",
       "imageBook": "/src/assets/images/Books/Adventure_6.jpeg",
+      "bookBtn": "Book",
       "isAvailable": true
     },
     {
@@ -59,8 +65,9 @@
       "title": "Fast As The Wind",
       "subject": "Adventure",
       "author": "Allayar Jandullaev",
-      "dueDate": "From Today to 30.01.2024",
+      "dueDate": "Not Booked",
       "imageBook": "/src/assets/images/Books/Adventure_7.jpeg",
+      "bookBtn": "Book",
       "isAvailable": true
     },
     {
@@ -68,8 +75,9 @@
       "title": "Around The World",
       "subject": "Adventure",
       "author": "Allayar Jandullaev",
-      "dueDate": "From 01.01.2024 to 01.05.2024",
+      "dueDate": "Not Booked",
       "imageBook": "/src/assets/images/Books/Adventure_8.jpeg",
+      "bookBtn": "Book",
       "isAvailable": true
     },
     {
@@ -77,8 +85,9 @@
       "title": "Sun Tzu on The Art Of War",
       "subject": "History",
       "author": "Allayar Jandullaev",
-      "dueDate": "From 01.01.2024 to 01.05.2024",
+      "dueDate": "Not Booked",
       "imageBook": "/src/assets/images/Books/Biography_1.jpeg",
+      "bookBtn": "Book",
       "isAvailable": true
     },
     {
@@ -86,8 +95,9 @@
       "title": "The Count Of Monte Cristo",
       "subject": "History",
       "author": "Allayar Jandullaev",
-      "dueDate": "From 01.01.2024 to 01.05.2024",
+      "dueDate": "Not Booked",
       "imageBook": "/src/assets/images/Books/Biography_2.jpeg",
+      "bookBtn": "Book",
       "isAvailable": true
     },
     {
@@ -95,8 +105,9 @@
       "title": "Tween Snow An Fire",
       "subject": "History",
       "author": "Allayar Jandullaev",
-      "dueDate": "Borrowed,  until 01.02.2024",
+      "dueDate": "Not Booked",
       "imageBook": "/src/assets/images/Books/Biography_3.jpeg",
+      "bookBtn": "Book",
       "isAvailable": true
     },
     {
@@ -104,8 +115,9 @@
       "title": "Tale Of Two Cities",
       "subject": "History",
       "author": "Allayar Jandullaev",
-      "dueDate": "From 01.01.2024 to 01.03.2024",
+      "dueDate": "Not Booked",
       "imageBook": "/src/assets/images/Books/Biography_4.jpeg",
+      "bookBtn": "Book",
       "isAvailable": true
     },
     {
@@ -113,8 +125,9 @@
       "title": "Walden",
       "subject": "History",
       "author": "Allayar Jandullaev",
-      "dueDate": "From 01.01.2024 to 01.05.2024",
+      "dueDate": "Not Booked",
       "imageBook": "/src/assets/images/Books/Biography_5.jpeg",
+      "bookBtn": "Book",
       "isAvailable": true
     },
     {
@@ -122,8 +135,9 @@
       "title": "Noli Me Ta'ngere",
       "subject": "History",
       "author": "Allayar Jandullaev",
-      "dueDate": "From 01.01.2024 to 01.03.2024",
+      "dueDate": "Not Booked",
       "imageBook": "/src/assets/images/Books/Biography_6.jpeg",
+      "bookBtn": "Book",
       "isAvailable": true
     },
     {
@@ -131,8 +145,9 @@
       "title": "Scarlet Letter",
       "subject": "History",
       "author": "Allayar Jandullaev",
-      "dueDate": "From 01.01.2024 to 01.05.2024",
+      "dueDate": "Not Booked",
       "imageBook": "/src/assets/images/Books/Biography_7.jpeg",
+      "bookBtn": "Book",
       "isAvailable": true
     },
     {
@@ -140,8 +155,9 @@
       "title": "The Origin Of The Family Priviate",
       "subject": "History",
       "author": "Allayar Jandullaev",
-      "dueDate": "Borrowed,  until 01.02.2024",
+      "dueDate": "Not Booked",
       "imageBook": "/src/assets/images/Books/Biography_8.jpeg",
+      "bookBtn": "Book",
       "isAvailable": true
     },
     {
@@ -149,8 +165,9 @@
       "title": "Hucklebebby Fin",
       "subject": "Children",
       "author": "Allayar Jandullaev",
-      "dueDate": "From 01.01.2024 to 01.05.2024",
+      "dueDate": "Not Booked",
       "imageBook": "/src/assets/images/Books/Children_1.jpeg",
+      "bookBtn": "Book",
       "isAvailable": true
     },
     {
@@ -158,8 +175,9 @@
       "title": "A Pair Of School",
       "subject": "Children",
       "author": "Allayar Jandullaev",
-      "dueDate": "Borrowed,  until 01.02.2024",
+      "dueDate": "Not Booked",
       "imageBook": "/src/assets/images/Books/Children_2.jpeg",
+      "bookBtn": "Book",
       "isAvailable": true
     },
     {
@@ -167,8 +185,9 @@
       "title": "ABC's Of Science",
       "subject": "Children",
       "author": "Allayar Jandullaev",
-      "dueDate": "From Today to 30.01.2024",
+      "dueDate": "Not Booked",
       "imageBook": "/src/assets/images/Books/Children_3.jpeg",
+      "bookBtn": "Book",
       "isAvailable": true
     },
     {
@@ -176,8 +195,9 @@
       "title": "Oliver Twist",
       "subject": "Children",
       "author": "Allayar Jandullaev",
-      "dueDate": "Borrowed,  until 01.02.2024",
+      "dueDate": "Not Booked",
       "imageBook": "/src/assets/images/Books/Children_4.jpeg",
+      "bookBtn": "Book",
       "isAvailable": true
     },
     {
@@ -185,8 +205,9 @@
       "title": "Aesop's Fables",
       "subject": "Children",
       "author": "Allayar Jandullaev",
-      "dueDate": "From 01.01.2024 to 01.05.2024",
+      "dueDate": "Not Booked",
       "imageBook": "/src/assets/images/Books/Children_5.jpeg",
+      "bookBtn": "Book",
       "isAvailable": true
     },
     {
@@ -194,8 +215,9 @@
       "title": "Rimms' Fairy Tales",
       "subject": "Children",
       "author": "Allayar Jandullaev",
-      "dueDate": "Borrowed,  until 01.02.2024",
+      "dueDate": "Not Booked",
       "imageBook": "/src/assets/images/Books/Children_6.jpeg",
+      "bookBtn": "Book",
       "isAvailable": true
     },
     {
@@ -203,8 +225,9 @@
       "title": "Alice's in Wonderland",
       "subject": "Children",
       "author": "Allayar Jandullaev",
-      "dueDate": "From 01.01.2024 to 01.03.2024",
+      "dueDate": "Not Booked",
       "imageBook": "/src/assets/images/Books/Children_7.jpeg",
+      "bookBtn": "Book",
       "isAvailable": true
     },
     {
@@ -212,8 +235,9 @@
       "title": "Laughing Last",
       "subject": "Children",
       "author": "Allayar Jandullaev",
-      "dueDate": "Borrowed,  until 01.02.2024",
+      "dueDate": "Not Booked",
       "imageBook": "/src/assets/images/Books/Children_8.jpeg",
+      "bookBtn": "Book",
       "isAvailable": true
     },
     {
@@ -221,8 +245,9 @@
       "title": "The Arabian Nights",
       "subject": "Fantasy",
       "author": "Allayar Jandullaev",
-      "dueDate": "From 01.01.2024 to 01.05.2024",
+      "dueDate": "Not Booked",
       "imageBook": "/src/assets/images/Books/Fantasy_1.jpeg",
+      "bookBtn": "Book",
       "isAvailable": true
     },
     {
@@ -230,8 +255,9 @@
       "title": "Time Machine",
       "subject": "Fantasy",
       "author": "Allayar Jandullaev",
-      "dueDate": "From 01.01.2024 to 01.05.2024",
+      "dueDate": "Not Booked",
       "imageBook": "/src/assets/images/Books/Fantasy_2.jpeg",
+      "bookBtn": "Book",
       "isAvailable": true
     },
     {
@@ -239,8 +265,9 @@
       "title": "The Demon Girl",
       "subject": "Fantasy",
       "author": "Allayar Jandullaev",
-      "dueDate": "From 01.01.2024 to 01.03.2024",
+      "dueDate": "Not Booked",
       "imageBook": "/src/assets/images/Books/Fantasy_3.jpeg",
+      "bookBtn": "Book",
       "isAvailable": true
     },
     {
@@ -248,8 +275,9 @@
       "title": "The Phantom Of The Opera",
       "subject": "Fantasy",
       "author": "Allayar Jandullaev",
-      "dueDate": "From 01.01.2024 to 01.05.2024",
+      "dueDate": "Not Booked",
       "imageBook": "/src/assets/images/Books/Fantasy_4.jpeg",
+      "bookBtn": "Book",
       "isAvailable": true
     },
     {
@@ -257,8 +285,9 @@
       "title": "Aladdin Or The Wonderful Lamp",
       "subject": "Fantasy",
       "author": "Allayar Jandullaev",
-      "dueDate": "From 01.01.2024 to 01.03.2024",
+      "dueDate": "Not Booked",
       "imageBook": "/src/assets/images/Books/Fantasy_5.jpeg",
+      "bookBtn": "Book",
       "isAvailable": true
     },
     {
@@ -266,8 +295,9 @@
       "title": "Clarimonde",
       "subject": "Fantasy",
       "author": "Allayar Jandullaev",
-      "dueDate": "From 01.01.2024 to 01.05.2024",
+      "dueDate": "Not Booked",
       "imageBook": "/src/assets/images/Books/Fantasy_6.jpeg",
+      "bookBtn": "Book",
       "isAvailable": true
     },
     {
@@ -275,8 +305,9 @@
       "title": "Gulliver's Travels",
       "subject": "Fantasy",
       "author": "Allayar Jandullaev",
-      "dueDate": "Borrowed,  until 01.02.2024",
+      "dueDate": "Not Booked",
       "imageBook": "/src/assets/images/Books/Fantasy_7.jpeg",
+      "bookBtn": "Book",
       "isAvailable": true
     },
     {
@@ -284,8 +315,9 @@
       "title": "The Arabian Nights Entertaiments",
       "subject": "Fantasy",
       "author": "Allayar Jandullaev",
-      "dueDate": "From 01.01.2024 to 01.05.2024",
+      "dueDate": "Not Booked",
       "imageBook": "/src/assets/images/Books/Fantasy_8.jpeg",
+      "bookBtn": "Book",
       "isAvailable": true
     },
     {
@@ -293,8 +325,9 @@
       "title": "Astounding Stories",
       "subject": "Horror",
       "author": "Allayar Jandullaev",
-      "dueDate": "From 01.01.2024 to 01.03.2024",
+      "dueDate": "Not Booked",
       "imageBook": "/src/assets/images/Books/Horror_1.jpeg",
+      "bookBtn": "Book",
       "isAvailable": true
     },
     {
@@ -302,8 +335,9 @@
       "title": "Best Ghost Stories",
       "subject": "Horror",
       "author": "Allayar Jandullaev",
-      "dueDate": "From 01.01.2024 to 01.05.2024",
+      "dueDate": "Not Booked",
       "imageBook": "/src/assets/images/Books/Horror_2.jpeg",
+      "bookBtn": "Book",
       "isAvailable": true
     },
     {
@@ -311,8 +345,9 @@
       "title": "Dracula",
       "subject": "Horror",
       "author": "Allayar Jandullaev",
-      "dueDate": "From 01.01.2024 to 01.05.2024",
+      "dueDate": "Not Booked",
       "imageBook": "/src/assets/images/Books/Horror_3.jpeg",
+      "bookBtn": "Book",
       "isAvailable": true
     },
     {
@@ -320,8 +355,9 @@
       "title": "Invisible Man",
       "subject": "Horror",
       "author": "Allayar Jandullaev",
-      "dueDate": "Borrowed,  until 01.02.2024",
+      "dueDate": "Not Booked",
       "imageBook": "/src/assets/images/Books/Horror_4.jpeg",
+      "bookBtn": "Book",
       "isAvailable": true
     },
     {
@@ -329,8 +365,9 @@
       "title": "Metamorphosis",
       "subject": "Horror",
       "author": "Allayar Jandullaev",
-      "dueDate": "From Today to 30.01.2024",
+      "dueDate": "Not Booked",
       "imageBook": "/src/assets/images/Books/Horror_5.jpeg",
+      "bookBtn": "Book",
       "isAvailable": true
     },
     {
@@ -338,8 +375,9 @@
       "title": "The Yellow WallPaper",
       "subject": "Horror",
       "author": "Allayar Jandullaev",
-      "dueDate": "From 01.01.2024 to 01.03.2024",
+      "dueDate": "Not Booked",
       "imageBook": "/src/assets/images/Books/Horror_6.jpeg",
+      "bookBtn": "Book",
       "isAvailable": true
     },
     {
@@ -347,8 +385,9 @@
       "title": "Dunwich Horror",
       "subject": "Horror",
       "author": "Allayar Jandullaev",
-      "dueDate": "From 01.01.2024 to 01.03.2024",
+      "dueDate": "Not Booked",
       "imageBook": "/src/assets/images/Books/Horror_7.jpeg",
+      "bookBtn": "Book",
       "isAvailable": true
     },
     {
@@ -356,8 +395,9 @@
       "title": "The Island Of DR.Moreau",
       "subject": "Horror",
       "author": "Allayar Jandullaev",
-      "dueDate": "From 01.01.2024 to 01.05.2024",
+      "dueDate": "Not Booked",
       "imageBook": "/src/assets/images/Books/Horror_8.jpeg",
+      "bookBtn": "Book",
       "isAvailable": true
     },
     {
@@ -365,8 +405,9 @@
       "title": "Best Ghost Stories",
       "subject": "Literary",
       "author": "Allayar Jandullaev",
-      "dueDate": "From 01.01.2024 to 01.03.2024",
+      "dueDate": "Not Booked",
       "imageBook": "/src/assets/images/Books/Litarary_1.jpeg",
+      "bookBtn": "Book",
       "isAvailable": true
     },
     {
@@ -374,8 +415,9 @@
       "title": "Dracula",
       "subject": "Literary",
       "author": "Allayar Jandullaev",
-      "dueDate": "Borrowed,  until 01.02.2024",
+      "dueDate": "Not Booked",
       "imageBook": "/src/assets/images/Books/Litarary_2.jpeg",
+      "bookBtn": "Book",
       "isAvailable": true
     },
     {
@@ -383,8 +425,9 @@
       "title": "Macbeth",
       "subject": "Literary",
       "author": "Allayar Jandullaev",
-      "dueDate": "From 01.01.2024 to 01.05.2024",
+      "dueDate": "Not Booked",
       "imageBook": "/src/assets/images/Books/Litarary_3.jpeg",
+      "bookBtn": "Book",
       "isAvailable": true
     },
     {
@@ -392,8 +435,9 @@
       "title": "Persuasion",
       "subject": "Literary",
       "author": "Allayar Jandullaev",
-      "dueDate": "Borrowed,  until 01.02.2024",
+      "dueDate": "Not Booked",
       "imageBook": "/src/assets/images/Books/Litarary_4.jpeg",
+      "bookBtn": "Book",
       "isAvailable": true
     },
     {
@@ -401,8 +445,9 @@
       "title": "Crime & Punishment",
       "subject": "Literary",
       "author": "Allayar Jandullaev",
-      "dueDate": "From 01.01.2024 to 01.05.2024",
+      "dueDate": "Not Booked",
       "imageBook": "/src/assets/images/Books/Litarary_5.jpeg",
+      "bookBtn": "Book",
       "isAvailable": true
     },
     {
@@ -410,8 +455,9 @@
       "title": "Time Machine",
       "subject": "Literary",
       "author": "Allayar Jandullaev",
-      "dueDate": "From 01.01.2024 to 01.03.2024",
+      "dueDate": "Not Booked",
       "imageBook": "/src/assets/images/Books/Litarary_6.jpeg",
+      "bookBtn": "Book",
       "isAvailable": true
     },
     {
@@ -419,8 +465,9 @@
       "title": "Siddhartha",
       "subject": "Literary",
       "author": "Allayar Jandullaev",
-      "dueDate": "From 01.01.2024 to 01.03.2024",
+      "dueDate": "Not Booked",
       "imageBook": "/src/assets/images/Books/Litarary_7.jpeg",
+      "bookBtn": "Book",
       "isAvailable": true
     },
     {
@@ -428,8 +475,9 @@
       "title": "Invisible Man",
       "subject": "Literary",
       "author": "Allayar Jandullaev",
-      "dueDate": "Borrowed,  until 01.02.2024",
+      "dueDate": "Not Booked",
       "imageBook": "/src/assets/images/Books/Litarary_8.jpeg",
+      "bookBtn": "Book",
       "isAvailable": true
     },
     {
@@ -437,8 +485,9 @@
       "title": "Crime & Punishment",
       "subject": "Mistery",
       "author": "Allayar Jandullaev",
-      "dueDate": "From 01.01.2024 to 01.03.2024",
+      "dueDate": "Not Booked",
       "imageBook": "/src/assets/images/Books/Mystery_1.jpeg",
+      "bookBtn": "Book",
       "isAvailable": true
     },
     {
@@ -446,8 +495,9 @@
       "title": "The Works Of Allan Poe",
       "subject": "Mistery",
       "author": "Allayar Jandullaev",
-      "dueDate": "Borrowed,  until 01.02.2024",
+      "dueDate": "Not Booked",
       "imageBook": "/src/assets/images/Books/Mystery_2.jpeg",
+      "bookBtn": "Book",
       "isAvailable": true
     },
     {
@@ -455,8 +505,9 @@
       "title": "The Mysterious Affair At Styles",
       "subject": "Mistery",
       "author": "Allayar Jandullaev",
-      "dueDate": "From 01.01.2024 to 01.03.2024",
+      "dueDate": "Not Booked",
       "imageBook": "/src/assets/images/Books/Mystery_3.jpeg",
+      "bookBtn": "Book",
       "isAvailable": true
     },
     {
@@ -464,8 +515,9 @@
       "title": "Woman In The White",
       "subject": "Mistery",
       "author": "Allayar Jandullaev",
-      "dueDate": "From 01.01.2024 to 01.05.2024",
+      "dueDate": "Not Booked",
       "imageBook": "/src/assets/images/Books/Mystery_4.jpeg",
+      "bookBtn": "Book",
       "isAvailable": true
     },
     {
@@ -473,8 +525,9 @@
       "title": "The Hound Of The Baskervilles",
       "subject": "Mistery",
       "author": "Allayar Jandullaev",
-      "dueDate": "From Today to 30.01.2024",
+      "dueDate": "Not Booked",
       "imageBook": "/src/assets/images/Books/Mystery_5.jpeg",
+      "bookBtn": "Book",
       "isAvailable": true
     },
     {
@@ -482,8 +535,9 @@
       "title": "The Phantom Of The Opera",
       "subject": "Mistery",
       "author": "Allayar Jandullaev",
-      "dueDate": "Borrowed,  until 01.02.2024",
+      "dueDate": "Not Booked",
       "imageBook": "/src/assets/images/Books/Mystery_6.jpeg",
+      "bookBtn": "Book",
       "isAvailable": true
     },
     {
@@ -491,8 +545,9 @@
       "title": "The Abandoned Room",
       "subject": "Mistery",
       "author": "Allayar Jandullaev",
-      "dueDate": "From 01.01.2024 to 01.05.2024",
+      "dueDate": "Not Booked",
       "imageBook": "/src/assets/images/Books/Mystery_7.jpeg",
+      "bookBtn": "Book",
       "isAvailable": true
     },
     {
@@ -500,8 +555,9 @@
       "title": "The Accused",
       "subject": "Mistery",
       "author": "Allayar Jandullaev",
-      "dueDate": "From 01.01.2024 to 01.03.2024",
+      "dueDate": "Not Booked",
       "imageBook": "/src/assets/images/Books/Mystery_8.jpeg",
+      "bookBtn": "Book",
       "isAvailable": true
     },
     {
@@ -509,8 +565,9 @@
       "title": "The Grammar Of English Grammars",
       "subject": "NonFiction",
       "author": "Allayar Jandullaev",
-      "dueDate": "Borrowed,  until 01.02.2024",
+      "dueDate": "Not Booked",
       "imageBook": "/src/assets/images/Books/NonFiction_1.jpeg",
+      "bookBtn": "Book",
       "isAvailable": true
     },
     {
@@ -518,8 +575,9 @@
       "title": "The Communist Manifesto",
       "subject": "NonFiction",
       "author": "Allayar Jandullaev",
-      "dueDate": "From 01.01.2024 to 01.05.2024",
+      "dueDate": "Not Booked",
       "imageBook": "/src/assets/images/Books/NonFiction_2.jpeg",
+      "bookBtn": "Book",
       "isAvailable": true
     },
     {
@@ -527,8 +585,9 @@
       "title": "The Age Of Reason",
       "subject": "NonFiction",
       "author": "Allayar Jandullaev",
-      "dueDate": "Borrowed,  until 01.02.2024",
+      "dueDate": "Not Booked",
       "imageBook": "/src/assets/images/Books/NonFiction_3.jpeg",
+      "bookBtn": "Book",
       "isAvailable": true
     },
     {
@@ -536,8 +595,9 @@
       "title": "How To Use Your Mind",
       "subject": "NonFiction",
       "author": "Allayar Jandullaev",
-      "dueDate": "From 01.01.2024 to 01.05.2024",
+      "dueDate": "Not Booked",
       "imageBook": "/src/assets/images/Books/NonFiction_4.jpeg",
+      "bookBtn": "Book",
       "isAvailable": true
     },
     {
@@ -545,8 +605,9 @@
       "title": "On The Origins Of Species",
       "subject": "NonFiction",
       "author": "Allayar Jandullaev",
-      "dueDate": "Borrowed,  until 01.02.2024",
+      "dueDate": "Not Booked",
       "imageBook": "/src/assets/images/Books/NonFiction_5.jpeg",
+      "bookBtn": "Book",
       "isAvailable": true
     },
     {
@@ -554,8 +615,9 @@
       "title": "Oliver Twist",
       "subject": "NonFiction",
       "author": "Allayar Jandullaev",
-      "dueDate": "From 01.01.2024 to 01.03.2024",
+      "dueDate": "Not Booked",
       "imageBook": "/src/assets/images/Books/NonFiction_6.jpeg",
+      "bookBtn": "Book",
       "isAvailable": true
     },
     {
@@ -563,8 +625,9 @@
       "title": "Ten Thousand Dreams Interested",
       "subject": "NonFiction",
       "author": "Allayar Jandullaev",
-      "dueDate": "From 01.01.2024 to 01.05.2024",
+      "dueDate": "Not Booked",
       "imageBook": "/src/assets/images/Books/NonFiction_7.jpeg",
+      "bookBtn": "Book",
       "isAvailable": true
     },
     {
@@ -572,8 +635,9 @@
       "title": "An Inquiry Into The Nature And Causes",
       "subject": "NonFiction",
       "author": "Allayar Jandullaev",
-      "dueDate": "Borrowed,  until 01.02.2024",
+      "dueDate": "Not Booked",
       "imageBook": "/src/assets/images/Books/NonFiction_8.jpeg",
+      "bookBtn": "Book",
       "isAvailable": true
     },
     {
@@ -581,8 +645,9 @@
       "title": "Emma",
       "subject": "Romance",
       "author": "Allayar Jandullaev",
-      "dueDate": "From 01.01.2024 to 01.05.2024",
+      "dueDate": "Not Booked",
       "imageBook": "/src/assets/images/Books/Romance_1.jpeg",
+      "bookBtn": "Book",
       "isAvailable": true
     },
     {
@@ -590,8 +655,9 @@
       "title": "Healing Her Heart",
       "subject": "Romance",
       "author": "Allayar Jandullaev",
-      "dueDate": "From 01.01.2024 to 01.03.2024",
+      "dueDate": "Not Booked",
       "imageBook": "/src/assets/images/Books/Romance_2.jpeg",
+      "bookBtn": "Book",
       "isAvailable": true
     },
     {
@@ -599,8 +665,9 @@
       "title": "The Unveiling",
       "subject": "Romance",
       "author": "Allayar Jandullaev",
-      "dueDate": "From 01.01.2024 to 01.05.2024",
+      "dueDate": "Not Booked",
       "imageBook": "/src/assets/images/Books/Romance_3.jpeg",
+      "bookBtn": "Book",
       "isAvailable": true
     },
     {
@@ -608,8 +675,9 @@
       "title": "The Book",
       "subject": "Romance",
       "author": "Allayar Jandullaev",
-      "dueDate": "Borrowed,  until 01.02.2024",
+      "dueDate": "Not Booked",
       "imageBook": "/src/assets/images/Books/Romance_4.jpeg",
+      "bookBtn": "Book",
       "isAvailable": true
     },
     {
@@ -617,8 +685,9 @@
       "title": "Persuasion",
       "subject": "Romance",
       "author": "Allayar Jandullaev",
-      "dueDate": "Borrowed,  until 01.02.2024",
+      "dueDate": "Not Booked",
       "imageBook": "/src/assets/images/Books/Romance_5.jpeg",
+      "bookBtn": "Book",
       "isAvailable": true
     },
     {
@@ -626,8 +695,9 @@
       "title": "Don Quixote",
       "subject": "Romance",
       "author": "Allayar Jandullaev",
-      "dueDate": "From 01.01.2024 to 01.05.2024",
+      "dueDate": "Not Booked",
       "imageBook": "/src/assets/images/Books/Romance_6.jpeg",
+      "bookBtn": "Book",
       "isAvailable": true
     },
     {
@@ -635,8 +705,9 @@
       "title": "Taking Changes",
       "subject": "Romance",
       "author": "Allayar Jandullaev",
-      "dueDate": "Borrowed,  until 01.02.2024",
+      "dueDate": "Not Booked",
       "imageBook": "/src/assets/images/Books/Romance_7.jpeg",
+      "bookBtn": "Book",
       "isAvailable": true
     },
     {
@@ -644,8 +715,9 @@
       "title": "Jane Eyre",
       "subject": "Romance",
       "author": "Allayar Jandullaev",
-      "dueDate": "From 01.01.2024 to 01.05.2024",
+      "dueDate": "Not Booked",
       "imageBook": "/src/assets/images/Books/Romance_8.jpeg",
+      "bookBtn": "",
       "isAvailable": true
     },
     {
@@ -653,8 +725,9 @@
       "title": "Anthem",
       "subject": "Science",
       "author": "Allayar Jandullaev",
-      "dueDate": "From 01.01.2024 to 01.05.2024",
+      "dueDate": "Not Booked",
       "imageBook": "/src/assets/images/Books/Science_1.jpeg",
+      "bookBtn": "Book",
       "isAvailable": true
     },
     {
@@ -662,8 +735,9 @@
       "title": "A Journey To The Entire Of The Earth",
       "subject": "Science",
       "author": "Allayar Jandullaev",
-      "dueDate": "Borrowed,  until 01.02.2024",
+      "dueDate": "Not Booked",
       "imageBook": "/src/assets/images/Books/Science_2.jpeg",
+      "bookBtn": "Book",
       "isAvailable": true
     },
     {
@@ -671,8 +745,9 @@
       "title": "A Princess of Mars",
       "subject": "Science",
       "author": "Allayar Jandullaev",
-      "dueDate": "From 01.01.2024 to 01.05.2024",
+      "dueDate": "Not Booked",
       "imageBook": "/src/assets/images/Books/Science_3.jpeg",
+      "bookBtn": "Book",
       "isAvailable": true
     },
     {
@@ -680,8 +755,9 @@
       "title": "The Machine Stops",
       "subject": "Science",
       "author": "Allayar Jandullaev",
-      "dueDate": "From Today to 30.01.2024",
+      "dueDate": "Not Booked",
       "imageBook": "/src/assets/images/Books/Science_4.jpeg",
+      "bookBtn": "Book",
       "isAvailable": true
     },
     {
@@ -689,8 +765,9 @@
       "title": "After The Cure",
       "subject": "Science",
       "author": "Allayar Jandullaev",
-      "dueDate": "From 01.01.2024 to 01.05.2024",
+      "dueDate": "Not Booked",
       "imageBook": "/src/assets/images/Books/Science_5.jpeg",
+      "bookBtn": "Book",
       "isAvailable": true
     },
     {
@@ -698,8 +775,9 @@
       "title": "Accelerando",
       "subject": "Science",
       "author": "Allayar Jandullaev",
-      "dueDate": "Borrowed,  until 01.02.2024",
+      "dueDate": "Not Booked",
       "imageBook": "/src/assets/images/Books/Science_6.jpeg",
+      "bookBtn": "Book",
       "isAvailable": true
     },
     {
@@ -707,8 +785,9 @@
       "title": "Agent To The Stars",
       "subject": "Science",
       "author": "Allayar Jandullaev",
-      "dueDate": "From 01.01.2024 to 01.05.2024",
+      "dueDate": "Not Booked",
       "imageBook": "/src/assets/images/Books/Science_7.jpeg",
+      "bookBtn": "Book",
       "isAvailable": true
     },
     {
@@ -716,8 +795,9 @@
       "title": "The Island Of DR.Moreau",
       "subject": "Science",
       "author": "Allayar Jandullaev",
-      "dueDate": "From Today to 30.01.2024",
+      "dueDate": "From  to ",
       "imageBook": "/src/assets/images/Books/Science_8.jpeg",
+      "bookBtn": "Booked",
       "isAvailable": true
     }
   ]

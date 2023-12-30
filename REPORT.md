@@ -102,3 +102,8 @@ Not Started
 - Booking is working!
 - Created express.json
 - some changes in main.js and app.js
+
+### 14. Developing 12
+- Added calendar
+- added exceptions
+- some changes

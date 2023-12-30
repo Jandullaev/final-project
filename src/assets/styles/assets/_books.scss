@@ -54,10 +54,6 @@
             border-color: $royalblue_color;
           }
         }
-  
-        .btn {
-          @include btn;
-        }
       }
     }
 
@@ -101,12 +97,11 @@
 
           &_btn {
             @include btn;
-             a {
               font-family: $open_font;
               font-size: 15px;
               font-weight: 400;
               color: $white_color;
-            }
+
           }
         }
       }
