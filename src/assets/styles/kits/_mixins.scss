@@ -29,6 +29,7 @@
   position: relative;
   color: $gray_color;
   font-family: $open_font;
+
   &::after,
   &::before {
     content: "";
@@ -41,7 +42,7 @@
   &::before {
     margin: 0 15px 10px 0;
   }
-  
+
   &::after {
     margin: 0 0 10px 15px;
   }

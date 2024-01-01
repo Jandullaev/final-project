@@ -4,10 +4,6 @@
   background-size: cover;
   background-repeat: no-repeat;
 
-  // .cover {
-  //   background-color: rgb(0, 0, 0, 0.5);
-  //   height: 100%;
-  // }
   &_inner {
     display: flex;
     align-items: center;
@@ -15,6 +11,18 @@
     flex-direction: column;
     height: 100vh;
     z-index: 999;
+    animation-name: inner;
+    animation-duration: 0.3s;
+
+    @keyframes inner {
+      from {
+        transform: scale(0);
+      }
+
+      to {
+        transform: scale(1);
+      }
+    }
 
     h1 {
       font-size: 40px;
@@ -35,6 +43,5 @@
     .btn {
       @include btn;
     }
-
   }
 }

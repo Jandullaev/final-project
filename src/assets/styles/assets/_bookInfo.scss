@@ -1,85 +1,128 @@
 .info_book {
-     background-color: $white_color;
-     padding: 30px;
+  background-color: $white_color;
+  padding: 30px;
 
-     &_inner {
-       display: grid;
-       grid-template-columns: 1fr 2fr;
-     //   align-items: flex-start;
-      // justify-content: space-evenly;
-       box-shadow: 2px 2px 20px #ddd;
-       padding: 30px;
-       border-radius: 5px;
+  &_inner {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    //   align-items: flex-start;
+    // justify-content: space-evenly;
+    box-shadow: 2px 2px 20px #ddd;
+    padding: 30px;
+    border-radius: 5px;
 
-       &_image {
-          padding: 20px;
+    &_image {
+      padding: 20px;
 
-          img {
-               width: calc(10vw + 169px);
-          }
-       }
+      img {
+        width: calc(10vw + 169px);
+      }
+    }
 
-       &_description {
-          #bookTitle {
-               font-size: calc(2.2vw + 20px);
-               padding: 10px 0;
-               color: $royalblue_color;
-          }
-          #bookSubject {
-               font-size: 24px;
-               display: flex;
-               font-weight: 600;
-               padding-bottom: 20px;
+    &_description {
+      #book-title {
+        font-size: calc(2.2vw + 20px);
+        padding: 10px 0;
+        color: $royalblue_color;
+      }
 
-               &:before {
-                    content: "Genre:";
-                    padding-right: 10px;
-               }
-          }
+      #book-subject {
+        font-size: 24px;
+        display: flex;
+        font-weight: 600;
+        padding-bottom: 20px;
 
-          #bookAuthor {
-               font-size: 15px;
-               display: flex;
-               font-weight: 600;
-               padding-bottom: 20px;
-               color: $royalblue_color;
+        &::before {
+          content: "Genre:";
+          padding-right: 10px;
+        }
+      }
 
-               &:before {
-                    content: "Author:";
-                    padding-right: 10px;
-               }
-          }
+      #book-author {
+        font-size: 15px;
+        display: flex;
+        font-weight: 600;
+        padding-bottom: 20px;
+        color: $royalblue_color;
 
-          .desc {
-               padding: 0 0 20px 0;
-               font-weight: 600;
-               width: 90%;
-               line-height: 1.5rem;
-          }
+        &::before {
+          content: "Author:";
+          padding-right: 10px;
+        }
+      }
 
-          .desc ~ p {
-               font-size: 24px;
-               font-weight: 500;
-          }
-          #bookDate {
-               color: $royalblue_color;
-               font-size: 16px;
-               padding: 10px 0 20px 0;
-          }
+      .desc {
+        padding: 0 0 20px;
+        font-weight: 600;
+        width: 90%;
+        line-height: 1.5rem;
+      }
 
-          .btn {
-               @include btn;
-               margin-right: 10px;
-          }
-       }
-     }
+      .desc ~ p {
+        font-size: 24px;
+        font-weight: 500;
+      }
+
+      #book-date {
+        font-size: 16px;
+        color: $royalblue_color;
+      }
+
+      .dates {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+
+        input[type="date"] {
+          padding: 5px;
+          font-size: 13px;
+          font-family: $open_font;
+          color: $royalblue_color;
+          border-radius: 4px;
+          border: 1px solid $royalblue_color;
+          margin: 10px;
+        }
+
+        ::-webkit-calendar-picker-indicator {
+          padding: 5px;
+          border: 1px solid $royalblue_color;
+          border-radius: 4px;
+          cursor: pointer;
+        }
+      }
+
+      .bookDesc {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        padding: 20px 0;
+        font-size: 16px;
+        color: $royalblue_color;
+
+        #book-desc {
+          padding-right: 8px;
+        }
+      }
+
+      .btn {
+        @include btn;
+
+        margin-right: 10px;
+      }
+    }
+  }
 }
 
 @media screen and (max-width: 1000px) {
-     .info_book {
-          padding: 10px;
-          &_inner {
-               grid-template-columns: 1fr;
-          }
-     }
+  .info_book {
+    padding: 10px;
+
+    &_inner {
+      grid-template-columns: 1fr;
+
+      .dates {
+        flex-direction: column;
+      }
+    }
+  }
 }

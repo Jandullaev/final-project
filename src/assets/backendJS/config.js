@@ -1,6 +1,7 @@
 // eslint-disable-next-line no-undef
-const{initializeApp} = require("firebase/compat/app")
-const {getFirestore, collection, addDoc} = require("firebase/firestore");
+const { initializeApp } = require("firebase/compat/app");
+// eslint-disable-next-line no-undef
+const { getFirestore, collection, addDoc } = require("firebase/firestore");
 const firebaseConfig = {
   apiKey: "AIzaSyATF_efrjtYuHpQEhSipNLwIWckd4WSkfc",
   authDomain: "web-project-895e6.firebaseapp.com",
@@ -12,8 +13,9 @@ const firebaseConfig = {
 };
 
 const firebaseapp = initializeApp(firebaseConfig);
-const db=getFirestore(firebaseapp);
-const Booking=collection(db, "Booking");
+const db = getFirestore(firebaseapp);
+const Booking = collection(db, "Booking");
+// eslint-disable-next-line no-undef
 module.exports = {
-    add:async (data) => await addDoc(Booking, data),
+  add: async (data) => await addDoc(Booking, data),
 };

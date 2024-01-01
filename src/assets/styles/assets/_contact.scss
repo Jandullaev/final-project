@@ -9,7 +9,7 @@
     padding: 80px 0;
 
     &_email {
-     width: 100%
+      width: 100%;
     }
 
     .section_title {
@@ -62,14 +62,16 @@
           }
         }
       }
-    
+
       .email_form {
         padding: 0 20px;
+
         &_input {
           display: flex;
           align-items: center;
           justify-content: center;
           flex-direction: column;
+
           input,
           textarea {
             width: 100%;
@@ -98,12 +100,12 @@
           }
 
           .error_message {
-               display: none;
-               color: #ed3c0d;
-               text-align: left;
-               padding: 15px;
-               font-weight: 600;
-             }
+            display: none;
+            color: #ed3c0d;
+            text-align: left;
+            padding: 15px;
+            font-weight: 600;
+          }
 
           .loading {
             display: none;

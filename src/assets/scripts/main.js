@@ -5,6 +5,7 @@ async function initMap() {
   const position = { lat: -25.344, lng: 131.031 };
   // Request needed libraries.
   //@ts-ignore
+  let google;
   const { Map } = await google.maps.importLibrary("maps");
   const { AdvancedMarkerElement } = await google.maps.importLibrary("marker");
 
@@ -16,7 +17,7 @@ async function initMap() {
   });
 
   // The marker, positioned at Uluru
-  const marker = new AdvancedMarkerElement({
+  new AdvancedMarkerElement({
     map: map,
     position: position,
     title: "Uluru",
@@ -55,47 +56,46 @@ function fetchBookDetails(bookId) {
 function displayBookDetails(book) {
   // Update the content on the page with book details
   const bookImageElement = document.getElementById("bookImage");
-  const bookTitle = document.getElementById("bookTitle");
-  const bookSubject = document.getElementById("bookSubject");
-  const bookAuthor = document.getElementById("bookAuthor");
-  const bookDate = document.getElementById("bookDate");
+  const bookTitle = document.getElementById("book-title");
+  const bookSubject = document.getElementById("book-subject");
+  const bookAuthor = document.getElementById("book-author");
+  const bookDate = document.getElementById("book-date");
   const bookButton = document.getElementById("bookButton");
-  const bookBooked = document.getElementById('bookBooked');
-
+  const bookBooked = document.getElementById("bookBooked");
+  const bookDesc = document.getElementById("book-desc");
 
   if (book) {
     bookImageElement.innerHTML = `<img src="${book.imageBook}" alt="${book.title}">`;
-    bookTitle.innerHTML = `<p>${book.title}</p>`; 
+    bookTitle.innerHTML = `<p>${book.title}</p>`;
     bookSubject.innerHTML = `<p>${book.subject}</p>`;
     bookAuthor.innerHTML = `<p>${book.author}</p>`;
     bookDate.innerHTML = `<p>${book.dueDate}</p>`;
     bookButton.innerHTML = `<p>${book.bookBtn}</p>`;
   }
-  
+
   if (book.bookBtn === "Booked") {
     bookButton.disabled = true;
     bookButton.style.backgroundColor = "#ddd";
     bookButton.style.transform = "scale(1)";
     bookBooked.innerHTML = `<p>${book.bookBtn}</p>`;
-  }
-   else {
+    bookDesc.innerHTML = "Your validity Date ";
+  } else {
     bookButton.disabled = false;
     bookBooked.innerHTML = "";
+    bookDesc.innerHTML = "";
   }
 }
 
 const serverEndpoint = "http://localhost:3000/books";
 function handleBookButtonClick() {
-  const bookDateElement = document.getElementById("bookDate");
+  const bookDateElement = document.getElementById("book-date");
   const bookButton = document.getElementById("bookButton");
   const startDateInput = document.getElementById("startDate");
   const endDateInput = document.getElementById("endDate");
-  
 
   if (startDateInput && endDateInput && bookDateElement && bookButton) {
     const selectedStartDate = startDateInput.value;
     const selectedEndDate = endDateInput.value;
-
 
     // Fetch data and update book
     fetch(serverEndpoint)
@@ -105,26 +105,18 @@ function handleBookButtonClick() {
         const bookId = urlParams.get("id");
         const book = data.find((item) => item.id == bookId);
 
-
         if (book) {
           book.dueDate = `From ${selectedStartDate} to ${selectedEndDate}`;
 
           if (!selectedStartDate.trim() || !selectedEndDate.trim()) {
             book.dueDate = "You must to select date!";
-            bookDateElement.style.color = "crimson"
+            bookDateElement.style.color = "crimson";
             bookButton.disabled = false;
           } else {
             book.dueDate = `From ${selectedStartDate} to ${selectedEndDate}`;
             bookButton.innerHTML = "Booked";
             book.bookBtn = "Booked";
             bookButton.disabled = true;
-            startDateInput.style.display = "none";
-            endDateInput.style.display = "none";
-          }
-          if (selectedEndDate - selectedStartDate === 0) {
-            bookButton.innerHTML = "Book";
-            book.bookBtn = "Book";
-            bookButton.disabled = false;
           }
 
           // Save the updated JSON data back to the server
@@ -136,8 +128,7 @@ function handleBookButtonClick() {
             body: JSON.stringify(book),
           })
             .then(() => {
-              bookDateElement.innerHTML = `<p>Validity Period: ${book.dueDate}</p>`;
-
+              bookDateElement.innerHTML = `<p>${book.dueDate}</p>`;
             })
             .catch((error) =>
               console.error("Error saving updated data:", error)

@@ -5,7 +5,7 @@
       "title": "20,000 Leagues under the seas",
       "subject": "Adventure",
       "author": "Allayar Jandullaev",
-      "dueDate": "From 2023-12-28 to 2024-01-28",
+      "dueDate": "From 2023-12-31 to 2023-12-01",
       "imageBook": "/src/assets/images/Books/Adventure_1.jpeg",
       "bookBtn": "Booked",
       "isAvailable": true
@@ -14,7 +14,7 @@
       "id": 2,
       "title": "The Count Of Monte Cristo",
       "subject": "Adventure",
-      "dueDate": "From 2023-12-30 to 2023-12-31",
+      "dueDate": "From 2023-12-31 to 2024-01-02",
       "author": "Allayar Jandullaev",
       "imageBook": "/src/assets/images/Books/Adventure_2.jpeg",
       "bookBtn": "Booked",
@@ -25,7 +25,7 @@
       "title": "Hucklebebby Fin",
       "subject": "Adventure",
       "author": "Allayar Jandullaev",
-      "dueDate": "From 2023-12-30 to 2023-12-31",
+      "dueDate": "From 2023-12-31 to 2024-01-01",
       "imageBook": "/src/assets/images/Books/Adventure_3.jpeg",
       "bookBtn": "Booked",
       "isAvailable": true
@@ -35,7 +35,7 @@
       "title": "The Call of The Wild",
       "subject": "Adventure",
       "author": "Allayar Jandullaev",
-      "dueDate": "Not Booked",
+      "dueDate": "From 2024-01-01 to 2024-01-02",
       "imageBook": "/src/assets/images/Books/Adventure_4.jpeg",
       "bookBtn": "Booked",
       "isAvailable": true
@@ -45,9 +45,9 @@
       "title": "Tween Snow An Fire",
       "subject": "Adventure",
       "author": "Allayar Jandullaev",
-      "dueDate": "From 2023-12-30 to 2023-12-31",
+      "dueDate": "Not Booked",
       "imageBook": "/src/assets/images/Books/Adventure_5.jpeg",
-      "bookBtn": "Booked",
+      "bookBtn": "Book",
       "isAvailable": true
     },
     {
@@ -765,7 +765,7 @@
       "title": "After The Cure",
       "subject": "Science",
       "author": "Allayar Jandullaev",
-      "dueDate": "Not Booked",
+      "dueDate": "You must to select date!",
       "imageBook": "/src/assets/images/Books/Science_5.jpeg",
       "bookBtn": "Book",
       "isAvailable": true
@@ -775,7 +775,7 @@
       "title": "Accelerando",
       "subject": "Science",
       "author": "Allayar Jandullaev",
-      "dueDate": "Not Booked",
+      "dueDate": "You must to select date!",
       "imageBook": "/src/assets/images/Books/Science_6.jpeg",
       "bookBtn": "Book",
       "isAvailable": true
@@ -795,9 +795,9 @@
       "title": "The Island Of DR.Moreau",
       "subject": "Science",
       "author": "Allayar Jandullaev",
-      "dueDate": "From  to ",
+      "dueDate": "Not Booked",
       "imageBook": "/src/assets/images/Books/Science_8.jpeg",
-      "bookBtn": "Booked",
+      "bookBtn": "Book",
       "isAvailable": true
     }
   ]

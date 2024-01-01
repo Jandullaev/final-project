@@ -87,7 +87,7 @@ header .header_inner_nav ul li a {
   font-family: "Open Sans", sans-serif;
   font-size: 15px;
   font-weight: 400;
-  padding: 10px 15px 10px 15px;
+  padding: 10px 15px;
 }
 header .header_inner_nav ul li a:hover {
   color: #3498db;
@@ -104,7 +104,7 @@ header .header_inner_nav ul li .submenu {
   flex-direction: column;
   background-color: #fff;
   border-radius: 4px;
-  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
   width: 200px;
   transform: translateY(20px);
   transition: 0.3s;
@@ -166,8 +166,7 @@ header .header_inner_nav .toggle.active .bar:nth-child(3) {
     right: 0;
     bottom: 0;
     top: 0;
-    padding-top: 10vh;
-    padding: 20px;
+    padding: 10vh 20px 20px;
     background-color: #fff;
     width: 50%;
     box-shadow: 2px 2px 20px #ddd;
@@ -193,6 +192,16 @@ header .header_inner_nav .toggle.active .bar:nth-child(3) {
   flex-direction: column;
   height: 100vh;
   z-index: 999;
+  animation-name: inner;
+  animation-duration: 0.3s;
+}
+@keyframes inner {
+  from {
+    transform: scale(0);
+  }
+  to {
+    transform: scale(1);
+  }
 }
 .hero_inner h1 {
   font-size: 40px;
@@ -274,7 +283,7 @@ header .header_inner_nav .toggle.active .bar:nth-child(3) {
   justify-content: flex-start;
   padding: 20px;
 }
-.book_inner .filters #filterDropdown {
+.book_inner .filters #filter-dropdown {
   outline: none;
   border: 1px solid #ddd;
   border-radius: 4px;
@@ -285,7 +294,7 @@ header .header_inner_nav .toggle.active .bar:nth-child(3) {
           appearance: none;
   font-size: 15px;
 }
-.book_inner .filters #filterDropdown:focus {
+.book_inner .filters #filter-dropdown:focus {
   border: 1px solid #3498db;
 }
 .book_inner .filters .search input {
@@ -419,7 +428,7 @@ header .header_inner_nav .toggle.active .bar:nth-child(3) {
   .book_inner .filters {
     flex-direction: column;
   }
-  .book_inner .filters #filterDropdown {
+  .book_inner .filters #filter-dropdown {
     padding: 7px 28px;
     margin-bottom: 10px;
   }
@@ -428,7 +437,7 @@ header .header_inner_nav .toggle.active .bar:nth-child(3) {
   background-color: #fff;
 }
 .top_block .top_block_inner {
-  padding: 80px 0px;
+  padding: 80px 0;
 }
 .top_block .top_block_inner .section_title h2 {
   font-size: 32px;
@@ -467,7 +476,8 @@ header .header_inner_nav .toggle.active .bar:nth-child(3) {
 .top_block .top_block_inner .slide_show .my_slide img {
   width: 100%;
 }
-.top_block .top_block_inner .slide_show .prev, .top_block .top_block_inner .slide_show .next {
+.top_block .top_block_inner .slide_show .prev,
+.top_block .top_block_inner .slide_show .next {
   cursor: pointer;
   position: absolute;
   top: 50%;
@@ -487,8 +497,9 @@ header .header_inner_nav .toggle.active .bar:nth-child(3) {
   right: 0;
   border-radius: 4px 0 0 4px;
 }
-.top_block .top_block_inner .slide_show .prev:hover, .top_block .top_block_inner .slide_show .next:hover {
-  background-color: rgba(52, 152, 219, 0.8);
+.top_block .top_block_inner .slide_show .prev:hover,
+.top_block .top_block_inner .slide_show .next:hover {
+  background-color: rgba(51, 152, 219, 0.8);
 }
 .top_block .top_block_inner .slide_show .fade {
   animation-name: fade;
@@ -639,9 +650,7 @@ header .header_inner_nav .toggle.active .bar:nth-child(3) {
 }
 .gallery_inner .gallery_pictures {
   display: grid;
-  row-gap: 10px;
-  -moz-column-gap: 10px;
-       column-gap: 10px;
+  gap: 10px;
   grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 .gallery_inner .gallery_pictures .picture img {
@@ -922,7 +931,7 @@ header .header_inner_nav .toggle.active .bar:nth-child(3) {
   margin: 0px 10px;
 }
 .footer_inner_top .social_media ul li a i:hover {
-  color: rgba(52, 152, 219, 0.8);
+  color: rgba(51, 152, 219, 0.8);
 }
 .footer_inner_top .footer_nav ul {
   display: flex;
@@ -976,29 +985,29 @@ header .header_inner_nav .toggle.active .bar:nth-child(3) {
 .info_book_inner_image img {
   width: calc(10vw + 169px);
 }
-.info_book_inner_description #bookTitle {
+.info_book_inner_description #book-title {
   font-size: calc(2.2vw + 20px);
   padding: 10px 0;
   color: #3498db;
 }
-.info_book_inner_description #bookSubject {
+.info_book_inner_description #book-subject {
   font-size: 24px;
   display: flex;
   font-weight: 600;
   padding-bottom: 20px;
 }
-.info_book_inner_description #bookSubject:before {
+.info_book_inner_description #book-subject:before {
   content: "Genre:";
   padding-right: 10px;
 }
-.info_book_inner_description #bookAuthor {
+.info_book_inner_description #book-author {
   font-size: 15px;
   display: flex;
   font-weight: 600;
   padding-bottom: 20px;
   color: #3498db;
 }
-.info_book_inner_description #bookAuthor:before {
+.info_book_inner_description #book-author:before {
   content: "Author:";
   padding-right: 10px;
 }
@@ -1012,10 +1021,42 @@ header .header_inner_nav .toggle.active .bar:nth-child(3) {
   font-size: 24px;
   font-weight: 500;
 }
-.info_book_inner_description #bookDate {
-  color: #3498db;
+.info_book_inner_description #book-date {
   font-size: 16px;
-  padding: 10px 0 20px 0;
+  color: #3498db;
+}
+.info_book_inner_description .dates {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.info_book_inner_description .dates input[type=date] {
+  padding: 5px;
+  font-size: 13px;
+  font-family: "Open Sans", sans-serif;
+  padding: 5px;
+  font-size: 13px;
+  color: #3498db;
+  border-radius: 4px;
+  border: 1px solid #3498db;
+  margin: 10px;
+}
+.info_book_inner_description .dates ::-webkit-calendar-picker-indicator {
+  padding: 5px;
+  border: 1px solid #3498db;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.info_book_inner_description .bookDesc {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 20px 0;
+  font-size: 16px;
+  color: #3498db;
+}
+.info_book_inner_description .bookDesc #book-desc {
+  padding-right: 8px;
 }
 .info_book_inner_description .btn {
   padding: 8px 20px;
@@ -1046,5 +1087,8 @@ header .header_inner_nav .toggle.active .bar:nth-child(3) {
   }
   .info_book_inner {
     grid-template-columns: 1fr;
+  }
+  .info_book_inner .dates {
+    flex-direction: column;
   }
 }/*# sourceMappingURL=main.css.map */
