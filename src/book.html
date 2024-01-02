@@ -5,20 +5,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Books</title>
     <link rel="stylesheet" href="./assets/styles/main.css" />
-    <link rel="icon" href="./assets/images/book.png">
+    <link rel="icon" href="./assets/images/book.png" />
     <link
-    href="./assets/icons/boxicons/css/boxicons.min.css"
-    rel="stylesheet"
-  />
-
+      href="./assets/icons/boxicons/css/boxicons.min.css"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <header>
       <div class="container">
         <div class="header_inner">
-          <div class="header_inner_logo"><a href="./index.html">E-Library</a></div>
+          <div class="header_inner_logo">
+            <a href="./index.html">E-Library</a>
+          </div>
 
-        
           <nav class="header_inner_nav">
             <ul class="ul">
               <li><a href="./index.html">Home</a></li>
@@ -57,17 +57,17 @@
             </div>
             <div class="filters">
               <select id="filter-dropdown">
-                  <option value="*">Sorting</option>
-                  <option value="filterRomance">Romance</option>
-                  <option value="filterAdventure">Action & Adventure</option>
-                  <option value="filterMistery">Mistery & Thriller</option>
-                  <option value="filterHistory">Biographics & History</option>
-                  <option value="filterChildren">Children's</option>
-                  <option value="filterFantasy">Fantasy</option>
-                  <option value="filterHorror">Horror</option>
-                  <option value="filterLiterary">Literary Fiction</option>
-                  <option value="filterNonFiction">Non Fiction</option>
-                  <option value="filterScience">Science Fiction</option>
+                <option value="*">Sorting</option>
+                <option value="filterRomance">Romance</option>
+                <option value="filterAdventure">Action & Adventure</option>
+                <option value="filterMistery">Mistery & Thriller</option>
+                <option value="filterHistory">Biographics & History</option>
+                <option value="filterChildren">Children's</option>
+                <option value="filterFantasy">Fantasy</option>
+                <option value="filterHorror">Horror</option>
+                <option value="filterLiterary">Literary Fiction</option>
+                <option value="filterNonFiction">Non Fiction</option>
+                <option value="filterScience">Science Fiction</option>
               </select>
               <div class="search">
                 <input
@@ -79,20 +79,22 @@
                 />
               </div>
             </div>
-           
+
             <div class="book_container">
               <script id="book-template" type="text/template">
-                  <div class="book_wrap filter{{subject}}" data-id="{{id}}" data-title="{{title}}" data-subject="{{subject}}" data-due-date="{{dueDate}}" data-image="{{imageBook}}">
-                      <img src="{{imageBook}}" alt="{{title}}">
-                      <div class="book_info">
-                          <h3 class="book_info_title">{{title}}</h3>
-                          <p class="book_info_date">Rental Date: {{dueDate}}</p>
-                      </div>
-                    <a href="bookInner.html?id={{id}}" class="book_info_btn" id="book_info_btn">{{bookBtn}}</a>
-                  </div>
+                <div class="book_wrap filter{{subject}}" data-id="{{id}}" data-title="{{title}}" data-subject="{{subject}}" data-due-date="{{dueDate}}" data-image="{{imageBook}}">
+                    <img src="{{imageBook}}" alt="{{title}}">
+                    <div class="book_info">
+                        <h3 class="book_info_title">{{title}}</h3>
+                        <p class="book_info_date">Rental Date: {{dueDate}}</p>
+                    </div>
+                  <a href="bookInner.html?id={{id}}" class="book_info_btn" id="book_info_btn">{{bookBtn}}</a>
+                </div>
               </script>
-          </div>
-            <div id="no-results-message" style="display: none;">No results found:(</div>
+            </div>
+            <div id="no-results-message" style="display: none">
+              No results found:(
+            </div>
           </div>
         </div>
       </section>
@@ -107,7 +109,10 @@
             <div class="social_media">
               <ul>
                 <li class="social_media_link">
-                  <a target="_blank" href="https://www.linkedin.com/public-profile/settings?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_self_edit_contact-info%3B8MW27TX%2BQE%2BDDB6jPxzhTA%3D%3D">
+                  <a
+                    target="_blank"
+                    href="https://www.linkedin.com/public-profile/settings?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_self_edit_contact-info%3B8MW27TX%2BQE%2BDDB6jPxzhTA%3D%3D"
+                  >
                     <i class="bx bxl-linkedin-square"></i>
                   </a>
                 </li>
@@ -150,6 +155,5 @@
 
     <script src="./assets/scripts/app.js"></script>
     <script src="./assets/scripts/main.js"></script>
-
   </body>
 </html>

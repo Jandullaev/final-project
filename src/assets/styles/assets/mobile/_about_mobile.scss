@@ -1,0 +1,9 @@
+@media screen and (max-width: 940px) {
+  .about {
+    .about_inner {
+      .about_info {
+        grid-template-columns: 1fr;
+      }
+    }
+  }
+}

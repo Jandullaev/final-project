@@ -1,5 +1,5 @@
+//   ==========   MAP   ==========   //
 let map;
-
 async function initMap() {
   // The location of Uluru
   const position = { lat: -25.344, lng: 131.031 };
@@ -26,6 +26,9 @@ async function initMap() {
 
 initMap();
 
+//   ==========   END MAP   ==========   //
+
+//   ==========   BOOKING   ==========   //
 document.addEventListener("DOMContentLoaded", function () {
   // Get book ID from the URL
   const urlParams = new URLSearchParams(window.location.search);
@@ -53,6 +56,7 @@ function fetchBookDetails(bookId) {
     .catch((error) => console.error("Error fetching book details:", error));
 }
 
+//   ==========   DISPLAY BOOKS FOR BOOK_INFO   ==========   //
 function displayBookDetails(book) {
   // Update the content on the page with book details
   const bookImageElement = document.getElementById("bookImage");
@@ -85,7 +89,7 @@ function displayBookDetails(book) {
     bookDesc.innerHTML = "";
   }
 }
-
+//   ==========   SERVER FOR UPDATE   ==========   //
 const serverEndpoint = "http://localhost:3000/books";
 function handleBookButtonClick() {
   const bookDateElement = document.getElementById("book-date");
@@ -139,8 +143,9 @@ function handleBookButtonClick() {
   }
 }
 
-// ---------- Navbar Click ---------- //
+//   ==========   END BOOKING   ==========   //
 
+//   ==========   NAVBAR CLICK   ==========   //
 const toggle = document.getElementsByClassName("toggle")[0];
 const ul = document.getElementsByClassName("ul")[0];
 const navItems = document.getElementsByClassName("header_inner_nav")[0];
@@ -150,5 +155,4 @@ toggle.addEventListener("click", () => {
   ul.classList.toggle("active");
   navItems.classList.toggle("active");
 });
-
-// ---------- End Navbar Click ---------- //
+//   ==========   END NAVBAR CLICK   ==========   //

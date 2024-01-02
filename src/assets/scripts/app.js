@@ -1,5 +1,6 @@
 "use strict";
 
+//   ==========   FETCHING METHOD GET   ==========   //
 document.addEventListener("DOMContentLoaded", function () {
   fetch("assets/library/library.json")
     .then((response) => response.json())
@@ -46,7 +47,9 @@ function setupFilters() {
     filterBooks(filterValue);
   });
 }
+//   ==========   END FETCHING   ==========   //
 
+//   ==========   FILTERING   ==========   //
 function filterBooks(subject) {
   const bookWrap = document.querySelectorAll(".book_wrap");
   const bookItems = document.querySelectorAll(".book_item");
@@ -68,8 +71,9 @@ function filterBooks(subject) {
     }
   });
 }
+//   ==========   END FILTERING   ==========   //
 
-//----- Searching -----//
+//   ==========   SEARCHING   ==========   //
 // eslint-disable-next-line no-unused-vars
 const search = () => {
   const searchBox = document.getElementById("search").value.toUpperCase();
@@ -106,4 +110,4 @@ const search = () => {
     }
   }
 };
-//----- End Searching -----//
+//   ==========   END SEARCHING   ==========   //

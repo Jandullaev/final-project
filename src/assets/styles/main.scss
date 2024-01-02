@@ -1,6 +1,9 @@
+//  =======  kits  =======  //
 @import './kits/universal';
 @import './kits/var';
 @import './kits/mixins';
+
+//  =======  assets  =======  //
 @import './assets/header';
 @import './assets/hero';
 @import './assets/books';
@@ -10,3 +13,12 @@
 @import './assets/contact';
 @import './assets/footer';
 @import './assets/bookInfo';
+
+//  =======  mobile  =======  //
+@import './assets/mobile/header_mobile';
+@import './assets/mobile/books_mobile';
+@import './assets/mobile/about_mobile';
+@import './assets/mobile/gallery_mobile';
+@import './assets/mobile/contact_mobile';
+@import './assets/mobile/footer_mobile';
+@import './assets/mobile/bookInfo_mobile';

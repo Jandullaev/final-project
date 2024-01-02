@@ -45,7 +45,7 @@
       "title": "Tween Snow An Fire",
       "subject": "Adventure",
       "author": "Allayar Jandullaev",
-      "dueDate": "Not Booked",
+      "dueDate": "You must to select date!",
       "imageBook": "/src/assets/images/Books/Adventure_5.jpeg",
       "bookBtn": "Book",
       "isAvailable": true
@@ -65,9 +65,9 @@
       "title": "Fast As The Wind",
       "subject": "Adventure",
       "author": "Allayar Jandullaev",
-      "dueDate": "Not Booked",
+      "dueDate": "From 2024-01-02 to 2024-01-03",
       "imageBook": "/src/assets/images/Books/Adventure_7.jpeg",
-      "bookBtn": "Book",
+      "bookBtn": "Booked",
       "isAvailable": true
     },
     {

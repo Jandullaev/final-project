@@ -19,6 +19,9 @@ The web application is under active development. The initial HTML markup has bee
 The project can be compiled using the provided scripts:
 
 - **Linting:** Run `npm run lint` to check both JavaScript and SCSS files for code style issues.
+- **Test:** Run `npm test` to check JavaScript Functions for code issues.
+- **Contact Server:** Type `cd src/assets/contactBackend` and then `node contact.js` to connect to firebase.
+- **Library Server:** Type `cd src/assets/scripts` and then `node express.js` to connect to `library.json` server which for set updates.
 
 ## Validation
 
@@ -113,3 +116,7 @@ Not Started
 - working with unit tests
 - working with lint tests
 - created testing files
+
+### 15. Design
+- Some changes
+- Added comments

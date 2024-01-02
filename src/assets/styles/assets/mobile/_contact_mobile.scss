@@ -1,0 +1,10 @@
+@media screen and (max-width: 940px) {
+  .contact {
+    .contact_inner {
+      &_bottom {
+        flex-direction: column;
+        align-items: center;
+      }
+    }
+  }
+}

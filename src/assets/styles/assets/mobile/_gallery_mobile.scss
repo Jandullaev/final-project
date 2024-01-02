@@ -94,3 +94,26 @@
     }
   }
 }
+
+@media screen and (max-width: 1000px) {
+  .gallery {
+    &_inner {
+      .gallery_pictures {
+        display: grid;
+        gap: 30px;
+        grid-template-columns: 1fr 1fr;
+
+        .picture {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+
+          img {
+            width: 100%;
+            border-radius: 10px;
+          }
+        }
+      }
+    }
+  }
+}
