@@ -55,9 +55,9 @@
       "title": "Dropped From The Clouds",
       "subject": "Adventure",
       "author": "Allayar Jandullaev",
-      "dueDate": "Not Booked",
+      "dueDate": "From 2024-01-03 to 2024-01-05",
       "imageBook": "/src/assets/images/Books/Adventure_6.jpeg",
-      "bookBtn": "Book",
+      "bookBtn": "Booked",
       "isAvailable": true
     },
     {
