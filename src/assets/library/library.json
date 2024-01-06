@@ -45,9 +45,9 @@
       "title": "Tween Snow An Fire",
       "subject": "Adventure",
       "author": "Allayar Jandullaev",
-      "dueDate": "You must to select date!",
+      "dueDate": "From 2024-01-06 to 2024-01-07",
       "imageBook": "/src/assets/images/Books/Adventure_5.jpeg",
-      "bookBtn": "Book",
+      "bookBtn": "Booked",
       "isAvailable": true
     },
     {
@@ -75,9 +75,9 @@
       "title": "Around The World",
       "subject": "Adventure",
       "author": "Allayar Jandullaev",
-      "dueDate": "Not Booked",
+      "dueDate": "From 2024-01-04 to 2024-01-05",
       "imageBook": "/src/assets/images/Books/Adventure_8.jpeg",
-      "bookBtn": "Book",
+      "bookBtn": "Booked",
       "isAvailable": true
     },
     {
@@ -575,9 +575,9 @@
       "title": "The Communist Manifesto",
       "subject": "NonFiction",
       "author": "Allayar Jandullaev",
-      "dueDate": "Not Booked",
+      "dueDate": "From 2024-01-06 to 2024-01-07",
       "imageBook": "/src/assets/images/Books/NonFiction_2.jpeg",
-      "bookBtn": "Book",
+      "bookBtn": "Booked",
       "isAvailable": true
     },
     {
