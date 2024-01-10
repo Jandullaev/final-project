@@ -5,19 +5,19 @@
       "title": "20,000 Leagues under the seas",
       "subject": "Adventure",
       "author": "Allayar Jandullaev",
-      "dueDate": "From 2023-12-31 to 2023-12-01",
+      "dueDate": "Not Booked",
       "imageBook": "/src/assets/images/Books/Adventure_1.jpeg",
-      "bookBtn": "Booked",
+      "bookBtn": "Book",
       "isAvailable": true
     },
     {
       "id": 2,
       "title": "The Count Of Monte Cristo",
       "subject": "Adventure",
-      "dueDate": "From 2023-12-31 to 2024-01-02",
+      "dueDate": "Not Booked",
       "author": "Allayar Jandullaev",
       "imageBook": "/src/assets/images/Books/Adventure_2.jpeg",
-      "bookBtn": "Booked",
+      "bookBtn": "Book",
       "isAvailable": true
     },
     {
@@ -25,9 +25,9 @@
       "title": "Hucklebebby Fin",
       "subject": "Adventure",
       "author": "Allayar Jandullaev",
-      "dueDate": "From 2023-12-31 to 2024-01-01",
+      "dueDate": "Not Booked",
       "imageBook": "/src/assets/images/Books/Adventure_3.jpeg",
-      "bookBtn": "Booked",
+      "bookBtn": "Book",
       "isAvailable": true
     },
     {
@@ -35,9 +35,9 @@
       "title": "The Call of The Wild",
       "subject": "Adventure",
       "author": "Allayar Jandullaev",
-      "dueDate": "From 2024-01-01 to 2024-01-02",
+      "dueDate": "Not Booked",
       "imageBook": "/src/assets/images/Books/Adventure_4.jpeg",
-      "bookBtn": "Booked",
+      "bookBtn": "Book",
       "isAvailable": true
     },
     {
@@ -45,9 +45,9 @@
       "title": "Tween Snow An Fire",
       "subject": "Adventure",
       "author": "Allayar Jandullaev",
-      "dueDate": "From 2024-01-06 to 2024-01-07",
+      "dueDate": "Not Booked",
       "imageBook": "/src/assets/images/Books/Adventure_5.jpeg",
-      "bookBtn": "Booked",
+      "bookBtn": "Book",
       "isAvailable": true
     },
     {
@@ -55,9 +55,9 @@
       "title": "Dropped From The Clouds",
       "subject": "Adventure",
       "author": "Allayar Jandullaev",
-      "dueDate": "From 2024-01-03 to 2024-01-05",
+      "dueDate": "Not Booked",
       "imageBook": "/src/assets/images/Books/Adventure_6.jpeg",
-      "bookBtn": "Booked",
+      "bookBtn": "Book",
       "isAvailable": true
     },
     {
@@ -65,9 +65,9 @@
       "title": "Fast As The Wind",
       "subject": "Adventure",
       "author": "Allayar Jandullaev",
-      "dueDate": "From 2024-01-02 to 2024-01-03",
+      "dueDate": "Not Booked",
       "imageBook": "/src/assets/images/Books/Adventure_7.jpeg",
-      "bookBtn": "Booked",
+      "bookBtn": "Book",
       "isAvailable": true
     },
     {
@@ -75,9 +75,9 @@
       "title": "Around The World",
       "subject": "Adventure",
       "author": "Allayar Jandullaev",
-      "dueDate": "From 2024-01-04 to 2024-01-05",
+      "dueDate": "Not Booked",
       "imageBook": "/src/assets/images/Books/Adventure_8.jpeg",
-      "bookBtn": "Booked",
+      "bookBtn": "Book",
       "isAvailable": true
     },
     {
@@ -575,9 +575,9 @@
       "title": "The Communist Manifesto",
       "subject": "NonFiction",
       "author": "Allayar Jandullaev",
-      "dueDate": "From 2024-01-06 to 2024-01-07",
+      "dueDate": "Not Booked",
       "imageBook": "/src/assets/images/Books/NonFiction_2.jpeg",
-      "bookBtn": "Booked",
+      "bookBtn": "Book",
       "isAvailable": true
     },
     {
@@ -717,7 +717,7 @@
       "author": "Allayar Jandullaev",
       "dueDate": "Not Booked",
       "imageBook": "/src/assets/images/Books/Romance_8.jpeg",
-      "bookBtn": "",
+      "bookBtn": "Book",
       "isAvailable": true
     },
     {
@@ -765,7 +765,7 @@
       "title": "After The Cure",
       "subject": "Science",
       "author": "Allayar Jandullaev",
-      "dueDate": "You must to select date!",
+      "dueDate": "Not Booked",
       "imageBook": "/src/assets/images/Books/Science_5.jpeg",
       "bookBtn": "Book",
       "isAvailable": true
@@ -775,7 +775,7 @@
       "title": "Accelerando",
       "subject": "Science",
       "author": "Allayar Jandullaev",
-      "dueDate": "You must to select date!",
+      "dueDate": "Not Booked",
       "imageBook": "/src/assets/images/Books/Science_6.jpeg",
       "bookBtn": "Book",
       "isAvailable": true

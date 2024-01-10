@@ -7,7 +7,8 @@
     <list default="true" id="a4ef0c2a-c2f2-4e3d-abc6-dfc323c99996" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/assets/library/library.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/library/library.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/scripts/express.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scripts/express.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/scripts/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scripts/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/user.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/test/user.test.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -59,7 +60,7 @@
       <recent name="$PROJECT_DIR$/src/assets/backend JS" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.test">
+  <component name="RunManager" selected="JavaScript Debug.index.html">
     <configuration name="book.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63343/final-project/src/book.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
@@ -88,9 +89,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.index.html" />
         <item itemvalue="npm.test" />
         <item itemvalue="npm.lint" />
-        <item itemvalue="JavaScript Debug.index.html" />
         <item itemvalue="JavaScript Debug.book.html" />
       </list>
     </recent_temporary>
@@ -109,6 +110,8 @@
       <workItem from="1702882306254" duration="12000" />
       <workItem from="1702930381823" duration="43100000" />
       <workItem from="1704532231198" duration="3176000" />
+      <workItem from="1704796875958" duration="7311000" />
+      <workItem from="1704871179499" duration="1965000" />
     </task>
     <servers />
   </component>
@@ -133,7 +136,24 @@
           <line>10</line>
           <option name="timeStamp" value="35" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/assets/scripts/main.js</url>
+          <line>90</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="37" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+    <watches-manager>
+      <configuration name="JavascriptDebugType">
+        <watch expression="error" />
+        <watch expression="error.stack" />
+        <watch expression="error.message" />
+        <watch expression="error[&quot;[[Prototype]]&quot;]" />
+        <watch expression="this" />
+        <watch expression="selectedStartDate" />
+        <watch expression="selectedEndDate" />
+      </configuration>
+    </watches-manager>
   </component>
 </project>

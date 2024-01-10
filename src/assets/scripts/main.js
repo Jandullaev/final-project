@@ -65,7 +65,6 @@ function displayBookDetails(book) {
   const bookAuthor = document.getElementById("book-author");
   const bookDate = document.getElementById("book-date");
   const bookButton = document.getElementById("bookButton");
-  const bookBooked = document.getElementById("bookBooked");
   const bookDesc = document.getElementById("book-desc");
 
   if (book) {
@@ -81,16 +80,14 @@ function displayBookDetails(book) {
     bookButton.disabled = true;
     bookButton.style.backgroundColor = "#ddd";
     bookButton.style.transform = "scale(1)";
-    bookBooked.innerHTML = `<p>${book.bookBtn}</p>`;
     bookDesc.innerHTML = "Your validity Date ";
   } else {
     bookButton.disabled = false;
-    bookBooked.innerHTML = "";
     bookDesc.innerHTML = "";
   }
 }
 //   ==========   SERVER FOR UPDATE   ==========   //
-const serverEndpoint = "http://localhost:3000/books";
+const serverEndpoint = "http://localhost:8000/books";
 function handleBookButtonClick() {
   const bookDateElement = document.getElementById("book-date");
   const bookButton = document.getElementById("bookButton");
