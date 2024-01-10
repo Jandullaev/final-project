@@ -127,3 +127,7 @@ Not Started
 ### 17. Server
 - Fetching is not working on my laptop, But I do not know why?
 - some changes in express.js
+
+### 18. Last Commit
+- Project is done, but without unit test
+- Thank you for the opportunity to work on this project. This is big experience for me!
