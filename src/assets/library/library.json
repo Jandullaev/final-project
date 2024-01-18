@@ -6,7 +6,7 @@
       "subject": "Adventure",
       "author": "Allayar Jandullaev",
       "dueDate": "Not Booked",
-      "imageBook": "/src/assets/images/Books/Adventure_1.jpeg",
+      "imageBook": "../images/Books/Adventure_1.jpeg",
       "bookBtn": "Book",
       "isAvailable": true
     },
@@ -16,7 +16,7 @@
       "subject": "Adventure",
       "dueDate": "Not Booked",
       "author": "Allayar Jandullaev",
-      "imageBook": "/src/assets/images/Books/Adventure_2.jpeg",
+      "imageBook": "../images/Books/Adventure_2.jpeg",
       "bookBtn": "Book",
       "isAvailable": true
     },
@@ -26,7 +26,7 @@
       "subject": "Adventure",
       "author": "Allayar Jandullaev",
       "dueDate": "Not Booked",
-      "imageBook": "/src/assets/images/Books/Adventure_3.jpeg",
+      "imageBook": "../images/Books/Adventure_3.jpeg",
       "bookBtn": "Book",
       "isAvailable": true
     },
@@ -36,7 +36,7 @@
       "subject": "Adventure",
       "author": "Allayar Jandullaev",
       "dueDate": "Not Booked",
-      "imageBook": "/src/assets/images/Books/Adventure_4.jpeg",
+      "imageBook": "../images/Books/Adventure_4.jpeg",
       "bookBtn": "Book",
       "isAvailable": true
     },
@@ -46,7 +46,7 @@
       "subject": "Adventure",
       "author": "Allayar Jandullaev",
       "dueDate": "Not Booked",
-      "imageBook": "/src/assets/images/Books/Adventure_5.jpeg",
+      "imageBook": "../images/Books/Adventure_5.jpeg",
       "bookBtn": "Book",
       "isAvailable": true
     },
@@ -56,7 +56,7 @@
       "subject": "Adventure",
       "author": "Allayar Jandullaev",
       "dueDate": "Not Booked",
-      "imageBook": "/src/assets/images/Books/Adventure_6.jpeg",
+      "imageBook": "../images/Books/Adventure_6.jpeg",
       "bookBtn": "Book",
       "isAvailable": true
     },
@@ -66,7 +66,7 @@
       "subject": "Adventure",
       "author": "Allayar Jandullaev",
       "dueDate": "Not Booked",
-      "imageBook": "/src/assets/images/Books/Adventure_7.jpeg",
+      "imageBook": "../images/Books/Adventure_7.jpeg",
       "bookBtn": "Book",
       "isAvailable": true
     },
@@ -76,7 +76,7 @@
       "subject": "Adventure",
       "author": "Allayar Jandullaev",
       "dueDate": "Not Booked",
-      "imageBook": "/src/assets/images/Books/Adventure_8.jpeg",
+      "imageBook": "../images/Books/Adventure_8.jpeg",
       "bookBtn": "Book",
       "isAvailable": true
     },
@@ -86,7 +86,7 @@
       "subject": "History",
       "author": "Allayar Jandullaev",
       "dueDate": "Not Booked",
-      "imageBook": "/src/assets/images/Books/Biography_1.jpeg",
+      "imageBook": "../images/Books/Biography_1.jpeg",
       "bookBtn": "Book",
       "isAvailable": true
     },
@@ -96,7 +96,7 @@
       "subject": "History",
       "author": "Allayar Jandullaev",
       "dueDate": "Not Booked",
-      "imageBook": "/src/assets/images/Books/Biography_2.jpeg",
+      "imageBook": "../images/Books/Biography_2.jpeg",
       "bookBtn": "Book",
       "isAvailable": true
     },
@@ -106,7 +106,7 @@
       "subject": "History",
       "author": "Allayar Jandullaev",
       "dueDate": "Not Booked",
-      "imageBook": "/src/assets/images/Books/Biography_3.jpeg",
+      "imageBook": "../images/Books/Biography_3.jpeg",
       "bookBtn": "Book",
       "isAvailable": true
     },
@@ -116,7 +116,7 @@
       "subject": "History",
       "author": "Allayar Jandullaev",
       "dueDate": "Not Booked",
-      "imageBook": "/src/assets/images/Books/Biography_4.jpeg",
+      "imageBook": "../images/Books/Biography_4.jpeg",
       "bookBtn": "Book",
       "isAvailable": true
     },
@@ -126,7 +126,7 @@
       "subject": "History",
       "author": "Allayar Jandullaev",
       "dueDate": "Not Booked",
-      "imageBook": "/src/assets/images/Books/Biography_5.jpeg",
+      "imageBook": "../images/Books/Biography_5.jpeg",
       "bookBtn": "Book",
       "isAvailable": true
     },
@@ -136,7 +136,7 @@
       "subject": "History",
       "author": "Allayar Jandullaev",
       "dueDate": "Not Booked",
-      "imageBook": "/src/assets/images/Books/Biography_6.jpeg",
+      "imageBook": "../images/Books/Biography_6.jpeg",
       "bookBtn": "Book",
       "isAvailable": true
     },
@@ -146,7 +146,7 @@
       "subject": "History",
       "author": "Allayar Jandullaev",
       "dueDate": "Not Booked",
-      "imageBook": "/src/assets/images/Books/Biography_7.jpeg",
+      "imageBook": "../images/Books/Biography_7.jpeg",
       "bookBtn": "Book",
       "isAvailable": true
     },
@@ -156,7 +156,7 @@
       "subject": "History",
       "author": "Allayar Jandullaev",
       "dueDate": "Not Booked",
-      "imageBook": "/src/assets/images/Books/Biography_8.jpeg",
+      "imageBook": "../images/Books/Biography_8.jpeg",
       "bookBtn": "Book",
       "isAvailable": true
     },
@@ -166,7 +166,7 @@
       "subject": "Children",
       "author": "Allayar Jandullaev",
       "dueDate": "Not Booked",
-      "imageBook": "/src/assets/images/Books/Children_1.jpeg",
+      "imageBook": "../images/Books/Children_1.jpeg",
       "bookBtn": "Book",
       "isAvailable": true
     },
@@ -176,7 +176,7 @@
       "subject": "Children",
       "author": "Allayar Jandullaev",
       "dueDate": "Not Booked",
-      "imageBook": "/src/assets/images/Books/Children_2.jpeg",
+      "imageBook": "../images/Books/Children_2.jpeg",
       "bookBtn": "Book",
       "isAvailable": true
     },
@@ -186,7 +186,7 @@
       "subject": "Children",
       "author": "Allayar Jandullaev",
       "dueDate": "Not Booked",
-      "imageBook": "/src/assets/images/Books/Children_3.jpeg",
+      "imageBook": "../images/Books/Children_3.jpeg",
       "bookBtn": "Book",
       "isAvailable": true
     },
@@ -196,7 +196,7 @@
       "subject": "Children",
       "author": "Allayar Jandullaev",
       "dueDate": "Not Booked",
-      "imageBook": "/src/assets/images/Books/Children_4.jpeg",
+      "imageBook": "../images/Books/Children_4.jpeg",
       "bookBtn": "Book",
       "isAvailable": true
     },
@@ -206,7 +206,7 @@
       "subject": "Children",
       "author": "Allayar Jandullaev",
       "dueDate": "Not Booked",
-      "imageBook": "/src/assets/images/Books/Children_5.jpeg",
+      "imageBook": "../images/Books/Children_5.jpeg",
       "bookBtn": "Book",
       "isAvailable": true
     },
@@ -216,7 +216,7 @@
       "subject": "Children",
       "author": "Allayar Jandullaev",
       "dueDate": "Not Booked",
-      "imageBook": "/src/assets/images/Books/Children_6.jpeg",
+      "imageBook": "../images/Books/Children_6.jpeg",
       "bookBtn": "Book",
       "isAvailable": true
     },
@@ -226,7 +226,7 @@
       "subject": "Children",
       "author": "Allayar Jandullaev",
       "dueDate": "Not Booked",
-      "imageBook": "/src/assets/images/Books/Children_7.jpeg",
+      "imageBook": "../images/Books/Children_7.jpeg",
       "bookBtn": "Book",
       "isAvailable": true
     },
@@ -236,7 +236,7 @@
       "subject": "Children",
       "author": "Allayar Jandullaev",
       "dueDate": "Not Booked",
-      "imageBook": "/src/assets/images/Books/Children_8.jpeg",
+      "imageBook": "../images/Books/Children_8.jpeg",
       "bookBtn": "Book",
       "isAvailable": true
     },
@@ -246,7 +246,7 @@
       "subject": "Fantasy",
       "author": "Allayar Jandullaev",
       "dueDate": "Not Booked",
-      "imageBook": "/src/assets/images/Books/Fantasy_1.jpeg",
+      "imageBook": "../images/Books/Fantasy_1.jpeg",
       "bookBtn": "Book",
       "isAvailable": true
     },
@@ -256,7 +256,7 @@
       "subject": "Fantasy",
       "author": "Allayar Jandullaev",
       "dueDate": "Not Booked",
-      "imageBook": "/src/assets/images/Books/Fantasy_2.jpeg",
+      "imageBook": "../images/Books/Fantasy_2.jpeg",
       "bookBtn": "Book",
       "isAvailable": true
     },
@@ -266,7 +266,7 @@
       "subject": "Fantasy",
       "author": "Allayar Jandullaev",
       "dueDate": "Not Booked",
-      "imageBook": "/src/assets/images/Books/Fantasy_3.jpeg",
+      "imageBook": "../images/Books/Fantasy_3.jpeg",
       "bookBtn": "Book",
       "isAvailable": true
     },
@@ -276,7 +276,7 @@
       "subject": "Fantasy",
       "author": "Allayar Jandullaev",
       "dueDate": "Not Booked",
-      "imageBook": "/src/assets/images/Books/Fantasy_4.jpeg",
+      "imageBook": "../images/Books/Fantasy_4.jpeg",
       "bookBtn": "Book",
       "isAvailable": true
     },
@@ -286,7 +286,7 @@
       "subject": "Fantasy",
       "author": "Allayar Jandullaev",
       "dueDate": "Not Booked",
-      "imageBook": "/src/assets/images/Books/Fantasy_5.jpeg",
+      "imageBook": "../images/Books/Fantasy_5.jpeg",
       "bookBtn": "Book",
       "isAvailable": true
     },
@@ -296,7 +296,7 @@
       "subject": "Fantasy",
       "author": "Allayar Jandullaev",
       "dueDate": "Not Booked",
-      "imageBook": "/src/assets/images/Books/Fantasy_6.jpeg",
+      "imageBook": "../images/Books/Fantasy_6.jpeg",
       "bookBtn": "Book",
       "isAvailable": true
     },
@@ -306,7 +306,7 @@
       "subject": "Fantasy",
       "author": "Allayar Jandullaev",
       "dueDate": "Not Booked",
-      "imageBook": "/src/assets/images/Books/Fantasy_7.jpeg",
+      "imageBook": "../images/Books/Fantasy_7.jpeg",
       "bookBtn": "Book",
       "isAvailable": true
     },
@@ -316,7 +316,7 @@
       "subject": "Fantasy",
       "author": "Allayar Jandullaev",
       "dueDate": "Not Booked",
-      "imageBook": "/src/assets/images/Books/Fantasy_8.jpeg",
+      "imageBook": "../images/Books/Fantasy_8.jpeg",
       "bookBtn": "Book",
       "isAvailable": true
     },
@@ -326,7 +326,7 @@
       "subject": "Horror",
       "author": "Allayar Jandullaev",
       "dueDate": "Not Booked",
-      "imageBook": "/src/assets/images/Books/Horror_1.jpeg",
+      "imageBook": "../images/Books/Horror_1.jpeg",
       "bookBtn": "Book",
       "isAvailable": true
     },
@@ -336,7 +336,7 @@
       "subject": "Horror",
       "author": "Allayar Jandullaev",
       "dueDate": "Not Booked",
-      "imageBook": "/src/assets/images/Books/Horror_2.jpeg",
+      "imageBook": "../images/Books/Horror_2.jpeg",
       "bookBtn": "Book",
       "isAvailable": true
     },
@@ -346,7 +346,7 @@
       "subject": "Horror",
       "author": "Allayar Jandullaev",
       "dueDate": "Not Booked",
-      "imageBook": "/src/assets/images/Books/Horror_3.jpeg",
+      "imageBook": "../images/Books/Horror_3.jpeg",
       "bookBtn": "Book",
       "isAvailable": true
     },
@@ -356,7 +356,7 @@
       "subject": "Horror",
       "author": "Allayar Jandullaev",
       "dueDate": "Not Booked",
-      "imageBook": "/src/assets/images/Books/Horror_4.jpeg",
+      "imageBook": "../images/Books/Horror_4.jpeg",
       "bookBtn": "Book",
       "isAvailable": true
     },
@@ -366,7 +366,7 @@
       "subject": "Horror",
       "author": "Allayar Jandullaev",
       "dueDate": "Not Booked",
-      "imageBook": "/src/assets/images/Books/Horror_5.jpeg",
+      "imageBook": "../images/Books/Horror_5.jpeg",
       "bookBtn": "Book",
       "isAvailable": true
     },
@@ -376,7 +376,7 @@
       "subject": "Horror",
       "author": "Allayar Jandullaev",
       "dueDate": "Not Booked",
-      "imageBook": "/src/assets/images/Books/Horror_6.jpeg",
+      "imageBook": "../images/Books/Horror_6.jpeg",
       "bookBtn": "Book",
       "isAvailable": true
     },
@@ -386,7 +386,7 @@
       "subject": "Horror",
       "author": "Allayar Jandullaev",
       "dueDate": "Not Booked",
-      "imageBook": "/src/assets/images/Books/Horror_7.jpeg",
+      "imageBook": "../images/Books/Horror_7.jpeg",
       "bookBtn": "Book",
       "isAvailable": true
     },
@@ -396,7 +396,7 @@
       "subject": "Horror",
       "author": "Allayar Jandullaev",
       "dueDate": "Not Booked",
-      "imageBook": "/src/assets/images/Books/Horror_8.jpeg",
+      "imageBook": "../images/Books/Horror_8.jpeg",
       "bookBtn": "Book",
       "isAvailable": true
     },
@@ -406,7 +406,7 @@
       "subject": "Literary",
       "author": "Allayar Jandullaev",
       "dueDate": "Not Booked",
-      "imageBook": "/src/assets/images/Books/Litarary_1.jpeg",
+      "imageBook": "../images/Books/Litarary_1.jpeg",
       "bookBtn": "Book",
       "isAvailable": true
     },
@@ -416,7 +416,7 @@
       "subject": "Literary",
       "author": "Allayar Jandullaev",
       "dueDate": "Not Booked",
-      "imageBook": "/src/assets/images/Books/Litarary_2.jpeg",
+      "imageBook": "../images/Books/Litarary_2.jpeg",
       "bookBtn": "Book",
       "isAvailable": true
     },
@@ -426,7 +426,7 @@
       "subject": "Literary",
       "author": "Allayar Jandullaev",
       "dueDate": "Not Booked",
-      "imageBook": "/src/assets/images/Books/Litarary_3.jpeg",
+      "imageBook": "../images/Books/Litarary_3.jpeg",
       "bookBtn": "Book",
       "isAvailable": true
     },
@@ -436,7 +436,7 @@
       "subject": "Literary",
       "author": "Allayar Jandullaev",
       "dueDate": "Not Booked",
-      "imageBook": "/src/assets/images/Books/Litarary_4.jpeg",
+      "imageBook": "../images/Books/Litarary_4.jpeg",
       "bookBtn": "Book",
       "isAvailable": true
     },
@@ -446,7 +446,7 @@
       "subject": "Literary",
       "author": "Allayar Jandullaev",
       "dueDate": "Not Booked",
-      "imageBook": "/src/assets/images/Books/Litarary_5.jpeg",
+      "imageBook": "../images/Books/Litarary_5.jpeg",
       "bookBtn": "Book",
       "isAvailable": true
     },
@@ -456,7 +456,7 @@
       "subject": "Literary",
       "author": "Allayar Jandullaev",
       "dueDate": "Not Booked",
-      "imageBook": "/src/assets/images/Books/Litarary_6.jpeg",
+      "imageBook": "../images/Books/Litarary_6.jpeg",
       "bookBtn": "Book",
       "isAvailable": true
     },
@@ -466,7 +466,7 @@
       "subject": "Literary",
       "author": "Allayar Jandullaev",
       "dueDate": "Not Booked",
-      "imageBook": "/src/assets/images/Books/Litarary_7.jpeg",
+      "imageBook": "../images/Books/Litarary_7.jpeg",
       "bookBtn": "Book",
       "isAvailable": true
     },
@@ -476,7 +476,7 @@
       "subject": "Literary",
       "author": "Allayar Jandullaev",
       "dueDate": "Not Booked",
-      "imageBook": "/src/assets/images/Books/Litarary_8.jpeg",
+      "imageBook": "../images/Books/Litarary_8.jpeg",
       "bookBtn": "Book",
       "isAvailable": true
     },
@@ -486,7 +486,7 @@
       "subject": "Mistery",
       "author": "Allayar Jandullaev",
       "dueDate": "Not Booked",
-      "imageBook": "/src/assets/images/Books/Mystery_1.jpeg",
+      "imageBook": "../images/Books/Mystery_1.jpeg",
       "bookBtn": "Book",
       "isAvailable": true
     },
@@ -496,7 +496,7 @@
       "subject": "Mistery",
       "author": "Allayar Jandullaev",
       "dueDate": "Not Booked",
-      "imageBook": "/src/assets/images/Books/Mystery_2.jpeg",
+      "imageBook": "../images/Books/Mystery_2.jpeg",
       "bookBtn": "Book",
       "isAvailable": true
     },
@@ -506,7 +506,7 @@
       "subject": "Mistery",
       "author": "Allayar Jandullaev",
       "dueDate": "Not Booked",
-      "imageBook": "/src/assets/images/Books/Mystery_3.jpeg",
+      "imageBook": "../images/Books/Mystery_3.jpeg",
       "bookBtn": "Book",
       "isAvailable": true
     },
@@ -516,7 +516,7 @@
       "subject": "Mistery",
       "author": "Allayar Jandullaev",
       "dueDate": "Not Booked",
-      "imageBook": "/src/assets/images/Books/Mystery_4.jpeg",
+      "imageBook": "../images/Books/Mystery_4.jpeg",
       "bookBtn": "Book",
       "isAvailable": true
     },
@@ -526,7 +526,7 @@
       "subject": "Mistery",
       "author": "Allayar Jandullaev",
       "dueDate": "Not Booked",
-      "imageBook": "/src/assets/images/Books/Mystery_5.jpeg",
+      "imageBook": "../images/Books/Mystery_5.jpeg",
       "bookBtn": "Book",
       "isAvailable": true
     },
@@ -536,7 +536,7 @@
       "subject": "Mistery",
       "author": "Allayar Jandullaev",
       "dueDate": "Not Booked",
-      "imageBook": "/src/assets/images/Books/Mystery_6.jpeg",
+      "imageBook": "../images/Books/Mystery_6.jpeg",
       "bookBtn": "Book",
       "isAvailable": true
     },
@@ -546,7 +546,7 @@
       "subject": "Mistery",
       "author": "Allayar Jandullaev",
       "dueDate": "Not Booked",
-      "imageBook": "/src/assets/images/Books/Mystery_7.jpeg",
+      "imageBook": "../images/Books/Mystery_7.jpeg",
       "bookBtn": "Book",
       "isAvailable": true
     },
@@ -556,7 +556,7 @@
       "subject": "Mistery",
       "author": "Allayar Jandullaev",
       "dueDate": "Not Booked",
-      "imageBook": "/src/assets/images/Books/Mystery_8.jpeg",
+      "imageBook": "../images/Books/Mystery_8.jpeg",
       "bookBtn": "Book",
       "isAvailable": true
     },
@@ -566,7 +566,7 @@
       "subject": "NonFiction",
       "author": "Allayar Jandullaev",
       "dueDate": "Not Booked",
-      "imageBook": "/src/assets/images/Books/NonFiction_1.jpeg",
+      "imageBook": "../images/Books/NonFiction_1.jpeg",
       "bookBtn": "Book",
       "isAvailable": true
     },
@@ -576,7 +576,7 @@
       "subject": "NonFiction",
       "author": "Allayar Jandullaev",
       "dueDate": "Not Booked",
-      "imageBook": "/src/assets/images/Books/NonFiction_2.jpeg",
+      "imageBook": "../images/Books/NonFiction_2.jpeg",
       "bookBtn": "Book",
       "isAvailable": true
     },
@@ -586,7 +586,7 @@
       "subject": "NonFiction",
       "author": "Allayar Jandullaev",
       "dueDate": "Not Booked",
-      "imageBook": "/src/assets/images/Books/NonFiction_3.jpeg",
+      "imageBook": "../images/Books/NonFiction_3.jpeg",
       "bookBtn": "Book",
       "isAvailable": true
     },
@@ -596,7 +596,7 @@
       "subject": "NonFiction",
       "author": "Allayar Jandullaev",
       "dueDate": "Not Booked",
-      "imageBook": "/src/assets/images/Books/NonFiction_4.jpeg",
+      "imageBook": "../images/Books/NonFiction_4.jpeg",
       "bookBtn": "Book",
       "isAvailable": true
     },
@@ -606,7 +606,7 @@
       "subject": "NonFiction",
       "author": "Allayar Jandullaev",
       "dueDate": "Not Booked",
-      "imageBook": "/src/assets/images/Books/NonFiction_5.jpeg",
+      "imageBook": "../images/Books/NonFiction_5.jpeg",
       "bookBtn": "Book",
       "isAvailable": true
     },
@@ -616,7 +616,7 @@
       "subject": "NonFiction",
       "author": "Allayar Jandullaev",
       "dueDate": "Not Booked",
-      "imageBook": "/src/assets/images/Books/NonFiction_6.jpeg",
+      "imageBook": "../images/Books/NonFiction_6.jpeg",
       "bookBtn": "Book",
       "isAvailable": true
     },
@@ -626,7 +626,7 @@
       "subject": "NonFiction",
       "author": "Allayar Jandullaev",
       "dueDate": "Not Booked",
-      "imageBook": "/src/assets/images/Books/NonFiction_7.jpeg",
+      "imageBook": "../images/Books/NonFiction_7.jpeg",
       "bookBtn": "Book",
       "isAvailable": true
     },
@@ -636,7 +636,7 @@
       "subject": "NonFiction",
       "author": "Allayar Jandullaev",
       "dueDate": "Not Booked",
-      "imageBook": "/src/assets/images/Books/NonFiction_8.jpeg",
+      "imageBook": "../images/Books/NonFiction_8.jpeg",
       "bookBtn": "Book",
       "isAvailable": true
     },
@@ -646,7 +646,7 @@
       "subject": "Romance",
       "author": "Allayar Jandullaev",
       "dueDate": "Not Booked",
-      "imageBook": "/src/assets/images/Books/Romance_1.jpeg",
+      "imageBook": "../images/Books/Romance_1.jpeg",
       "bookBtn": "Book",
       "isAvailable": true
     },
@@ -656,7 +656,7 @@
       "subject": "Romance",
       "author": "Allayar Jandullaev",
       "dueDate": "Not Booked",
-      "imageBook": "/src/assets/images/Books/Romance_2.jpeg",
+      "imageBook": "../images/Books/Romance_2.jpeg",
       "bookBtn": "Book",
       "isAvailable": true
     },
@@ -666,7 +666,7 @@
       "subject": "Romance",
       "author": "Allayar Jandullaev",
       "dueDate": "Not Booked",
-      "imageBook": "/src/assets/images/Books/Romance_3.jpeg",
+      "imageBook": "../images/Books/Romance_3.jpeg",
       "bookBtn": "Book",
       "isAvailable": true
     },
@@ -676,7 +676,7 @@
       "subject": "Romance",
       "author": "Allayar Jandullaev",
       "dueDate": "Not Booked",
-      "imageBook": "/src/assets/images/Books/Romance_4.jpeg",
+      "imageBook": "../images/Books/Romance_4.jpeg",
       "bookBtn": "Book",
       "isAvailable": true
     },
@@ -686,7 +686,7 @@
       "subject": "Romance",
       "author": "Allayar Jandullaev",
       "dueDate": "Not Booked",
-      "imageBook": "/src/assets/images/Books/Romance_5.jpeg",
+      "imageBook": "../images/Books/Romance_5.jpeg",
       "bookBtn": "Book",
       "isAvailable": true
     },
@@ -696,7 +696,7 @@
       "subject": "Romance",
       "author": "Allayar Jandullaev",
       "dueDate": "Not Booked",
-      "imageBook": "/src/assets/images/Books/Romance_6.jpeg",
+      "imageBook": "../images/Books/Romance_6.jpeg",
       "bookBtn": "Book",
       "isAvailable": true
     },
@@ -706,7 +706,7 @@
       "subject": "Romance",
       "author": "Allayar Jandullaev",
       "dueDate": "Not Booked",
-      "imageBook": "/src/assets/images/Books/Romance_7.jpeg",
+      "imageBook": "../images/Books/Romance_7.jpeg",
       "bookBtn": "Book",
       "isAvailable": true
     },
@@ -716,7 +716,7 @@
       "subject": "Romance",
       "author": "Allayar Jandullaev",
       "dueDate": "Not Booked",
-      "imageBook": "/src/assets/images/Books/Romance_8.jpeg",
+      "imageBook": "../images/Books/Romance_8.jpeg",
       "bookBtn": "Book",
       "isAvailable": true
     },
@@ -726,7 +726,7 @@
       "subject": "Science",
       "author": "Allayar Jandullaev",
       "dueDate": "Not Booked",
-      "imageBook": "/src/assets/images/Books/Science_1.jpeg",
+      "imageBook": "../images/Books/Science_1.jpeg",
       "bookBtn": "Book",
       "isAvailable": true
     },
@@ -736,7 +736,7 @@
       "subject": "Science",
       "author": "Allayar Jandullaev",
       "dueDate": "Not Booked",
-      "imageBook": "/src/assets/images/Books/Science_2.jpeg",
+      "imageBook": "../images/Books/Science_2.jpeg",
       "bookBtn": "Book",
       "isAvailable": true
     },
@@ -746,7 +746,7 @@
       "subject": "Science",
       "author": "Allayar Jandullaev",
       "dueDate": "Not Booked",
-      "imageBook": "/src/assets/images/Books/Science_3.jpeg",
+      "imageBook": "../images/Books/Science_3.jpeg",
       "bookBtn": "Book",
       "isAvailable": true
     },
@@ -756,7 +756,7 @@
       "subject": "Science",
       "author": "Allayar Jandullaev",
       "dueDate": "Not Booked",
-      "imageBook": "/src/assets/images/Books/Science_4.jpeg",
+      "imageBook": "../images/Books/Science_4.jpeg",
       "bookBtn": "Book",
       "isAvailable": true
     },
@@ -766,7 +766,7 @@
       "subject": "Science",
       "author": "Allayar Jandullaev",
       "dueDate": "Not Booked",
-      "imageBook": "/src/assets/images/Books/Science_5.jpeg",
+      "imageBook": "../images/Books/Science_5.jpeg",
       "bookBtn": "Book",
       "isAvailable": true
     },
@@ -776,7 +776,7 @@
       "subject": "Science",
       "author": "Allayar Jandullaev",
       "dueDate": "Not Booked",
-      "imageBook": "/src/assets/images/Books/Science_6.jpeg",
+      "imageBook": "../images/Books/Science_6.jpeg",
       "bookBtn": "Book",
       "isAvailable": true
     },
@@ -786,7 +786,7 @@
       "subject": "Science",
       "author": "Allayar Jandullaev",
       "dueDate": "Not Booked",
-      "imageBook": "/src/assets/images/Books/Science_7.jpeg",
+      "imageBook": "../images/Books/Science_7.jpeg",
       "bookBtn": "Book",
       "isAvailable": true
     },
@@ -796,7 +796,7 @@
       "subject": "Science",
       "author": "Allayar Jandullaev",
       "dueDate": "Not Booked",
-      "imageBook": "/src/assets/images/Books/Science_8.jpeg",
+      "imageBook": "../images/Books/Science_8.jpeg",
       "bookBtn": "Book",
       "isAvailable": true
     }

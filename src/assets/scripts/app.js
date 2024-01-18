@@ -1,5 +1,6 @@
 "use strict";
 
+
 //   ==========   FETCHING METHOD GET   ==========   //
 document.addEventListener("DOMContentLoaded", function () {
   fetch("assets/library/library.json")
@@ -7,6 +8,7 @@ document.addEventListener("DOMContentLoaded", function () {
     .then((data) => {
       displayBooks(data.books);
       setupFilters();
+      setupPagination(data.books);
     })
     .catch((error) => console.error("Error fetching data:", error));
 });
@@ -39,6 +41,47 @@ function createBookElement(html) {
   return newBookDiv;
 }
 
+function setupPagination(books) {
+  const booksPerPage = 10;
+  const totalPages = Math.ceil(books.length / booksPerPage);
+  const paginationContainer = document.querySelector(".pagination ul");
+
+  for (let i = 1; i <= totalPages; i++) {
+    const pageLink = document.createElement("a");
+    pageLink.href = "#";
+    pageLink.textContent = i;
+    pageLink.tabIndex = 0;
+    pageLink.addEventListener("click", function (event) {
+      event.preventDefault();
+      showPage(i, booksPerPage, books);
+    });
+
+    const listItem = document.createElement("li");
+    listItem.appendChild(pageLink);
+    paginationContainer.appendChild(listItem);
+  }
+
+  // Show the first page initially
+  showPage(1, booksPerPage, books);
+}
+
+function showPage(pageNumber, itemsPerPage, books) {
+  const startIndex = (pageNumber - 1) * itemsPerPage;
+  const endIndex = startIndex + itemsPerPage;
+
+  books.forEach((book, index) => {
+    const bookWrap = document.querySelector(`.book_wrap[data-id="${book.id}"]`);
+    const bookItems = document.querySelectorAll(".book_item");
+    if (index >= startIndex && index < endIndex) {
+      bookItems[index].style.display = "grid"
+      bookWrap.style.display = "grid";
+    } else {
+      bookItems[index].style.display = "none"
+      bookWrap.style.display = "none";
+    }
+  });
+}
+
 function setupFilters() {
   const filterDropdown = document.getElementById("filter-dropdown");
 
@@ -57,7 +100,7 @@ function filterBooks(subject) {
   bookWrap.forEach((item, index) => {
     const subjectClass = item.classList.item(1);
 
-    if (subject === "*" || subjectClass === subject) {
+    if (subject === "1" || subjectClass === subject) {
       item.style.display = "grid";
       if (bookItems[index]) {
         bookItems[index].style.display = "block";
