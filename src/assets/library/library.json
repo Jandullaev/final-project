@@ -6,7 +6,7 @@
       "subject": "Adventure",
       "author": "Allayar Jandullaev",
       "dueDate": "Not Booked",
-      "imageBook": "../images/Books/Adventure_1.jpeg",
+      "imageBook": "src/assets/images/Books/Adventure_1.jpeg",
       "bookBtn": "Book",
       "isAvailable": true
     },
