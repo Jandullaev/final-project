@@ -1,16 +1,13 @@
 "use strict";
 
-
-//   ==========   FETCHING METHOD GET   ==========   //
 document.addEventListener("DOMContentLoaded", function () {
   fetch("assets/library/library.json")
-    .then((response) => response.json())
-    .then((data) => {
-      displayBooks(data.books);
-      setupFilters();
-      setupPagination(data.books);
-    })
-    .catch((error) => console.error("Error fetching data:", error));
+      .then((response) => response.json())
+      .then((data) => {
+        displayBooks(data.books);
+        setupFilters();
+      })
+      .catch((error) => console.error("Error fetching data:", error));
 });
 
 function displayBooks(books) {
@@ -41,44 +38,13 @@ function createBookElement(html) {
   return newBookDiv;
 }
 
-function setupPagination(books) {
-  const booksPerPage = 10;
-  const totalPages = Math.ceil(books.length / booksPerPage);
-  const paginationContainer = document.querySelector(".pagination ul");
-
-  for (let i = 1; i <= totalPages; i++) {
-    const pageLink = document.createElement("a");
-    pageLink.href = "#";
-    pageLink.textContent = i;
-    pageLink.tabIndex = 0;
-    pageLink.addEventListener("click", function (event) {
-      event.preventDefault();
-      showPage(i, booksPerPage, books);
-    });
-
-    const listItem = document.createElement("li");
-    listItem.appendChild(pageLink);
-    paginationContainer.appendChild(listItem);
-  }
-
-  // Show the first page initially
-  showPage(1, booksPerPage, books);
-}
-
-function showPage(pageNumber, itemsPerPage, books) {
-  const startIndex = (pageNumber - 1) * itemsPerPage;
-  const endIndex = startIndex + itemsPerPage;
-
+function showAllBooks(books) {
   books.forEach((book, index) => {
     const bookWrap = document.querySelector(`.book_wrap[data-id="${book.id}"]`);
     const bookItems = document.querySelectorAll(".book_item");
-    if (index >= startIndex && index < endIndex) {
-      bookItems[index].style.display = "grid"
-      bookWrap.style.display = "grid";
-    } else {
-      bookItems[index].style.display = "none"
-      bookWrap.style.display = "none";
-    }
+
+    bookItems[index].style.display = "grid";
+    bookWrap.style.display = "grid";
   });
 }
 
@@ -90,9 +56,7 @@ function setupFilters() {
     filterBooks(filterValue);
   });
 }
-//   ==========   END FETCHING   ==========   //
 
-//   ==========   FILTERING   ==========   //
 function filterBooks(subject) {
   const bookWrap = document.querySelectorAll(".book_wrap");
   const bookItems = document.querySelectorAll(".book_item");
@@ -114,10 +78,7 @@ function filterBooks(subject) {
     }
   });
 }
-//   ==========   END FILTERING   ==========   //
 
-//   ==========   SEARCHING   ==========   //
-// eslint-disable-next-line no-unused-vars
 const search = () => {
   const searchBox = document.getElementById("search").value.toUpperCase();
   const product = document.querySelectorAll(".book_container .book_wrap");
@@ -140,7 +101,7 @@ const search = () => {
   }
   const noResultsMessage = document.getElementById("no-results-message");
   const foundItems = document.querySelector(
-    ".book_container .book_wrap[style='display: grid;']"
+      ".book_container .book_wrap[style='display: grid;']"
   );
 
   if (!foundItems) {
@@ -153,4 +114,12 @@ const search = () => {
     }
   }
 };
-//   ==========   END SEARCHING   ==========   //
+
+// Initial function call to show all books without pagination
+fetch("assets/library/library.json")
+    .then((response) => response.json())
+    .then((data) => {
+      showAllBooks(data.books);
+      setupFilters();
+    })
+    .catch((error) => console.error("Error fetching data:", error));

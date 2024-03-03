@@ -34,7 +34,7 @@ function saveBooks() {
 }
 
 // Update book by ID
-app.put("/books/:id", (req, res) => {
+app.put("/images/Books/:id", (req, res) => {
   const bookId = parseInt(req.params.id);
   const updatedBook = req.body;
 
