@@ -3,7 +3,7 @@
 
 //   ==========   FETCHING METHOD GET   ==========   //
 document.addEventListener("DOMContentLoaded", function () {
-  fetch("../library/library.json")
+  fetch("assets/library/library.json")
     .then((response) => response.json())
     .then((data) => {
       displayBooks(data.books);
