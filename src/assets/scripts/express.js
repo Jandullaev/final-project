@@ -16,7 +16,7 @@ let books = loadBooks();
 function loadBooks() {
   try {
     // eslint-disable-next-line no-undef
-    const data = fs.readFileSync("../library/library.json", "utf-8");
+    const data = fs.readFileSync("src/assets/library/library.json", "utf-8");
     return JSON.parse(data);
   } catch (error) {
     console.error("Error reading library.json:", error);
